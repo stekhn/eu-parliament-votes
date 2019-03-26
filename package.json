@@ -1,0 +1,36 @@
+{
+  "name": "eu-parliament-votes",
+  "description": "",
+  "author": "Steffen Kühne",
+  "version": "0.0.1",
+  "license": "MIT",
+  "private": true,
+  "repository": {
+    "type": "git",
+    "url": "git@github.com:stekhn/eu-parliament-votes.git"
+  },
+  "scripts": {
+    "build": "webpack -p --progress --mode production",
+    "start": "webpack-dev-server --progress --mode development"
+  },
+  "dependencies": {
+    "d3": "^5.7.0"
+  },
+  "devDependencies": {
+    "@babel/core": "7.1.0",
+    "babel-eslint": "^10.0.1",
+    "babel-loader": "^8.0.4",
+    "babel-preset-env": "*",
+    "css-loader": "1.0.0",
+    "eslint": "^5.6.1",
+    "eslint-config-esnext": "^4.0.0",
+    "html-webpack-plugin": "^3.2.0",
+    "node-sass": "4.9.3",
+    "sass-loader": "7.1.0",
+    "source-map-explorer": "^1.6.0",
+    "style-loader": "^0.23.1",
+    "webpack": "^4.20.2",
+    "webpack-cli": "^3.1.2",
+    "webpack-dev-server": "^3.2.1"
+  }
+}
