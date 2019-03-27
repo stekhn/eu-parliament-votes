@@ -1,13 +1,13 @@
 import '../styles/main.scss';
 
-import chart from './modules/chart';
+import hemicycle from './modules/hemicycle';
 
 import members from '../data/members.json';
 import seats from '../data/seats.json';
 import votes from '../data/votes.json';
 
 function init() {
-  chart.init({
+  hemicycle.init({
     members,
     seats,
     votes

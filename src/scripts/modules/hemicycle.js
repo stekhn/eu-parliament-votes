@@ -37,21 +37,22 @@ export default (function() {
       .domain([0, config.width])
       .range([0, chart.bounds.width]);
 
-    chart.yScale = d3
-      .scaleLinear()
+    chart.yScale = d3.scaleLinear()
       .domain([0, config.height])
       .range([0, chart.bounds.height]);
 
-    chart.$seats = chart.$svg
-      .append('g')
+    chart.$seats = chart.$svg.append('g')
       .selectAll('circle')
       .data(data.seats)
       .enter()
       .append('circle')
-      .attr('r', 5)
       .attr('cx', d => d.x)
       .attr('cy', d => d.y)
+      .attr('r', 4.7)
       .attr('fill', getVoteColor)
+      .attr('stroke', d => d.voted ? 'none' : '#a9a9a9')
+      .attr('stroke-width', d => d.voted ? 0 : 1)
+      .attr('stroke-alignment', 'inner') // Don't stop believin'
       .on('mouseenter', showTooltip)
       .on('mouseleave', hideTooltip);
 
@@ -156,11 +157,13 @@ export default (function() {
     }
   }
 
-  function hideTooltip() {
-    const element = d3.select(this);
+  function hideTooltip(d) {
+    if (d.member) {
+      const element = d3.select(this);
 
-    element.attr('stroke', 'none');
-    chart.$tooltip.style('display', 'none');
+      element.attr('stroke', 'none');
+      chart.$tooltip.style('display', 'none');
+    }
   }
 
   function getVoteColor(d) {
@@ -175,12 +178,13 @@ export default (function() {
         .includes(d.member.surname);
       d.member.abstained = data.votes.abstentions[d.member.group_code]
         .includes(d.member.surname);
+      d.voted = d.member.votedYes || d.member.votedNo || d.member.abstained;
 
       if (d.member.votedYes) { return '#0571b0'; }
       if (d.member.votedNo) { return '#ca0020'; }
       if (d.member.abstained) { return '#a9a9a9'; }
     }
-    return '#dedede';
+    return 'none';
   }
 
   function getGroupColor(name) {
@@ -196,7 +200,7 @@ export default (function() {
       'NI': '#666666'
     };
 
-    return groupColors[name] || '#dedede';
+    return groupColors[name] || '#a9a9a9';
   }
 
   return {
