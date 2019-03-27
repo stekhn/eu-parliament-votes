@@ -1,9 +1,9 @@
 import * as d3 from 'd3';
-import flags from '../../data/flags.json';
 
 export default (function() {
   let config = {
-    selector: '.chart',
+    container: '.hemicycle',
+    tooltip: '.tooltip',
     width: 960,
     height: 500,
     margin: 50
@@ -19,9 +19,8 @@ export default (function() {
   }
 
   function render() {
-    chart.$container = d3.select('.chart');
-    chart.$tooltip = d3.select('.tooltip');
-    chart.$tooltipStyle = d3.select('.tooltip-style');
+    chart.$container = d3.select(config.container);
+    chart.$tooltip = d3.select(config.tooltip);
 
     chart.$svg = chart.$container
       .append('svg')
@@ -139,7 +138,7 @@ export default (function() {
           <img src="http://www.europarl.europa.eu/mepphoto/${d.member.id_mep}.jpg">
           <p>
             <strong>${d.member.name} ${d.member.surname}</strong>
-            ${flags.filter(f => f.code.toLowerCase() == d.member.country_code)[0].emoji}
+            ${data.flags.filter(f => f.code.toLowerCase() == d.member.country_code)[0].emoji}
             ${d.member.name.length + d.member.surname.length < 18 ? '<br>' : '/ '}
             ${d.member.group_code}
           </p>
