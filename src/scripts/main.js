@@ -1,6 +1,7 @@
 import '../styles/main.scss';
 
 import hemicycle from './modules/hemicycle';
+import barchart from './modules/barchart';
 
 import members from '../data/members.json';
 import seats from '../data/seats.json';
@@ -13,6 +14,10 @@ function init() {
     seats,
     votes,
     flags
+  });
+
+  barchart.init({
+    votes
   });
 }
 

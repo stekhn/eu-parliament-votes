@@ -3,7 +3,7 @@ import * as d3 from 'd3';
 export default (function() {
   let config = {
     container: '.hemicycle',
-    tooltip: '.tooltip',
+    tooltip: '.hemicycle-tooltip',
     width: 960,
     height: 500,
     margin: 50
