@@ -1,4 +1,5 @@
 import * as d3 from 'd3';
+import flags from '../../data/flags.json';
 
 export default (function() {
   let config = {
@@ -71,48 +72,52 @@ export default (function() {
     chart.$yesCount = chart.$voteCount.append('g');
     chart.$yesCount.append('text')
       .attr('font-size', 60)
-      .attr('font-weight', 'light')
-      .attr('dy', 60)
+      .attr('dx', 30)
+      .attr('dy', 90)
       .attr('fill', '#0571b0')
       .text(yesCount);
 
     chart.$yesCount
       .append('text')
-      .attr('font-size', 15)
-      .attr('font-weight', 'bold')
-      .attr('dy', 80)
+      .attr('font-size', 16)
+      .attr('dx', 30)
+      .attr('dy', 110)
       .attr('fill', '#0571b0')
       .text('voted in favor');
 
     chart.$noCount = chart.$voteCount.append('g');
     chart.$noCount.append('text')
       .attr('font-size', 60)
-      .attr('font-weight', 'light')
-      .attr('dy', 160)
+      .attr('text-anchor', 'end')
+      .attr('dx', config.width - 30)
+      .attr('dy', 90)
       .attr('fill', '#ca0020')
       .text(noCount);
 
     chart.$noCount
       .append('text')
-      .attr('font-size', 15)
-      .attr('font-weight', 'bold')
-      .attr('dy', 180)
+      .attr('font-size', 16)
+      .attr('text-anchor', 'end')
+      .attr('dx', config.width - 30)
+      .attr('dy', 110)
       .attr('fill', '#ca0020')
       .text('voted against');
 
     chart.$abstainedCount = chart.$voteCount.append('g');
     chart.$abstainedCount.append('text')
       .attr('font-size', 60)
-      .attr('font-weight', 'light')
-      .attr('dy', 260)
+      .attr('text-anchor', 'middle')
+      .attr('dx', config.width / 2)
+      .attr('dy', config.height - 40)
       .attr('fill', '#a9a9a9')
       .text(abstainedCount);
 
     chart.$abstainedCount
       .append('text')
       .attr('font-size', 15)
-      .attr('font-weight', 'bold')
-      .attr('dy', 280)
+      .attr('text-anchor', 'middle')
+      .attr('dx', config.width / 2)
+      .attr('dy', config.height - 20)
       .attr('fill', '#a9a9a9')
       .text('abstained');
   }
@@ -132,8 +137,10 @@ export default (function() {
         return `
           <img src="http://www.europarl.europa.eu/mepphoto/${d.member.id_mep}.jpg">
           <p>
-            <strong>${d.member.name} ${d.member.surname}</strong>,
-            ${d.member.group_code}, ${d.member.country_code.toUpperCase()}
+            <strong>${d.member.name} ${d.member.surname}</strong>
+            ${flags.filter(f => f.code.toLowerCase() == d.member.country_code)[0].emoji}
+            ${d.member.name.length + d.member.surname.length < 18 ? '<br>' : '/ '}
+            ${d.member.group_code}
           </p>
         `;
       });
@@ -182,7 +189,7 @@ export default (function() {
       'S&D': '#C80000',
       'ECR': '#0082FF',
       'ALDE': '#FFAA00',
-      'Verts/ALE': '#32C800',
+      'Verts/ALE': '#009900',
       'GUE/NGL': '#460000',
       'EFDD': '#8B9FA0',
       'ENF': '#9B20A9',

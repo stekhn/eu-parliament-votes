@@ -1,0 +1,170 @@
+[
+  {
+    "code": "BE",
+    "emoji": "🇧🇪",
+    "unicode": "U+1F1E7 U+1F1EA",
+    "name": "Belgium"
+  },
+  {
+    "code": "BG",
+    "emoji": "🇧🇬",
+    "unicode": "U+1F1E7 U+1F1EC",
+    "name": "Bulgaria"
+  },
+  {
+    "code": "CZ",
+    "emoji": "🇨🇿",
+    "unicode": "U+1F1E8 U+1F1FF",
+    "name": "Czech Republic"
+  },
+  {
+    "code": "DK",
+    "emoji": "🇩🇰",
+    "unicode": "U+1F1E9 U+1F1F0",
+    "name": "Denmark"
+  },
+  {
+    "code": "DE",
+    "emoji": "🇩🇪",
+    "unicode": "U+1F1E9 U+1F1EA",
+    "name": "Germany"
+  },
+  {
+    "code": "EE",
+    "emoji": "🇪🇪",
+    "unicode": "U+1F1EA U+1F1EA",
+    "name": "Estonia"
+  },
+  {
+    "code": "IE",
+    "emoji": "🇮🇪",
+    "unicode": "U+1F1EE U+1F1EA",
+    "name": "Ireland"
+  },
+  {
+    "code": "GR",
+    "emoji": "🇬🇷",
+    "unicode": "U+1F1EC U+1F1F7",
+    "name": "Greece"
+  },
+  {
+    "code": "ES",
+    "emoji": "🇪🇸",
+    "unicode": "U+1F1EA U+1F1F8",
+    "name": "Spain"
+  },
+  {
+    "code": "FR",
+    "emoji": "🇫🇷",
+    "unicode": "U+1F1EB U+1F1F7",
+    "name": "France"
+  },
+  {
+    "code": "HR",
+    "emoji": "🇭🇷",
+    "unicode": "U+1F1ED U+1F1F7",
+    "name": "Croatia"
+  },
+  {
+    "code": "IT",
+    "emoji": "🇮🇹",
+    "unicode": "U+1F1EE U+1F1F9",
+    "name": "Italy"
+  },
+  {
+    "code": "CY",
+    "emoji": "🇨🇾",
+    "unicode": "U+1F1E8 U+1F1FE",
+    "name": "Cyprus"
+  },
+  {
+    "code": "LV",
+    "emoji": "🇱🇻",
+    "unicode": "U+1F1F1 U+1F1FB",
+    "name": "Latvia"
+  },
+  {
+    "code": "LT",
+    "emoji": "🇱🇹",
+    "unicode": "U+1F1F1 U+1F1F9",
+    "name": "Lithuania"
+  },
+  {
+    "code": "LU",
+    "emoji": "🇱🇺",
+    "unicode": "U+1F1F1 U+1F1FA",
+    "name": "Luxembourg"
+  },
+  {
+    "code": "HU",
+    "emoji": "🇭🇺",
+    "unicode": "U+1F1ED U+1F1FA",
+    "name": "Hungary"
+  },
+  {
+    "code": "MT",
+    "emoji": "🇲🇹",
+    "unicode": "U+1F1F2 U+1F1F9",
+    "name": "Malta"
+  },
+  {
+    "code": "NL",
+    "emoji": "🇳🇱",
+    "unicode": "U+1F1F3 U+1F1F1",
+    "name": "Netherlands"
+  },
+  {
+    "code": "AT",
+    "emoji": "🇦🇹",
+    "unicode": "U+1F1E6 U+1F1F9",
+    "name": "Austria"
+  },
+  {
+    "code": "PL",
+    "emoji": "🇵🇱",
+    "unicode": "U+1F1F5 U+1F1F1",
+    "name": "Poland"
+  },
+  {
+    "code": "PT",
+    "emoji": "🇵🇹",
+    "unicode": "U+1F1F5 U+1F1F9",
+    "name": "Portugal"
+  },
+  {
+    "code": "RO",
+    "emoji": "🇷🇴",
+    "unicode": "U+1F1F7 U+1F1F4",
+    "name": "Romania"
+  },
+  {
+    "code": "SI",
+    "emoji": "🇸🇮",
+    "unicode": "U+1F1F8 U+1F1EE",
+    "name": "Slovenia"
+  },
+  {
+    "code": "SK",
+    "emoji": "🇸🇰",
+    "unicode": "U+1F1F8 U+1F1F0",
+    "name": "Slovakia"
+  },
+  {
+    "code": "FI",
+    "emoji": "🇫🇮",
+    "unicode": "U+1F1EB U+1F1EE",
+    "name": "Finland"
+  },
+  {
+    "code": "SE",
+    "emoji": "🇸🇪",
+    "unicode": "U+1F1F8 U+1F1EA",
+    "name": "Sweden"
+  },
+  {
+    "code": "GB",
+    "emoji": "🇬🇧",
+    "unicode": "U+1F1EC U+1F1E7",
+    "name": "United Kingdom"
+  }
+]
