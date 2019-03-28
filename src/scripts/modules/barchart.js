@@ -5,7 +5,7 @@ export default (function() {
     container: '.barchart',
     tooltip: '.barchart-tooltip',
     width: 960,
-    height: 500,
+    height: 840,
     margin: 50
   };
 
@@ -46,13 +46,22 @@ export default (function() {
       Object.keys(data.votes.abstentions)
     );
 
+    chart.$svg.append('line')
+      .attr('x1', (config.width / 2) - 25)
+      .attr('y1', 0)
+      .attr('x2', (config.width / 2) - 25)
+      .attr('y2', config.height)
+      .attr('shape-rendering', 'crispEdges')
+      .attr('stroke', 'black')
+      .attr('stroke-width', '1');
+
     chart.$groups = chart.$svg.append('g')
       .selectAll('g')
       .data(groups)
       .enter()
       .append('g')
       .attr('data-group', d => d)
-      .attr('transform', (d, i) => `translate(0, ${++i * 50})`)
+      .attr('transform', (d, i) => `translate(0, ${(++i * 90) - 30})`)
       .each(function (d) {
         const $group = d3.select(this);
         const chunkedVotes = chunkArray(data.votes.yesVotes[d], 4);
@@ -61,9 +70,76 @@ export default (function() {
           votes.forEach((vote, column) => {
             $group.append('circle')
               .attr('r', 4.7)
-              .attr('cx', (config.width / 2) + (column * 10))
+              .attr('cx', ((config.width / 2) + 30) + (column * 10))
               .attr('cy', row * 10)
               .attr('fill', '#0571b0');
+          });
+        });
+
+        $group.append('text')
+          .attr('font-size', 16)
+          .attr('x', ((config.width / 2) + 30) + ((Math.ceil(data.votes.yesVotes[d].length) / 4) * 10) + 10)
+          .attr('y', 21)
+          .attr('fill', '#0571b0')
+          .text(data.votes.yesVotes[d].length);
+
+        $group.append('text')
+          .attr('font-size', 16)
+          .attr('font-weight', 'bold')
+          .attr('x', (config.width / 2) - 20)
+          .attr('y', -15)
+          // .attr('fill', '#ca0020')
+          .text(d);
+      });
+
+    chart.$groups = chart.$svg.append('g')
+      .selectAll('g')
+      .data(groups)
+      .enter()
+      .append('g')
+      .attr('data-group', d => d)
+      .attr('transform', (d, i) => `translate(0, ${(++i * 90) - 30})`)
+      .each(function (d) {
+        const $group = d3.select(this);
+        const chunkedVotes = chunkArray(data.votes.noVotes[d], 4);
+
+        chunkedVotes.forEach((votes, row) => {
+          votes.forEach((vote, column) => {
+            $group.append('circle')
+              .attr('r', 4.7)
+              .attr('cx', ((config.width / 2) - 40) - (column * 10))
+              .attr('cy', row * 10)
+              .attr('fill', '#ca0020');
+          });
+        });
+
+        $group.append('text')
+          .attr('font-size', 16)
+          .attr('text-anchor', 'end')
+          .attr('x', ((config.width / 2) - 40) - ((Math.ceil(data.votes.noVotes[d].length) / 4) * 10) - 10)
+          .attr('y', 21)
+          .attr('fill', '#ca0020')
+          .text(data.votes.noVotes[d].length);
+      });
+
+     chart.$groups = chart.$svg.append('g')
+      .selectAll('g')
+      .data(groups)
+      .enter()
+      .append('g')
+      .attr('data-group', d => d)
+      .attr('transform', (d, i) => `translate(0, ${(++i * 90) - 30})`)
+      .each(function (d) {
+        const $group = d3.select(this);
+        const chunkedVotes = chunkArray(data.votes.abstentions[d], 4);
+
+        chunkedVotes.forEach((votes, row) => {
+          votes.forEach((vote, column) => {
+            $group.append('circle')
+              .attr('r', 4.7)
+              .attr('cx', ((config.width / 2) - 15) + (column * 10))
+              .attr('cy', row * 10)
+              .attr('fill', '#a9a9a9');
           });
         });
       });

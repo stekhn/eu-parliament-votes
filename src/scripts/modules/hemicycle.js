@@ -72,16 +72,16 @@ export default (function() {
     chart.$yesCount = chart.$voteCount.append('g');
     chart.$yesCount.append('text')
       .attr('font-size', 60)
-      .attr('dx', 30)
-      .attr('dy', 90)
+      .attr('x', 30)
+      .attr('y', 90)
       .attr('fill', '#0571b0')
       .text(yesCount);
 
     chart.$yesCount
       .append('text')
       .attr('font-size', 16)
-      .attr('dx', 30)
-      .attr('dy', 110)
+      .attr('x', 30)
+      .attr('y', 110)
       .attr('fill', '#0571b0')
       .text('voted in favor');
 
@@ -89,8 +89,8 @@ export default (function() {
     chart.$noCount.append('text')
       .attr('font-size', 60)
       .attr('text-anchor', 'end')
-      .attr('dx', config.width - 30)
-      .attr('dy', 90)
+      .attr('x', config.width - 30)
+      .attr('y', 90)
       .attr('fill', '#ca0020')
       .text(noCount);
 
@@ -98,8 +98,8 @@ export default (function() {
       .append('text')
       .attr('font-size', 16)
       .attr('text-anchor', 'end')
-      .attr('dx', config.width - 30)
-      .attr('dy', 110)
+      .attr('x', config.width - 30)
+      .attr('y', 110)
       .attr('fill', '#ca0020')
       .text('voted against');
 
@@ -107,8 +107,8 @@ export default (function() {
     chart.$abstainedCount.append('text')
       .attr('font-size', 60)
       .attr('text-anchor', 'middle')
-      .attr('dx', config.width / 2)
-      .attr('dy', config.height - 40)
+      .attr('x', config.width / 2)
+      .attr('y', config.height - 40)
       .attr('fill', '#a9a9a9')
       .text(abstainedCount);
 
@@ -116,8 +116,8 @@ export default (function() {
       .append('text')
       .attr('font-size', 15)
       .attr('text-anchor', 'middle')
-      .attr('dx', config.width / 2)
-      .attr('dy', config.height - 20)
+      .attr('x', config.width / 2)
+      .attr('y', config.height - 20)
       .attr('fill', '#a9a9a9')
       .text('abstained');
   }
