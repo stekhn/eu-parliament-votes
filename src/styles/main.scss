@@ -1,14 +1,25 @@
+@import url('https://fonts.googleapis.com/css?family=Domine:700');
+
 html, body {
   margin: 0;
   background: white;
-  font-family: Helvetica, Arial, sans-serif;
-  line-height: 1.6;
+  font-family: 'Open Sans', Helvetica, Arial, sans-serif;
+  line-height: 1.8;
+}
+
+h1, h2, h3 {
+  font-family: 'Domine', serif;
+  font-weight: 700;
 }
 
 h1 {
-  margin: .5em 0;
-  font-size: 3em;
+  margin: 1em 0 .5em;
+  font-size: 2em;
   font-weight: normal;
+}
+
+p {
+  font-size: 1.1em;
 }
 
 article {
@@ -17,14 +28,17 @@ article {
   padding: 1em;
 }
 
+.chart {
+  margin: 3em 0;
+}
+
 .hemicycle {
   position: relative;
   width: 100%;
-  margin: 2em auto;
   cursor: pointer;
 }
 
-.hemicycle-tooltip {
+.tooltip {
   text-align: left;
   display: none;
   position: absolute;
