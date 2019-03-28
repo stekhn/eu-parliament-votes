@@ -5,7 +5,7 @@ export default (function() {
     container: '.barchart',
     tooltip: '.barchart-tooltip',
     width: 960,
-    height: 840,
+    height: 820,
     margin: 50
   };
 
@@ -61,7 +61,7 @@ export default (function() {
       .enter()
       .append('g')
       .attr('data-group', d => d)
-      .attr('transform', (d, i) => `translate(0, ${(++i * 90) - 30})`)
+      .attr('transform', (d, i) => `translate(0, ${(++i * 90) - 45})`)
       .each(function (d) {
         const $group = d3.select(this);
         const chunkedVotes = chunkArray(data.votes.yesVotes[d], 4);
@@ -98,7 +98,7 @@ export default (function() {
       .enter()
       .append('g')
       .attr('data-group', d => d)
-      .attr('transform', (d, i) => `translate(0, ${(++i * 90) - 30})`)
+      .attr('transform', (d, i) => `translate(0, ${(++i * 90) - 45})`)
       .each(function (d) {
         const $group = d3.select(this);
         const chunkedVotes = chunkArray(data.votes.noVotes[d], 4);
@@ -128,7 +128,7 @@ export default (function() {
       .enter()
       .append('g')
       .attr('data-group', d => d)
-      .attr('transform', (d, i) => `translate(0, ${(++i * 90) - 30})`)
+      .attr('transform', (d, i) => `translate(0, ${(++i * 90) - 45})`)
       .each(function (d) {
         const $group = d3.select(this);
         const chunkedVotes = chunkArray(data.votes.abstentions[d], 4);
