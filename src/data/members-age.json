@@ -1,0 +1,7502 @@
+[
+  {
+    "surname": "Goerens",
+    "name": "Charles",
+    "group_code": "ALDE",
+    "country_code": "lu",
+    "id_mep": 840,
+    "id_seat": 325,
+    "id_group": 4283,
+    "birthday": "06-02-1952"
+  },
+  {
+    "surname": "Le Pen",
+    "name": "Jean-Marie",
+    "group_code": "NI",
+    "country_code": "fr",
+    "id_mep": 1023,
+    "id_seat": 785,
+    "id_group": 3968,
+    "birthday": "20-06-1928"
+  },
+  {
+    "surname": "Florenz",
+    "name": "Karl-Heinz",
+    "group_code": "PPE",
+    "country_code": "de",
+    "id_mep": 1038,
+    "id_seat": 497,
+    "id_group": 4273,
+    "birthday": "22-10-1947"
+  },
+  {
+    "surname": "Nicholson",
+    "name": "James",
+    "group_code": "ECR",
+    "country_code": "gb",
+    "id_mep": 1318,
+    "id_seat": 349,
+    "id_group": 4275,
+    "birthday": "29-01-1945"
+  },
+  {
+    "surname": "Quisthoudt-Rowohl",
+    "name": "Godelieve",
+    "group_code": "PPE",
+    "country_code": "de",
+    "id_mep": 1055,
+    "id_seat": 259,
+    "id_group": 4273,
+    "birthday": "18-06-1947"
+  },
+  {
+    "surname": "Gollnisch",
+    "name": "Bruno",
+    "group_code": "NI",
+    "country_code": "fr",
+    "id_mep": 1164,
+    "id_seat": 784,
+    "id_group": 3968,
+    "birthday": "28-01-1950"
+  },
+  {
+    "surname": "Lamassoure",
+    "name": "Alain",
+    "group_code": "PPE",
+    "country_code": "fr",
+    "id_mep": 1204,
+    "id_seat": 586,
+    "id_group": 4273,
+    "birthday": "10-02-1944"
+  },
+  {
+    "surname": "Martin",
+    "name": "David",
+    "group_code": "S&D",
+    "country_code": "gb",
+    "id_mep": 1403,
+    "id_seat": 632,
+    "id_group": 4284,
+    "birthday": "26-08-1954"
+  },
+  {
+    "surname": "Alliot-Marie",
+    "name": "Michèle",
+    "group_code": "PPE",
+    "country_code": "fr",
+    "id_mep": 1179,
+    "id_seat": 335,
+    "id_group": 4273,
+    "birthday": "10-09-1946"
+  },
+  {
+    "surname": "Brok",
+    "name": "Elmar",
+    "group_code": "PPE",
+    "country_code": "de",
+    "id_mep": 1263,
+    "id_seat": 345,
+    "id_group": 4273,
+    "birthday": "14-05-1946"
+  },
+  {
+    "surname": "Kaufmann",
+    "name": "Sylvia-Yvonne",
+    "group_code": "S&D",
+    "country_code": "de",
+    "id_mep": 1849,
+    "id_seat": 319,
+    "id_group": 4284,
+    "birthday": "23-01-1955"
+  },
+  {
+    "surname": "Deprez",
+    "name": "Gérard",
+    "group_code": "ALDE",
+    "country_code": "be",
+    "id_mep": 1473,
+    "id_seat": 572,
+    "id_group": 4283,
+    "birthday": "13-08-1943"
+  },
+  {
+    "surname": "Krehl",
+    "name": "Constanze",
+    "group_code": "S&D",
+    "country_code": "de",
+    "id_mep": 1854,
+    "id_seat": 315,
+    "id_group": 4284,
+    "birthday": "14-10-1956"
+  },
+  {
+    "surname": "Koch",
+    "name": "Dieter-Lebrecht",
+    "group_code": "PPE",
+    "country_code": "de",
+    "id_mep": 1852,
+    "id_seat": 581,
+    "id_group": 4273,
+    "birthday": "07-01-1953"
+  },
+  {
+    "surname": "Liese",
+    "name": "Peter",
+    "group_code": "PPE",
+    "country_code": "de",
+    "id_mep": 1927,
+    "id_seat": 263,
+    "id_group": 4273,
+    "birthday": "20-05-1965"
+  },
+  {
+    "surname": "Coelho",
+    "name": "Carlos",
+    "group_code": "PPE",
+    "country_code": "pt",
+    "id_mep": 1892,
+    "id_seat": 413,
+    "id_group": 4273,
+    "birthday": "20-05-1960"
+  },
+  {
+    "surname": "Berès",
+    "name": "Pervenche",
+    "group_code": "S&D",
+    "country_code": "fr",
+    "id_mep": 1985,
+    "id_seat": 238,
+    "id_group": 4284,
+    "birthday": "10-03-1957"
+  },
+  {
+    "surname": "Gebhardt",
+    "name": "Evelyne",
+    "group_code": "S&D",
+    "country_code": "de",
+    "id_mep": 1913,
+    "id_seat": 178,
+    "id_group": 4284,
+    "birthday": "19-01-1954"
+  },
+  {
+    "surname": "Ferber",
+    "name": "Markus",
+    "group_code": "PPE",
+    "country_code": "de",
+    "id_mep": 1917,
+    "id_seat": 262,
+    "id_group": 4273,
+    "birthday": "15-01-1965"
+  },
+  {
+    "surname": "Lange",
+    "name": "Bernd",
+    "group_code": "S&D",
+    "country_code": "de",
+    "id_mep": 1909,
+    "id_seat": 177,
+    "id_group": 4284,
+    "birthday": "14-11-1955"
+  },
+  {
+    "surname": "Langen",
+    "name": "Werner",
+    "group_code": "PPE",
+    "country_code": "de",
+    "id_mep": 1928,
+    "id_seat": 588,
+    "id_group": 4273,
+    "birthday": "27-11-1949"
+  },
+  {
+    "surname": "Mann",
+    "name": "Thomas",
+    "group_code": "PPE",
+    "country_code": "de",
+    "id_mep": 1922,
+    "id_seat": 666,
+    "id_group": 4273,
+    "birthday": "28-01-1946"
+  },
+  {
+    "surname": "Crowley",
+    "name": "Brian",
+    "group_code": "ECR",
+    "country_code": "ie",
+    "id_mep": 2109,
+    "id_seat": 853,
+    "id_group": 4275,
+    "birthday": "04-03-1964"
+  },
+  {
+    "surname": "Grossetête",
+    "name": "Françoise",
+    "group_code": "PPE",
+    "country_code": "fr",
+    "id_mep": 2025,
+    "id_seat": 13,
+    "id_group": 4273,
+    "birthday": "17-05-1946"
+  },
+  {
+    "surname": "Böge",
+    "name": "Reimer",
+    "group_code": "PPE",
+    "country_code": "de",
+    "id_mep": 1037,
+    "id_seat": 342,
+    "id_group": 4273,
+    "birthday": "18-12-1951"
+  },
+  {
+    "surname": "Tajani",
+    "name": "Antonio",
+    "group_code": "PPE",
+    "country_code": "it",
+    "id_mep": 2187,
+    "id_seat": 346,
+    "id_group": 4273,
+    "birthday": "04-08-1953"
+  },
+  {
+    "surname": "Salafranca Sánchez-Neyra",
+    "name": "José Ignacio",
+    "group_code": "PPE",
+    "country_code": "es",
+    "id_mep": 2002,
+    "id_seat": 756,
+    "id_group": 4273,
+    "birthday": "31-05-1955"
+  },
+  {
+    "surname": "Hudghton",
+    "name": "Ian",
+    "group_code": "Verts/ALE",
+    "country_code": "gb",
+    "id_mep": 2338,
+    "id_seat": 401,
+    "id_group": 4285,
+    "birthday": "19-09-1951"
+  },
+  {
+    "surname": "Corbett",
+    "name": "Richard",
+    "group_code": "S&D",
+    "country_code": "gb",
+    "id_mep": 2309,
+    "id_seat": 52,
+    "id_group": 4284,
+    "birthday": "06-01-1955"
+  },
+  {
+    "surname": "Rübig",
+    "name": "Paul",
+    "group_code": "PPE",
+    "country_code": "at",
+    "id_mep": 2278,
+    "id_seat": 754,
+    "id_group": 4273,
+    "birthday": "06-05-1953"
+  },
+  {
+    "surname": "Hautala",
+    "name": "Heidi",
+    "group_code": "Verts/ALE",
+    "country_code": "fi",
+    "id_mep": 2054,
+    "id_seat": 93,
+    "id_group": 4285,
+    "birthday": "14-11-1955"
+  },
+  {
+    "surname": "Karas",
+    "name": "Othmar",
+    "group_code": "PPE",
+    "country_code": "at",
+    "id_mep": 4246,
+    "id_seat": 104,
+    "id_group": 4273,
+    "birthday": "24-12-1957"
+  },
+  {
+    "surname": "McAvan",
+    "name": "Linda",
+    "group_code": "S&D",
+    "country_code": "gb",
+    "id_mep": 2327,
+    "id_seat": 242,
+    "id_group": 4284,
+    "birthday": "02-12-1962"
+  },
+  {
+    "surname": "Ries",
+    "name": "Frédérique",
+    "group_code": "ALDE",
+    "country_code": "be",
+    "id_mep": 4253,
+    "id_seat": 816,
+    "id_group": 4283,
+    "birthday": "14-05-1959"
+  },
+  {
+    "surname": "Cornillet",
+    "name": "Thierry",
+    "group_code": "ALDE",
+    "country_code": "fr",
+    "id_mep": 4338,
+    "id_seat": 571,
+    "id_group": 4283,
+    "birthday": "23-07-1951"
+  },
+  {
+    "surname": "Bullmann",
+    "name": "Udo",
+    "group_code": "S&D",
+    "country_code": "de",
+    "id_mep": 4267,
+    "id_seat": 6,
+    "id_group": 4284,
+    "birthday": "08-06-1956"
+  },
+  {
+    "surname": "Fitto",
+    "name": "Raffaele",
+    "group_code": "ECR",
+    "country_code": "it",
+    "id_mep": 4465,
+    "id_seat": 69,
+    "id_group": 4275,
+    "birthday": "28-08-1969"
+  },
+  {
+    "surname": "Sommer",
+    "name": "Renate",
+    "group_code": "PPE",
+    "country_code": "de",
+    "id_mep": 4282,
+    "id_seat": 766,
+    "id_group": 4273,
+    "birthday": "10-09-1958"
+  },
+  {
+    "surname": "Niebler",
+    "name": "Angelika",
+    "group_code": "PPE",
+    "country_code": "de",
+    "id_mep": 4289,
+    "id_seat": 61,
+    "id_group": 4273,
+    "birthday": "18-02-1963"
+  },
+  {
+    "surname": "Ayuso",
+    "name": "Pilar",
+    "group_code": "PPE",
+    "country_code": "es",
+    "id_mep": 4319,
+    "id_seat": 337,
+    "id_group": 4273,
+    "birthday": "16-06-1942"
+  },
+  {
+    "surname": "Belder",
+    "name": "Bas",
+    "group_code": "ECR",
+    "country_code": "nl",
+    "id_mep": 4507,
+    "id_seat": 433,
+    "id_group": 4275,
+    "birthday": "25-10-1946"
+  },
+  {
+    "surname": "Lambert",
+    "name": "Jean",
+    "group_code": "Verts/ALE",
+    "country_code": "gb",
+    "id_mep": 4531,
+    "id_seat": 564,
+    "id_group": 4285,
+    "birthday": "01-06-1950"
+  },
+  {
+    "surname": "Moraes",
+    "name": "Claude",
+    "group_code": "S&D",
+    "country_code": "gb",
+    "id_mep": 4519,
+    "id_seat": 243,
+    "id_group": 4284,
+    "birthday": ""
+  },
+  {
+    "surname": "Tannock",
+    "name": "Charles",
+    "group_code": "ECR",
+    "country_code": "gb",
+    "id_mep": 4521,
+    "id_seat": 778,
+    "id_group": 4275,
+    "birthday": "25-09-1957"
+  },
+  {
+    "surname": "Van Orden",
+    "name": "Geoffrey",
+    "group_code": "ECR",
+    "country_code": "gb",
+    "id_mep": 4513,
+    "id_seat": 40,
+    "id_group": 4275,
+    "birthday": "10-04-1945"
+  },
+  {
+    "surname": "Wieland",
+    "name": "Rainer",
+    "group_code": "PPE",
+    "country_code": "de",
+    "id_mep": 2323,
+    "id_seat": 195,
+    "id_group": 4273,
+    "birthday": "19-02-1957"
+  },
+  {
+    "surname": "Evans",
+    "name": "Jill",
+    "group_code": "Verts/ALE",
+    "country_code": "gb",
+    "id_mep": 4550,
+    "id_seat": 324,
+    "id_group": 4285,
+    "birthday": "08-05-1959"
+  },
+  {
+    "surname": "Gahler",
+    "name": "Michael",
+    "group_code": "PPE",
+    "country_code": "de",
+    "id_mep": 2341,
+    "id_seat": 332,
+    "id_group": 4273,
+    "birthday": "22-04-1960"
+  },
+  {
+    "surname": "Foster",
+    "name": "Jacqueline",
+    "group_code": "ECR",
+    "country_code": "gb",
+    "id_mep": 4553,
+    "id_seat": 514,
+    "id_group": 4275,
+    "birthday": ""
+  },
+  {
+    "surname": "Farage",
+    "name": "Nigel",
+    "group_code": "EFDD",
+    "country_code": "gb",
+    "id_mep": 4525,
+    "id_seat": 20,
+    "id_group": 4880,
+    "birthday": "03-04-1964"
+  },
+  {
+    "surname": "Hortefeux",
+    "name": "Brice",
+    "group_code": "PPE",
+    "country_code": "fr",
+    "id_mep": 5565,
+    "id_seat": 574,
+    "id_group": 4273,
+    "birthday": "11-05-1958"
+  },
+  {
+    "surname": "Deva",
+    "name": "Nirj",
+    "group_code": "ECR",
+    "country_code": "gb",
+    "id_mep": 4556,
+    "id_seat": 512,
+    "id_group": 4275,
+    "birthday": "11-05-1948"
+  },
+  {
+    "surname": "Hannan",
+    "name": "Daniel",
+    "group_code": "ECR",
+    "country_code": "gb",
+    "id_mep": 4555,
+    "id_seat": 595,
+    "id_group": 4275,
+    "birthday": "01-09-1971"
+  },
+  {
+    "surname": "Staes",
+    "name": "Bart",
+    "group_code": "Verts/ALE",
+    "country_code": "be",
+    "id_mep": 4751,
+    "id_seat": 735,
+    "id_group": 4285,
+    "birthday": "07-08-1958"
+  },
+  {
+    "surname": "Honeyball",
+    "name": "Mary",
+    "group_code": "S&D",
+    "country_code": "gb",
+    "id_mep": 5846,
+    "id_seat": 550,
+    "id_group": 4284,
+    "birthday": "12-11-1952"
+  },
+  {
+    "surname": "Borghezio",
+    "name": "Mario",
+    "group_code": "ENF",
+    "country_code": "it",
+    "id_mep": 21817,
+    "id_seat": 362,
+    "id_group": 4908,
+    "birthday": "03-12-1947"
+  },
+  {
+    "surname": "dos Santos",
+    "name": "Manuel",
+    "group_code": "S&D",
+    "country_code": "pt",
+    "id_mep": 21918,
+    "id_seat": 463,
+    "id_group": 4284,
+    "birthday": "05-12-1943"
+  },
+  {
+    "surname": "Herranz García",
+    "name": "Esther",
+    "group_code": "PPE",
+    "country_code": "es",
+    "id_mep": 22418,
+    "id_seat": 506,
+    "id_group": 4273,
+    "birthday": "03-07-1969"
+  },
+  {
+    "surname": "Peterle",
+    "name": "Alojz",
+    "group_code": "PPE",
+    "country_code": "si",
+    "id_mep": 23693,
+    "id_seat": 682,
+    "id_group": 4273,
+    "birthday": "05-07-1948"
+  },
+  {
+    "surname": "Leinen",
+    "name": "Jo",
+    "group_code": "S&D",
+    "country_code": "de",
+    "id_mep": 4262,
+    "id_seat": 312,
+    "id_group": 4284,
+    "birthday": "06-04-1948"
+  },
+  {
+    "surname": "Liberadzki",
+    "name": "Bogusław",
+    "group_code": "S&D",
+    "country_code": "pl",
+    "id_mep": 23768,
+    "id_seat": 86,
+    "id_group": 4284,
+    "birthday": "12-09-1948"
+  },
+  {
+    "surname": "Konečná",
+    "name": "Kateřina",
+    "group_code": "GUE/NGL",
+    "country_code": "cz",
+    "id_mep": 23699,
+    "id_seat": 621,
+    "id_group": 4281,
+    "birthday": "20-01-1981"
+  },
+  {
+    "surname": "Goddyn",
+    "name": "Sylvie",
+    "group_code": "EFDD",
+    "country_code": "fr",
+    "id_mep": 21331,
+    "id_seat": 520,
+    "id_group": 4880,
+    "birthday": "24-06-1964"
+  },
+  {
+    "surname": "Maštálka",
+    "name": "Jiří",
+    "group_code": "GUE/NGL",
+    "country_code": "cz",
+    "id_mep": 23704,
+    "id_seat": 622,
+    "id_group": 4281,
+    "birthday": "03-01-1956"
+  },
+  {
+    "surname": "Saïfi",
+    "name": "Tokia",
+    "group_code": "PPE",
+    "country_code": "fr",
+    "id_mep": 4345,
+    "id_seat": 755,
+    "id_group": 4273,
+    "birthday": "11-07-1959"
+  },
+  {
+    "surname": "Grzyb",
+    "name": "Andrzej",
+    "group_code": "PPE",
+    "country_code": "pl",
+    "id_mep": 23785,
+    "id_seat": 63,
+    "id_group": 4273,
+    "birthday": "23-08-1956"
+  },
+  {
+    "surname": "Szájer",
+    "name": "József",
+    "group_code": "PPE",
+    "country_code": "hu",
+    "id_mep": 23821,
+    "id_seat": 15,
+    "id_group": 4273,
+    "birthday": "07-09-1961"
+  },
+  {
+    "surname": "Lewandowski",
+    "name": "Janusz",
+    "group_code": "PPE",
+    "country_code": "pl",
+    "id_mep": 23781,
+    "id_seat": 62,
+    "id_group": 4273,
+    "birthday": "13-06-1951"
+  },
+  {
+    "surname": "Zahradil",
+    "name": "Jan",
+    "group_code": "ECR",
+    "country_code": "cz",
+    "id_mep": 23712,
+    "id_seat": 428,
+    "id_group": 4275,
+    "birthday": "20-03-1963"
+  },
+  {
+    "surname": "Beňová",
+    "name": "Monika",
+    "group_code": "S&D",
+    "country_code": "sk",
+    "id_mep": 23868,
+    "id_seat": 467,
+    "id_group": 4284,
+    "birthday": "15-08-1968"
+  },
+  {
+    "surname": "Gyürk",
+    "name": "András",
+    "group_code": "PPE",
+    "country_code": "hu",
+    "id_mep": 23816,
+    "id_seat": 67,
+    "id_group": 4273,
+    "birthday": "02-12-1972"
+  },
+  {
+    "surname": "Záborská",
+    "name": "Anna",
+    "group_code": "PPE",
+    "country_code": "sk",
+    "id_mep": 23894,
+    "id_seat": 842,
+    "id_group": 4273,
+    "birthday": "07-06-1948"
+  },
+  {
+    "surname": "Maurel",
+    "name": "Emmanuel",
+    "group_code": "GUE/NGL",
+    "country_code": "fr",
+    "id_mep": 24505,
+    "id_seat": 455,
+    "id_group": 4281,
+    "birthday": "10-05-1973"
+  },
+  {
+    "surname": "Gill",
+    "name": "Neena",
+    "group_code": "S&D",
+    "country_code": "gb",
+    "id_mep": 4533,
+    "id_seat": 475,
+    "id_group": 4284,
+    "birthday": ""
+  },
+  {
+    "surname": "Valenciano",
+    "name": "Elena",
+    "group_code": "S&D",
+    "country_code": "es",
+    "id_mep": 4334,
+    "id_seat": 8,
+    "id_group": 4284,
+    "birthday": "18-09-1960"
+  },
+  {
+    "surname": "Sander",
+    "name": "Anne",
+    "group_code": "PPE",
+    "country_code": "fr",
+    "id_mep": 24594,
+    "id_seat": 758,
+    "id_group": 4273,
+    "birthday": "01-10-1973"
+  },
+  {
+    "surname": "Arimont",
+    "name": "Pascal",
+    "group_code": "PPE",
+    "country_code": "be",
+    "id_mep": 24922,
+    "id_seat": 336,
+    "id_group": 4273,
+    "birthday": "25-09-1974"
+  },
+  {
+    "surname": "Chountis",
+    "name": "Nikolaos",
+    "group_code": "GUE/NGL",
+    "country_code": "gr",
+    "id_mep": 26851,
+    "id_seat": 456,
+    "id_group": 4281,
+    "birthday": "17-09-1953"
+  },
+  {
+    "surname": "McGuinness",
+    "name": "Mairead",
+    "group_code": "PPE",
+    "country_code": "ie",
+    "id_mep": 28115,
+    "id_seat": 194,
+    "id_group": 4273,
+    "birthday": "13-06-1959"
+  },
+  {
+    "surname": "Christoforou",
+    "name": "Lefteris",
+    "group_code": "PPE",
+    "country_code": "cy",
+    "id_mep": 26837,
+    "id_seat": 150,
+    "id_group": 4273,
+    "birthday": "31-08-1963"
+  },
+  {
+    "surname": "Harkin",
+    "name": "Marian",
+    "group_code": "ALDE",
+    "country_code": "ie",
+    "id_mep": 28116,
+    "id_seat": 327,
+    "id_group": 4283,
+    "birthday": "26-11-1953"
+  },
+  {
+    "surname": "Siekierski",
+    "name": "Czesław Adam",
+    "group_code": "PPE",
+    "country_code": "pl",
+    "id_mep": 23787,
+    "id_seat": 202,
+    "id_group": 4273,
+    "birthday": "08-10-1952"
+  },
+  {
+    "surname": "Van Brempt",
+    "name": "Kathleen",
+    "group_code": "S&D",
+    "country_code": "be",
+    "id_mep": 5729,
+    "id_seat": 28,
+    "id_group": 4284,
+    "birthday": "18-11-1969"
+  },
+  {
+    "surname": "Hökmark",
+    "name": "Gunnar",
+    "group_code": "PPE",
+    "country_code": "se",
+    "id_mep": 28124,
+    "id_seat": 145,
+    "id_group": 4273,
+    "birthday": "19-09-1952"
+  },
+  {
+    "surname": "Marcellesi",
+    "name": "Florent",
+    "group_code": "Verts/ALE",
+    "country_code": "es",
+    "id_mep": 26146,
+    "id_seat": 249,
+    "id_group": 4285,
+    "birthday": "10-04-1979"
+  },
+  {
+    "surname": "Miranda",
+    "name": "Ana",
+    "group_code": "Verts/ALE",
+    "country_code": "es",
+    "id_mep": 24942,
+    "id_seat": 321,
+    "id_group": 4285,
+    "birthday": "02-05-1971"
+  },
+  {
+    "surname": "Casa",
+    "name": "David",
+    "group_code": "PPE",
+    "country_code": "mt",
+    "id_mep": 28122,
+    "id_seat": 149,
+    "id_group": 4273,
+    "birthday": "16-11-1968"
+  },
+  {
+    "surname": "Ashworth",
+    "name": "Richard",
+    "group_code": "PPE",
+    "country_code": "gb",
+    "id_mep": 28132,
+    "id_seat": 338,
+    "id_group": 4273,
+    "birthday": "17-09-1947"
+  },
+  {
+    "surname": "Járóka",
+    "name": "Lívia",
+    "group_code": "PPE",
+    "country_code": "hu",
+    "id_mep": 28141,
+    "id_seat": 197,
+    "id_group": 4273,
+    "birthday": "06-10-1974"
+  },
+  {
+    "surname": "Christensen",
+    "name": "Ole",
+    "group_code": "S&D",
+    "country_code": "dk",
+    "id_mep": 28154,
+    "id_seat": 394,
+    "id_group": 4284,
+    "birthday": "07-05-1955"
+  },
+  {
+    "surname": "Auken",
+    "name": "Margrete",
+    "group_code": "Verts/ALE",
+    "country_code": "dk",
+    "id_mep": 28161,
+    "id_seat": 188,
+    "id_group": 4285,
+    "birthday": "06-01-1945"
+  },
+  {
+    "surname": "Ujazdowski",
+    "name": "Kazimierz Michał",
+    "group_code": "NI",
+    "country_code": "pl",
+    "id_mep": 23791,
+    "id_seat": 857,
+    "id_group": 3968,
+    "birthday": "28-07-1964"
+  },
+  {
+    "surname": "Mikolášik",
+    "name": "Miroslav",
+    "group_code": "PPE",
+    "country_code": "sk",
+    "id_mep": 28178,
+    "id_seat": 670,
+    "id_group": 4273,
+    "birthday": "11-09-1952"
+  },
+  {
+    "surname": "Griesbeck",
+    "name": "Nathalie",
+    "group_code": "ALDE",
+    "country_code": "fr",
+    "id_mep": 28208,
+    "id_seat": 656,
+    "id_group": 4283,
+    "birthday": "24-05-1956"
+  },
+  {
+    "surname": "Peillon",
+    "name": "Vincent",
+    "group_code": "S&D",
+    "country_code": "fr",
+    "id_mep": 28166,
+    "id_seat": 708,
+    "id_group": 4284,
+    "birthday": "07-07-1960"
+  },
+  {
+    "surname": "Theocharous",
+    "name": "Eleni",
+    "group_code": "ECR",
+    "country_code": "cy",
+    "id_mep": 25704,
+    "id_seat": 350,
+    "id_group": 4275,
+    "birthday": "24-06-1953"
+  },
+  {
+    "surname": "Fjellner",
+    "name": "Christofer",
+    "group_code": "PPE",
+    "country_code": "se",
+    "id_mep": 28126,
+    "id_seat": 496,
+    "id_group": 4273,
+    "birthday": "13-12-1976"
+  },
+  {
+    "surname": "Schwab",
+    "name": "Andreas",
+    "group_code": "PPE",
+    "country_code": "de",
+    "id_mep": 28223,
+    "id_seat": 264,
+    "id_group": 4273,
+    "birthday": "09-04-1973"
+  },
+  {
+    "surname": "Gräßle",
+    "name": "Ingeborg",
+    "group_code": "PPE",
+    "country_code": "de",
+    "id_mep": 28220,
+    "id_seat": 200,
+    "id_group": 4273,
+    "birthday": "02-03-1961"
+  },
+  {
+    "surname": "Hedh",
+    "name": "Anna",
+    "group_code": "S&D",
+    "country_code": "se",
+    "id_mep": 28131,
+    "id_seat": 548,
+    "id_group": 4284,
+    "birthday": "18-03-1967"
+  },
+  {
+    "surname": "Weber",
+    "name": "Manfred",
+    "group_code": "PPE",
+    "country_code": "de",
+    "id_mep": 28229,
+    "id_seat": 14,
+    "id_group": 4273,
+    "birthday": "14-07-1972"
+  },
+  {
+    "surname": "Ehler",
+    "name": "Christian",
+    "group_code": "PPE",
+    "country_code": "de",
+    "id_mep": 28226,
+    "id_seat": 491,
+    "id_group": 4273,
+    "birthday": "17-08-1963"
+  },
+  {
+    "surname": "Maňka",
+    "name": "Vladimír",
+    "group_code": "S&D",
+    "country_code": "sk",
+    "id_mep": 28192,
+    "id_seat": 134,
+    "id_group": 4284,
+    "birthday": "19-09-1959"
+  },
+  {
+    "surname": "Schöpflin",
+    "name": "György",
+    "group_code": "PPE",
+    "country_code": "hu",
+    "id_mep": 28135,
+    "id_seat": 590,
+    "id_group": 4273,
+    "birthday": "24-11-1939"
+  },
+  {
+    "surname": "Caspary",
+    "name": "Daniel",
+    "group_code": "PPE",
+    "country_code": "de",
+    "id_mep": 28219,
+    "id_seat": 39,
+    "id_group": 4273,
+    "birthday": "04-04-1976"
+  },
+  {
+    "surname": "Pieper",
+    "name": "Markus",
+    "group_code": "PPE",
+    "country_code": "de",
+    "id_mep": 28224,
+    "id_seat": 684,
+    "id_group": 4273,
+    "birthday": "15-05-1963"
+  },
+  {
+    "surname": "Harms",
+    "name": "Rebecca",
+    "group_code": "Verts/ALE",
+    "country_code": "de",
+    "id_mep": 28233,
+    "id_seat": 138,
+    "id_group": 4285,
+    "birthday": "07-12-1956"
+  },
+  {
+    "surname": "Klinz",
+    "name": "Wolf",
+    "group_code": "ALDE",
+    "country_code": "de",
+    "id_mep": 28244,
+    "id_seat": 738,
+    "id_group": 4283,
+    "birthday": "13-09-1941"
+  },
+  {
+    "surname": "Cramer",
+    "name": "Michael",
+    "group_code": "Verts/ALE",
+    "country_code": "de",
+    "id_mep": 28238,
+    "id_seat": 398,
+    "id_group": 4285,
+    "birthday": "16-06-1949"
+  },
+  {
+    "surname": "Zimmer",
+    "name": "Gabriele",
+    "group_code": "GUE/NGL",
+    "country_code": "de",
+    "id_mep": 28248,
+    "id_seat": 3,
+    "id_group": 4281,
+    "birthday": "07-05-1955"
+  },
+  {
+    "surname": "in 't Veld",
+    "name": "Sophia",
+    "group_code": "ALDE",
+    "country_code": "nl",
+    "id_mep": 28266,
+    "id_seat": 10,
+    "id_group": 4283,
+    "birthday": "13-09-1963"
+  },
+  {
+    "surname": "Gál",
+    "name": "Kinga",
+    "group_code": "PPE",
+    "country_code": "hu",
+    "id_mep": 28150,
+    "id_seat": 498,
+    "id_group": 4273,
+    "birthday": "06-09-1970"
+  },
+  {
+    "surname": "Buzek",
+    "name": "Jerzy",
+    "group_code": "PPE",
+    "country_code": "pl",
+    "id_mep": 28269,
+    "id_seat": 201,
+    "id_group": 4273,
+    "birthday": "03-07-1940"
+  },
+  {
+    "surname": "Ayala Sender",
+    "name": "Inés",
+    "group_code": "S&D",
+    "country_code": "es",
+    "id_mep": 28292,
+    "id_seat": 239,
+    "id_group": 4284,
+    "birthday": "28-03-1957"
+  },
+  {
+    "surname": "Deß",
+    "name": "Albert",
+    "group_code": "PPE",
+    "country_code": "de",
+    "id_mep": 28228,
+    "id_seat": 267,
+    "id_group": 4273,
+    "birthday": "17-04-1947"
+  },
+  {
+    "surname": "Andrikienė",
+    "name": "Laima Liucija",
+    "group_code": "PPE",
+    "country_code": "lt",
+    "id_mep": 28276,
+    "id_seat": 147,
+    "id_group": 4273,
+    "birthday": "01-01-1958"
+  },
+  {
+    "surname": "Saryusz-Wolski",
+    "name": "Jacek",
+    "group_code": "NI",
+    "country_code": "pl",
+    "id_mep": 28297,
+    "id_seat": 696,
+    "id_group": 3968,
+    "birthday": "19-09-1948"
+  },
+  {
+    "surname": "Cavada",
+    "name": "Jean-Marie",
+    "group_code": "ALDE",
+    "country_code": "fr",
+    "id_mep": 28206,
+    "id_seat": 570,
+    "id_group": 4283,
+    "birthday": "24-02-1940"
+  },
+  {
+    "surname": "Sonik",
+    "name": "Bogusław",
+    "group_code": "PPE",
+    "country_code": "pl",
+    "id_mep": 28299,
+    "id_seat": 767,
+    "id_group": 4273,
+    "birthday": "03-12-1953"
+  },
+  {
+    "surname": "Gomes",
+    "name": "Ana",
+    "group_code": "S&D",
+    "country_code": "pt",
+    "id_mep": 28306,
+    "id_seat": 308,
+    "id_group": 4284,
+    "birthday": "09-02-1954"
+  },
+  {
+    "surname": "Kohlíček",
+    "name": "Jaromír",
+    "group_code": "GUE/NGL",
+    "country_code": "cz",
+    "id_mep": 28331,
+    "id_seat": 623,
+    "id_group": 4281,
+    "birthday": "23-02-1953"
+  },
+  {
+    "surname": "Belet",
+    "name": "Ivo",
+    "group_code": "PPE",
+    "country_code": "be",
+    "id_mep": 28257,
+    "id_seat": 142,
+    "id_group": 4273,
+    "birthday": "07-06-1959"
+  },
+  {
+    "surname": "Assis",
+    "name": "Francisco",
+    "group_code": "S&D",
+    "country_code": "pt",
+    "id_mep": 28307,
+    "id_seat": 381,
+    "id_group": 4284,
+    "birthday": "08-01-1965"
+  },
+  {
+    "surname": "van Nistelrooij",
+    "name": "Lambert",
+    "group_code": "PPE",
+    "country_code": "nl",
+    "id_mep": 28165,
+    "id_seat": 266,
+    "id_group": 4273,
+    "birthday": "05-03-1953"
+  },
+  {
+    "surname": "Kudrycka",
+    "name": "Barbara",
+    "group_code": "PPE",
+    "country_code": "pl",
+    "id_mep": 28284,
+    "id_seat": 582,
+    "id_group": 4273,
+    "birthday": "22-01-1956"
+  },
+  {
+    "surname": "Jäätteenmäki",
+    "name": "Anneli",
+    "group_code": "ALDE",
+    "country_code": "fi",
+    "id_mep": 28314,
+    "id_seat": 328,
+    "id_group": 4283,
+    "birthday": "11-02-1955"
+  },
+  {
+    "surname": "Krupa",
+    "name": "Urszula",
+    "group_code": "ECR",
+    "country_code": "pl",
+    "id_mep": 28334,
+    "id_seat": 602,
+    "id_group": 4275,
+    "birthday": "20-10-1949"
+  },
+  {
+    "surname": "Toia",
+    "name": "Patrizia",
+    "group_code": "S&D",
+    "country_code": "it",
+    "id_mep": 28340,
+    "id_seat": 54,
+    "id_group": 4284,
+    "birthday": "17-03-1950"
+  },
+  {
+    "surname": "Bresso",
+    "name": "Mercedes",
+    "group_code": "S&D",
+    "country_code": "it",
+    "id_mep": 28346,
+    "id_seat": 7,
+    "id_group": 4284,
+    "birthday": "12-07-1944"
+  },
+  {
+    "surname": "Panzeri",
+    "name": "Pier Antonio",
+    "group_code": "S&D",
+    "country_code": "it",
+    "id_mep": 28365,
+    "id_seat": 246,
+    "id_group": 4284,
+    "birthday": "06-06-1955"
+  },
+  {
+    "surname": "Czarnecki",
+    "name": "Ryszard",
+    "group_code": "ECR",
+    "country_code": "pl",
+    "id_mep": 28372,
+    "id_seat": 275,
+    "id_group": 4275,
+    "birthday": "25-01-1963"
+  },
+  {
+    "surname": "García Pérez",
+    "name": "Iratxe",
+    "group_code": "S&D",
+    "country_code": "es",
+    "id_mep": 28298,
+    "id_seat": 50,
+    "id_group": 4284,
+    "birthday": "07-10-1974"
+  },
+  {
+    "surname": "del Castillo Vera",
+    "name": "Pilar",
+    "group_code": "PPE",
+    "country_code": "es",
+    "id_mep": 28390,
+    "id_seat": 65,
+    "id_group": 4273,
+    "birthday": "31-07-1952"
+  },
+  {
+    "surname": "Kuźmiuk",
+    "name": "Zbigniew",
+    "group_code": "ECR",
+    "country_code": "pl",
+    "id_mep": 28389,
+    "id_seat": 603,
+    "id_group": 4275,
+    "birthday": "19-09-1956"
+  },
+  {
+    "surname": "de Grandes Pascual",
+    "name": "Luis",
+    "group_code": "PPE",
+    "country_code": "es",
+    "id_mep": 28393,
+    "id_seat": 502,
+    "id_group": 4273,
+    "birthday": "27-01-1945"
+  },
+  {
+    "surname": "Trüpel",
+    "name": "Helga",
+    "group_code": "Verts/ALE",
+    "country_code": "de",
+    "id_mep": 28240,
+    "id_seat": 733,
+    "id_group": 4285,
+    "birthday": "21-07-1958"
+  },
+  {
+    "surname": "Geringer de Oedenberg",
+    "name": "Lidia Joanna",
+    "group_code": "S&D",
+    "country_code": "pl",
+    "id_mep": 28377,
+    "id_seat": 474,
+    "id_group": 4284,
+    "birthday": "12-09-1957"
+  },
+  {
+    "surname": "Iturgaiz",
+    "name": "Carlos",
+    "group_code": "PPE",
+    "country_code": "es",
+    "id_mep": 28398,
+    "id_seat": 575,
+    "id_group": 4273,
+    "birthday": "20-10-1965"
+  },
+  {
+    "surname": "Olbrycht",
+    "name": "Jan",
+    "group_code": "PPE",
+    "country_code": "pl",
+    "id_mep": 28288,
+    "id_seat": 680,
+    "id_group": 4273,
+    "birthday": "21-09-1952"
+  },
+  {
+    "surname": "Millán Mon",
+    "name": "Francisco José",
+    "group_code": "PPE",
+    "country_code": "es",
+    "id_mep": 28400,
+    "id_seat": 671,
+    "id_group": 4273,
+    "birthday": "08-03-1955"
+  },
+  {
+    "surname": "López-Istúriz White",
+    "name": "Antonio",
+    "group_code": "PPE",
+    "country_code": "es",
+    "id_mep": 28399,
+    "id_seat": 594,
+    "id_group": 4273,
+    "birthday": "01-04-1970"
+  },
+  {
+    "surname": "Zwiefka",
+    "name": "Tadeusz",
+    "group_code": "PPE",
+    "country_code": "pl",
+    "id_mep": 28301,
+    "id_seat": 37,
+    "id_group": 4273,
+    "birthday": "28-12-1954"
+  },
+  {
+    "surname": "Karim",
+    "name": "Sajjad",
+    "group_code": "ECR",
+    "country_code": "gb",
+    "id_mep": 28481,
+    "id_seat": 598,
+    "id_group": 4275,
+    "birthday": "11-07-1970"
+  },
+  {
+    "surname": "Kelam",
+    "name": "Tunne",
+    "group_code": "PPE",
+    "country_code": "ee",
+    "id_mep": 28424,
+    "id_seat": 152,
+    "id_group": 4273,
+    "birthday": "10-07-1936"
+  },
+  {
+    "surname": "Rosati",
+    "name": "Dariusz",
+    "group_code": "PPE",
+    "country_code": "pl",
+    "id_mep": 28394,
+    "id_seat": 333,
+    "id_group": 4273,
+    "birthday": "08-08-1946"
+  },
+  {
+    "surname": "Mussolini",
+    "name": "Alessandra",
+    "group_code": "PPE",
+    "country_code": "it",
+    "id_mep": 28429,
+    "id_seat": 677,
+    "id_group": 4273,
+    "birthday": "30-12-1962"
+  },
+  {
+    "surname": "Díaz de Mera García Consuegra",
+    "name": "Agustín",
+    "group_code": "PPE",
+    "country_code": "es",
+    "id_mep": 28397,
+    "id_seat": 425,
+    "id_group": 4273,
+    "birthday": "27-09-1947"
+  },
+  {
+    "surname": "Smith",
+    "name": "Alyn",
+    "group_code": "Verts/ALE",
+    "country_code": "gb",
+    "id_mep": 28508,
+    "id_seat": 400,
+    "id_group": 4285,
+    "birthday": "15-09-1973"
+  },
+  {
+    "surname": "Zīle",
+    "name": "Roberts",
+    "group_code": "ECR",
+    "country_code": "lv",
+    "id_mep": 28615,
+    "id_seat": 153,
+    "id_group": 4275,
+    "birthday": "20-06-1958"
+  },
+  {
+    "surname": "Batten",
+    "name": "Gerard",
+    "group_code": "ENF",
+    "country_code": "gb",
+    "id_mep": 28497,
+    "id_seat": 612,
+    "id_group": 4908,
+    "birthday": "27-03-1954"
+  },
+  {
+    "surname": "Papadimoulis",
+    "name": "Dimitrios",
+    "group_code": "GUE/NGL",
+    "country_code": "gr",
+    "id_mep": 28586,
+    "id_seat": 25,
+    "id_group": 4281,
+    "birthday": "21-03-1955"
+  },
+  {
+    "surname": "Piotrowski",
+    "name": "Mirosław",
+    "group_code": "ECR",
+    "country_code": "pl",
+    "id_mep": 28341,
+    "id_seat": 691,
+    "id_group": 4275,
+    "birthday": "09-01-1966"
+  },
+  {
+    "surname": "Kamall",
+    "name": "Syed",
+    "group_code": "ECR",
+    "country_code": "gb",
+    "id_mep": 33569,
+    "id_seat": 18,
+    "id_group": 4275,
+    "birthday": "15-02-1967"
+  },
+  {
+    "surname": "Vaidere",
+    "name": "Inese",
+    "group_code": "PPE",
+    "country_code": "lv",
+    "id_mep": 28617,
+    "id_seat": 833,
+    "id_group": 4273,
+    "birthday": "03-09-1952"
+  },
+  {
+    "surname": "Tarabella",
+    "name": "Marc",
+    "group_code": "S&D",
+    "country_code": "be",
+    "id_mep": 29579,
+    "id_seat": 85,
+    "id_group": 4284,
+    "birthday": "11-03-1963"
+  },
+  {
+    "surname": "Marinescu",
+    "name": "Marian-Jean",
+    "group_code": "PPE",
+    "country_code": "ro",
+    "id_mep": 33982,
+    "id_seat": 38,
+    "id_group": 4273,
+    "birthday": "11-08-1952"
+  },
+  {
+    "surname": "Sârbu",
+    "name": "Daciana Octavia",
+    "group_code": "S&D",
+    "country_code": "ro",
+    "id_mep": 33989,
+    "id_seat": 718,
+    "id_group": 4284,
+    "birthday": "15-01-1977"
+  },
+  {
+    "surname": "Gierek",
+    "name": "Adam",
+    "group_code": "S&D",
+    "country_code": "pl",
+    "id_mep": 28379,
+    "id_seat": 473,
+    "id_group": 4284,
+    "birthday": "17-04-1938"
+  },
+  {
+    "surname": "Fotyga",
+    "name": "Anna Elżbieta",
+    "group_code": "ECR",
+    "country_code": "pl",
+    "id_mep": 28353,
+    "id_seat": 277,
+    "id_group": 4275,
+    "birthday": "12-01-1957"
+  },
+  {
+    "surname": "Omarjee",
+    "name": "Younous",
+    "group_code": "GUE/NGL",
+    "country_code": "fr",
+    "id_mep": 30482,
+    "id_seat": 304,
+    "id_group": 4281,
+    "birthday": "30-09-1969"
+  },
+  {
+    "surname": "Ali",
+    "name": "Nedzhmi",
+    "group_code": "ALDE",
+    "country_code": "bg",
+    "id_mep": 34250,
+    "id_seat": 567,
+    "id_group": 4283,
+    "birthday": "16-07-1972"
+  },
+  {
+    "surname": "Patriciello",
+    "name": "Aldo",
+    "group_code": "PPE",
+    "country_code": "it",
+    "id_mep": 36392,
+    "id_seat": 681,
+    "id_group": 4273,
+    "birthday": "27-09-1957"
+  },
+  {
+    "surname": "Hyusmenova",
+    "name": "Filiz",
+    "group_code": "ALDE",
+    "country_code": "bg",
+    "id_mep": 34249,
+    "id_seat": 59,
+    "id_group": 4283,
+    "birthday": "10-06-1966"
+  },
+  {
+    "surname": "Schaldemose",
+    "name": "Christel",
+    "group_code": "S&D",
+    "country_code": "dk",
+    "id_mep": 37312,
+    "id_seat": 719,
+    "id_group": 4284,
+    "birthday": "04-08-1967"
+  },
+  {
+    "surname": "Mayer",
+    "name": "Georg",
+    "group_code": "ENF",
+    "country_code": "at",
+    "id_mep": 38511,
+    "id_seat": 442,
+    "id_group": 4908,
+    "birthday": "12-10-1973"
+  },
+  {
+    "surname": "Buşoi",
+    "name": "Cristian-Silviu",
+    "group_code": "PPE",
+    "country_code": "ro",
+    "id_mep": 38420,
+    "id_seat": 409,
+    "id_group": 4273,
+    "birthday": "01-03-1978"
+  },
+  {
+    "surname": "Vălean",
+    "name": "Adina-Ioana",
+    "group_code": "PPE",
+    "country_code": "ro",
+    "id_mep": 37324,
+    "id_seat": 100,
+    "id_group": 4273,
+    "birthday": "16-02-1968"
+  },
+  {
+    "surname": "Urutchev",
+    "name": "Vladimir",
+    "group_code": "PPE",
+    "country_code": "bg",
+    "id_mep": 38601,
+    "id_seat": 832,
+    "id_group": 4273,
+    "birthday": "01-10-1954"
+  },
+  {
+    "surname": "de Lange",
+    "name": "Esther",
+    "group_code": "PPE",
+    "country_code": "nl",
+    "id_mep": 38398,
+    "id_seat": 17,
+    "id_group": 4273,
+    "birthday": "19-02-1975"
+  },
+  {
+    "surname": "Piri",
+    "name": "Kati",
+    "group_code": "S&D",
+    "country_code": "nl",
+    "id_mep": 37229,
+    "id_seat": 710,
+    "id_group": 4284,
+    "birthday": "08-04-1979"
+  },
+  {
+    "surname": "Dalton",
+    "name": "Daniel",
+    "group_code": "ECR",
+    "country_code": "gb",
+    "id_mep": 35135,
+    "id_seat": 430,
+    "id_group": 4275,
+    "birthday": "31-01-1974"
+  },
+  {
+    "surname": "Winkler",
+    "name": "Iuliu",
+    "group_code": "PPE",
+    "country_code": "ro",
+    "id_mep": 39725,
+    "id_seat": 841,
+    "id_group": 4273,
+    "birthday": "14-03-1964"
+  },
+  {
+    "surname": "Tőkés",
+    "name": "László",
+    "group_code": "PPE",
+    "country_code": "hu",
+    "id_mep": 39726,
+    "id_seat": 829,
+    "id_group": 4273,
+    "birthday": "01-04-1952"
+  },
+  {
+    "surname": "Sógor",
+    "name": "Csaba",
+    "group_code": "PPE",
+    "country_code": "ro",
+    "id_mep": 39724,
+    "id_seat": 764,
+    "id_group": 4273,
+    "birthday": "12-05-1964"
+  },
+  {
+    "surname": "Stolojan",
+    "name": "Theodor Dumitru",
+    "group_code": "PPE",
+    "country_code": "ro",
+    "id_mep": 39721,
+    "id_seat": 99,
+    "id_group": 4273,
+    "birthday": "24-10-1943"
+  },
+  {
+    "surname": "Boştinaru",
+    "name": "Victor",
+    "group_code": "S&D",
+    "country_code": "ro",
+    "id_mep": 39711,
+    "id_seat": 27,
+    "id_group": 4284,
+    "birthday": "17-05-1952"
+  },
+  {
+    "surname": "Morin-Chartier",
+    "name": "Elisabeth",
+    "group_code": "PPE",
+    "country_code": "fr",
+    "id_mep": 38596,
+    "id_seat": 198,
+    "id_group": 4273,
+    "birthday": "10-10-1947"
+  },
+  {
+    "surname": "Huitema",
+    "name": "Jan",
+    "group_code": "ALDE",
+    "country_code": "nl",
+    "id_mep": 58789,
+    "id_seat": 658,
+    "id_group": 4283,
+    "birthday": "05-07-1984"
+  },
+  {
+    "surname": "Gardini",
+    "name": "Elisabetta",
+    "group_code": "PPE",
+    "country_code": "it",
+    "id_mep": 58758,
+    "id_seat": 97,
+    "id_group": 4273,
+    "birthday": "03-06-1956"
+  },
+  {
+    "surname": "Leontini",
+    "name": "Innocenzo",
+    "group_code": "ECR",
+    "country_code": "it",
+    "id_mep": 72754,
+    "id_seat": 600,
+    "id_group": 4275,
+    "birthday": "25-05-1959"
+  },
+  {
+    "surname": "Cesa",
+    "name": "Lorenzo",
+    "group_code": "PPE",
+    "country_code": "it",
+    "id_mep": 28451,
+    "id_seat": 98,
+    "id_group": 4273,
+    "birthday": "16-08-1951"
+  },
+  {
+    "surname": "Dati",
+    "name": "Rachida",
+    "group_code": "PPE",
+    "country_code": "fr",
+    "id_mep": 72775,
+    "id_seat": 419,
+    "id_group": 4273,
+    "birthday": "27-11-1965"
+  },
+  {
+    "surname": "Paşcu",
+    "name": "Ioan Mircea",
+    "group_code": "S&D",
+    "country_code": "ro",
+    "id_mep": 33984,
+    "id_seat": 180,
+    "id_group": 4284,
+    "birthday": "17-02-1949"
+  },
+  {
+    "surname": "Morano",
+    "name": "Nadine",
+    "group_code": "PPE",
+    "country_code": "fr",
+    "id_mep": 72779,
+    "id_seat": 674,
+    "id_group": 4273,
+    "birthday": "06-11-1963"
+  },
+  {
+    "surname": "Lenaers",
+    "name": "Jeroen",
+    "group_code": "PPE",
+    "country_code": "nl",
+    "id_mep": 95074,
+    "id_seat": 591,
+    "id_group": 4273,
+    "birthday": "29-04-1984"
+  },
+  {
+    "surname": "Svoboda",
+    "name": "Pavel",
+    "group_code": "PPE",
+    "country_code": "cz",
+    "id_mep": 96272,
+    "id_seat": 204,
+    "id_group": 4273,
+    "birthday": "09-04-1962"
+  },
+  {
+    "surname": "Rodust",
+    "name": "Ulrike",
+    "group_code": "S&D",
+    "country_code": "de",
+    "id_mep": 93624,
+    "id_seat": 717,
+    "id_group": 4284,
+    "birthday": "04-06-1949"
+  },
+  {
+    "surname": "Scholz",
+    "name": "Helmut",
+    "group_code": "GUE/NGL",
+    "country_code": "de",
+    "id_mep": 96646,
+    "id_seat": 375,
+    "id_group": 4281,
+    "birthday": "21-06-1954"
+  },
+  {
+    "surname": "Mănescu",
+    "name": "Ramona Nicole",
+    "group_code": "PPE",
+    "country_code": "ro",
+    "id_mep": 39717,
+    "id_seat": 665,
+    "id_group": 4273,
+    "birthday": "06-12-1972"
+  },
+  {
+    "surname": "Lamberts",
+    "name": "Philippe",
+    "group_code": "Verts/ALE",
+    "country_code": "be",
+    "id_mep": 96648,
+    "id_seat": 31,
+    "id_group": 4285,
+    "birthday": "14-03-1963"
+  },
+  {
+    "surname": "Zala",
+    "name": "Boris",
+    "group_code": "S&D",
+    "country_code": "sk",
+    "id_mep": 96656,
+    "id_seat": 802,
+    "id_group": 4284,
+    "birthday": "09-12-1954"
+  },
+  {
+    "surname": "Kukan",
+    "name": "Eduard",
+    "group_code": "PPE",
+    "country_code": "sk",
+    "id_mep": 96651,
+    "id_seat": 584,
+    "id_group": 4273,
+    "birthday": "26-12-1939"
+  },
+  {
+    "surname": "Cristea",
+    "name": "Andi",
+    "group_code": "S&D",
+    "country_code": "ro",
+    "id_mep": 40224,
+    "id_seat": 459,
+    "id_group": 4284,
+    "birthday": "05-01-1982"
+  },
+  {
+    "surname": "Morvai",
+    "name": "Krisztina",
+    "group_code": "NI",
+    "country_code": "hu",
+    "id_mep": 96661,
+    "id_seat": 780,
+    "id_group": 3968,
+    "birthday": "22-06-1963"
+  },
+  {
+    "surname": "Weber",
+    "name": "Renate",
+    "group_code": "ALDE",
+    "country_code": "ro",
+    "id_mep": 39713,
+    "id_seat": 743,
+    "id_group": 4283,
+    "birthday": "03-08-1955"
+  },
+  {
+    "surname": "Messerschmidt",
+    "name": "Morten",
+    "group_code": "ECR",
+    "country_code": "dk",
+    "id_mep": 96663,
+    "id_seat": 688,
+    "id_group": 4275,
+    "birthday": "13-11-1980"
+  },
+  {
+    "surname": "Kelly",
+    "name": "Seán",
+    "group_code": "PPE",
+    "country_code": "ie",
+    "id_mep": 96668,
+    "id_seat": 143,
+    "id_group": 4273,
+    "birthday": "26-04-1952"
+  },
+  {
+    "surname": "Ludvigsson",
+    "name": "Olle",
+    "group_code": "S&D",
+    "country_code": "se",
+    "id_mep": 96673,
+    "id_seat": 629,
+    "id_group": 4284,
+    "birthday": "28-10-1948"
+  },
+  {
+    "surname": "Michel",
+    "name": "Louis",
+    "group_code": "ALDE",
+    "country_code": "be",
+    "id_mep": 96670,
+    "id_seat": 403,
+    "id_group": 4283,
+    "birthday": "02-09-1947"
+  },
+  {
+    "surname": "Pietikäinen",
+    "name": "Sirpa",
+    "group_code": "PPE",
+    "country_code": "fi",
+    "id_mep": 40599,
+    "id_seat": 146,
+    "id_group": 4273,
+    "birthday": "19-04-1959"
+  },
+  {
+    "surname": "Punset",
+    "name": "Carolina",
+    "group_code": "ALDE",
+    "country_code": "es",
+    "id_mep": 90110,
+    "id_seat": 744,
+    "id_group": 4283,
+    "birthday": "05-01-1971"
+  },
+  {
+    "surname": "Smolková",
+    "name": "Monika",
+    "group_code": "S&D",
+    "country_code": "sk",
+    "id_mep": 96655,
+    "id_seat": 130,
+    "id_group": 4284,
+    "birthday": "06-10-1956"
+  },
+  {
+    "surname": "Corazza Bildt",
+    "name": "Anna Maria",
+    "group_code": "PPE",
+    "country_code": "se",
+    "id_mep": 96674,
+    "id_seat": 415,
+    "id_group": 4273,
+    "birthday": "10-03-1963"
+  },
+  {
+    "surname": "Ulvskog",
+    "name": "Marita",
+    "group_code": "S&D",
+    "country_code": "se",
+    "id_mep": 96672,
+    "id_seat": 89,
+    "id_group": 4284,
+    "birthday": "04-09-1951"
+  },
+  {
+    "surname": "Wikström",
+    "name": "Cecilia",
+    "group_code": "ALDE",
+    "country_code": "se",
+    "id_mep": 96677,
+    "id_seat": 141,
+    "id_group": 4283,
+    "birthday": "17-10-1965"
+  },
+  {
+    "surname": "Balčytis",
+    "name": "Zigmantas",
+    "group_code": "S&D",
+    "country_code": "lt",
+    "id_mep": 96680,
+    "id_seat": 135,
+    "id_group": 4284,
+    "birthday": "16-11-1953"
+  },
+  {
+    "surname": "Jaakonsaari",
+    "name": "Liisa",
+    "group_code": "S&D",
+    "country_code": "fi",
+    "id_mep": 96684,
+    "id_seat": 553,
+    "id_group": 4284,
+    "birthday": "02-09-1945"
+  },
+  {
+    "surname": "Saudargas",
+    "name": "Algirdas",
+    "group_code": "PPE",
+    "country_code": "lt",
+    "id_mep": 96696,
+    "id_seat": 759,
+    "id_group": 4273,
+    "birthday": "17-04-1948"
+  },
+  {
+    "surname": "Tomaševski",
+    "name": "Valdemar",
+    "group_code": "ECR",
+    "country_code": "lt",
+    "id_mep": 96697,
+    "id_seat": 692,
+    "id_group": 4275,
+    "birthday": "03-03-1965"
+  },
+  {
+    "surname": "Ferreira",
+    "name": "João",
+    "group_code": "GUE/NGL",
+    "country_code": "pt",
+    "id_mep": 96706,
+    "id_seat": 299,
+    "id_group": 4281,
+    "birthday": "20-11-1978"
+  },
+  {
+    "surname": "Childers",
+    "name": "Nessa",
+    "group_code": "S&D",
+    "country_code": "ie",
+    "id_mep": 96603,
+    "id_seat": 186,
+    "id_group": 4284,
+    "birthday": "09-10-1956"
+  },
+  {
+    "surname": "Blinkevičiūtė",
+    "name": "Vilija",
+    "group_code": "S&D",
+    "country_code": "lt",
+    "id_mep": 96681,
+    "id_seat": 245,
+    "id_group": 4284,
+    "birthday": "03-03-1960"
+  },
+  {
+    "surname": "Løkkegaard",
+    "name": "Morten",
+    "group_code": "ALDE",
+    "country_code": "dk",
+    "id_mep": 96709,
+    "id_seat": 58,
+    "id_group": 4283,
+    "birthday": "20-12-1964"
+  },
+  {
+    "surname": "Bendtsen",
+    "name": "Bendt",
+    "group_code": "PPE",
+    "country_code": "dk",
+    "id_mep": 96705,
+    "id_seat": 151,
+    "id_group": 4273,
+    "birthday": "25-03-1954"
+  },
+  {
+    "surname": "Paksas",
+    "name": "Rolandas",
+    "group_code": "EFDD",
+    "country_code": "lt",
+    "id_mep": 96694,
+    "id_seat": 213,
+    "id_group": 4880,
+    "birthday": "10-06-1956"
+  },
+  {
+    "surname": "Eickhout",
+    "name": "Bas",
+    "group_code": "Verts/ALE",
+    "country_code": "nl",
+    "id_mep": 96725,
+    "id_seat": 57,
+    "id_group": 4285,
+    "birthday": "08-10-1976"
+  },
+  {
+    "surname": "Tošenovský",
+    "name": "Evžen",
+    "group_code": "ECR",
+    "country_code": "cz",
+    "id_mep": 96713,
+    "id_seat": 779,
+    "id_group": 4275,
+    "birthday": "26-02-1956"
+  },
+  {
+    "surname": "Sehnalová",
+    "name": "Olga",
+    "group_code": "S&D",
+    "country_code": "cz",
+    "id_mep": 96718,
+    "id_seat": 722,
+    "id_group": 4284,
+    "birthday": "25-10-1968"
+  },
+  {
+    "surname": "Lochbihler",
+    "name": "Barbara",
+    "group_code": "Verts/ALE",
+    "country_code": "de",
+    "id_mep": 96728,
+    "id_seat": 563,
+    "id_group": 4285,
+    "birthday": "20-05-1959"
+  },
+  {
+    "surname": "Giegold",
+    "name": "Sven",
+    "group_code": "Verts/ALE",
+    "country_code": "de",
+    "id_mep": 96730,
+    "id_seat": 481,
+    "id_group": 4285,
+    "birthday": "17-11-1969"
+  },
+  {
+    "surname": "Keller",
+    "name": "Ska",
+    "group_code": "Verts/ALE",
+    "country_code": "de",
+    "id_mep": 96734,
+    "id_seat": 9,
+    "id_group": 4285,
+    "birthday": "22-11-1981"
+  },
+  {
+    "surname": "Fisas Ayxelà",
+    "name": "Santiago",
+    "group_code": "PPE",
+    "country_code": "es",
+    "id_mep": 96729,
+    "id_seat": 495,
+    "id_group": 4273,
+    "birthday": "29-08-1948"
+  },
+  {
+    "surname": "Le Hyaric",
+    "name": "Patrick",
+    "group_code": "GUE/NGL",
+    "country_code": "fr",
+    "id_mep": 96735,
+    "id_seat": 80,
+    "id_group": 4281,
+    "birthday": "04-02-1957"
+  },
+  {
+    "surname": "Bütikofer",
+    "name": "Reinhard",
+    "group_code": "Verts/ALE",
+    "country_code": "de",
+    "id_mep": 96739,
+    "id_seat": 250,
+    "id_group": 4285,
+    "birthday": "26-01-1953"
+  },
+  {
+    "surname": "Rivasi",
+    "name": "Michèle",
+    "group_code": "Verts/ALE",
+    "country_code": "fr",
+    "id_mep": 96743,
+    "id_seat": 482,
+    "id_group": 4285,
+    "birthday": "09-02-1953"
+  },
+  {
+    "surname": "van de Camp",
+    "name": "Wim",
+    "group_code": "PPE",
+    "country_code": "nl",
+    "id_mep": 96754,
+    "id_seat": 265,
+    "id_group": 4273,
+    "birthday": "27-07-1953"
+  },
+  {
+    "surname": "Häusling",
+    "name": "Martin",
+    "group_code": "Verts/ALE",
+    "country_code": "de",
+    "id_mep": 96752,
+    "id_seat": 480,
+    "id_group": 4285,
+    "birthday": "26-03-1961"
+  },
+  {
+    "surname": "Jadot",
+    "name": "Yannick",
+    "group_code": "Verts/ALE",
+    "country_code": "fr",
+    "id_mep": 96740,
+    "id_seat": 478,
+    "id_group": 4285,
+    "birthday": "27-07-1967"
+  },
+  {
+    "surname": "Uspaskich",
+    "name": "Viktor",
+    "group_code": "ALDE",
+    "country_code": "lt",
+    "id_mep": 96698,
+    "id_seat": 487,
+    "id_group": 4283,
+    "birthday": "24-07-1959"
+  },
+  {
+    "surname": "de Jong",
+    "name": "Dennis",
+    "group_code": "GUE/NGL",
+    "country_code": "nl",
+    "id_mep": 96748,
+    "id_seat": 457,
+    "id_group": 4281,
+    "birthday": "22-05-1955"
+  },
+  {
+    "surname": "Voss",
+    "name": "Axel",
+    "group_code": "PPE",
+    "country_code": "de",
+    "id_mep": 96761,
+    "id_seat": 270,
+    "id_group": 4273,
+    "birthday": "07-04-1963"
+  },
+  {
+    "surname": "Verheyen",
+    "name": "Sabine",
+    "group_code": "PPE",
+    "country_code": "de",
+    "id_mep": 96756,
+    "id_seat": 269,
+    "id_group": 4273,
+    "birthday": "24-10-1964"
+  },
+  {
+    "surname": "Kuhn",
+    "name": "Werner",
+    "group_code": "PPE",
+    "country_code": "de",
+    "id_mep": 96767,
+    "id_seat": 583,
+    "id_group": 4273,
+    "birthday": "19-05-1955"
+  },
+  {
+    "surname": "Rohde",
+    "name": "Jens",
+    "group_code": "ALDE",
+    "country_code": "dk",
+    "id_mep": 96710,
+    "id_seat": 818,
+    "id_group": 4283,
+    "birthday": "18-04-1970"
+  },
+  {
+    "surname": "Kalinowski",
+    "name": "Jarosław",
+    "group_code": "PPE",
+    "country_code": "pl",
+    "id_mep": 96771,
+    "id_seat": 580,
+    "id_group": 4273,
+    "birthday": "12-04-1962"
+  },
+  {
+    "surname": "Guerrero Salom",
+    "name": "Enrique",
+    "group_code": "S&D",
+    "country_code": "es",
+    "id_mep": 96768,
+    "id_seat": 545,
+    "id_group": 4284,
+    "birthday": "28-08-1948"
+  },
+  {
+    "surname": "Winkler",
+    "name": "Hermann",
+    "group_code": "PPE",
+    "country_code": "de",
+    "id_mep": 96764,
+    "id_seat": 840,
+    "id_group": 4273,
+    "birthday": "22-04-1963"
+  },
+  {
+    "surname": "Lope Fontagné",
+    "name": "Verónica",
+    "group_code": "PPE",
+    "country_code": "es",
+    "id_mep": 96765,
+    "id_seat": 593,
+    "id_group": 4273,
+    "birthday": "01-02-1952"
+  },
+  {
+    "surname": "Thun und Hohenstein",
+    "name": "Róża Gräfin von",
+    "group_code": "PPE",
+    "country_code": "pl",
+    "id_mep": 96776,
+    "id_seat": 828,
+    "id_group": 4273,
+    "birthday": "13-04-1954"
+  },
+  {
+    "surname": "Danjean",
+    "name": "Arnaud",
+    "group_code": "PPE",
+    "country_code": "fr",
+    "id_mep": 96747,
+    "id_seat": 417,
+    "id_group": 4273,
+    "birthday": "11-02-1971"
+  },
+  {
+    "surname": "Zeller",
+    "name": "Joachim",
+    "group_code": "PPE",
+    "country_code": "de",
+    "id_mep": 96762,
+    "id_seat": 847,
+    "id_group": 4273,
+    "birthday": "01-07-1952"
+  },
+  {
+    "surname": "Jahr",
+    "name": "Peter",
+    "group_code": "PPE",
+    "country_code": "de",
+    "id_mep": 96772,
+    "id_seat": 331,
+    "id_group": 4273,
+    "birthday": "24-04-1959"
+  },
+  {
+    "surname": "Jazłowiecka",
+    "name": "Danuta",
+    "group_code": "PPE",
+    "country_code": "pl",
+    "id_mep": 96781,
+    "id_seat": 576,
+    "id_group": 4273,
+    "birthday": "19-05-1957"
+  },
+  {
+    "surname": "Hübner",
+    "name": "Danuta Maria",
+    "group_code": "PPE",
+    "country_code": "pl",
+    "id_mep": 96779,
+    "id_seat": 205,
+    "id_group": 4273,
+    "birthday": "08-04-1948"
+  },
+  {
+    "surname": "Dorfmann",
+    "name": "Herbert",
+    "group_code": "PPE",
+    "country_code": "it",
+    "id_mep": 96787,
+    "id_seat": 490,
+    "id_group": 4273,
+    "birthday": "04-03-1969"
+  },
+  {
+    "surname": "Comi",
+    "name": "Lara",
+    "group_code": "PPE",
+    "country_code": "it",
+    "id_mep": 96775,
+    "id_seat": 16,
+    "id_group": 4273,
+    "birthday": "18-02-1983"
+  },
+  {
+    "surname": "Hohlmeier",
+    "name": "Monika",
+    "group_code": "PPE",
+    "country_code": "de",
+    "id_mep": 96780,
+    "id_seat": 508,
+    "id_group": 4273,
+    "birthday": "02-07-1962"
+  },
+  {
+    "surname": "Nuttall",
+    "name": "Paul",
+    "group_code": "EFDD",
+    "country_code": "gb",
+    "id_mep": 96805,
+    "id_seat": 41,
+    "id_group": 4880,
+    "birthday": "30-11-1976"
+  },
+  {
+    "surname": "Jiménez-Becerril Barrio",
+    "name": "Teresa",
+    "group_code": "PPE",
+    "country_code": "es",
+    "id_mep": 96806,
+    "id_seat": 577,
+    "id_group": 4273,
+    "birthday": "24-07-1961"
+  },
+  {
+    "surname": "Legutko",
+    "name": "Ryszard Antoni",
+    "group_code": "ECR",
+    "country_code": "pl",
+    "id_mep": 96796,
+    "id_seat": 19,
+    "id_group": 4275,
+    "birthday": "24-12-1949"
+  },
+  {
+    "surname": "López Aguilar",
+    "name": "Juan Fernando",
+    "group_code": "S&D",
+    "country_code": "es",
+    "id_mep": 96812,
+    "id_seat": 628,
+    "id_group": 4284,
+    "birthday": "10-06-1961"
+  },
+  {
+    "surname": "van Dalen",
+    "name": "Peter",
+    "group_code": "ECR",
+    "country_code": "nl",
+    "id_mep": 96809,
+    "id_seat": 207,
+    "id_group": 4275,
+    "birthday": "03-09-1958"
+  },
+  {
+    "surname": "Estaràs Ferragut",
+    "name": "Rosa",
+    "group_code": "PPE",
+    "country_code": "es",
+    "id_mep": 96811,
+    "id_seat": 493,
+    "id_group": 4273,
+    "birthday": "21-10-1965"
+  },
+  {
+    "surname": "Matera",
+    "name": "Barbara",
+    "group_code": "PPE",
+    "country_code": "it",
+    "id_mep": 96813,
+    "id_seat": 668,
+    "id_group": 4273,
+    "birthday": "09-12-1981"
+  },
+  {
+    "surname": "Poc",
+    "name": "Pavel",
+    "group_code": "S&D",
+    "country_code": "cz",
+    "id_mep": 96715,
+    "id_seat": 131,
+    "id_group": 4284,
+    "birthday": "26-05-1964"
+  },
+  {
+    "surname": "La Via",
+    "name": "Giovanni",
+    "group_code": "PPE",
+    "country_code": "it",
+    "id_mep": 96816,
+    "id_seat": 589,
+    "id_group": 4273,
+    "birthday": "28-06-1963"
+  },
+  {
+    "surname": "Macovei",
+    "name": "Monica",
+    "group_code": "ECR",
+    "country_code": "ro",
+    "id_mep": 96824,
+    "id_seat": 273,
+    "id_group": 4275,
+    "birthday": "04-02-1959"
+  },
+  {
+    "surname": "Deutsch",
+    "name": "Tamás",
+    "group_code": "PPE",
+    "country_code": "hu",
+    "id_mep": 96826,
+    "id_seat": 424,
+    "id_group": 4273,
+    "birthday": "27-07-1966"
+  },
+  {
+    "surname": "Kósa",
+    "name": "Ádám",
+    "group_code": "PPE",
+    "country_code": "hu",
+    "id_mep": 96829,
+    "id_seat": 504,
+    "id_group": 4273,
+    "birthday": "01-07-1975"
+  },
+  {
+    "surname": "Ungureanu",
+    "name": "Traian",
+    "group_code": "PPE",
+    "country_code": "ro",
+    "id_mep": 96835,
+    "id_seat": 831,
+    "id_group": 4273,
+    "birthday": "01-03-1958"
+  },
+  {
+    "surname": "Bové",
+    "name": "José",
+    "group_code": "Verts/ALE",
+    "country_code": "fr",
+    "id_mep": 96744,
+    "id_seat": 252,
+    "id_group": 4285,
+    "birthday": "11-06-1953"
+  },
+  {
+    "surname": "Simon",
+    "name": "Peter",
+    "group_code": "S&D",
+    "country_code": "de",
+    "id_mep": 96836,
+    "id_seat": 310,
+    "id_group": 4284,
+    "birthday": "04-04-1967"
+  },
+  {
+    "surname": "Zemke",
+    "name": "Janusz",
+    "group_code": "S&D",
+    "country_code": "pl",
+    "id_mep": 96784,
+    "id_seat": 804,
+    "id_group": 4284,
+    "birthday": "24-02-1949"
+  },
+  {
+    "surname": "Kammerevert",
+    "name": "Petra",
+    "group_code": "S&D",
+    "country_code": "de",
+    "id_mep": 96837,
+    "id_seat": 244,
+    "id_group": 4284,
+    "birthday": "01-06-1966"
+  },
+  {
+    "surname": "Westphal",
+    "name": "Kerstin",
+    "group_code": "S&D",
+    "country_code": "de",
+    "id_mep": 96839,
+    "id_seat": 800,
+    "id_group": 4284,
+    "birthday": "11-09-1962"
+  },
+  {
+    "surname": "Preda",
+    "name": "Cristian Dan",
+    "group_code": "PPE",
+    "country_code": "ro",
+    "id_mep": 96838,
+    "id_seat": 206,
+    "id_group": 4273,
+    "birthday": "26-10-1966"
+  },
+  {
+    "surname": "Fleckenstein",
+    "name": "Knut",
+    "group_code": "S&D",
+    "country_code": "de",
+    "id_mep": 96840,
+    "id_seat": 247,
+    "id_group": 4284,
+    "birthday": "20-12-1953"
+  },
+  {
+    "surname": "Neuser",
+    "name": "Norbert",
+    "group_code": "S&D",
+    "country_code": "de",
+    "id_mep": 96844,
+    "id_seat": 248,
+    "id_group": 4284,
+    "birthday": "22-03-1949"
+  },
+  {
+    "surname": "Wałęsa",
+    "name": "Jarosław",
+    "group_code": "PPE",
+    "country_code": "pl",
+    "id_mep": 96774,
+    "id_seat": 839,
+    "id_group": 4273,
+    "birthday": "13-09-1976"
+  },
+  {
+    "surname": "Poręba",
+    "name": "Tomasz Piotr",
+    "group_code": "ECR",
+    "country_code": "pl",
+    "id_mep": 96801,
+    "id_seat": 431,
+    "id_group": 4275,
+    "birthday": "31-03-1973"
+  },
+  {
+    "surname": "Händel",
+    "name": "Thomas",
+    "group_code": "GUE/NGL",
+    "country_code": "de",
+    "id_mep": 96851,
+    "id_seat": 377,
+    "id_group": 4281,
+    "birthday": "27-08-1953"
+  },
+  {
+    "surname": "Łukacijewska",
+    "name": "Elżbieta Katarzyna",
+    "group_code": "PPE",
+    "country_code": "pl",
+    "id_mep": 96791,
+    "id_seat": 661,
+    "id_group": 4273,
+    "birthday": "25-11-1966"
+  },
+  {
+    "surname": "Lösing",
+    "name": "Sabine",
+    "group_code": "GUE/NGL",
+    "country_code": "de",
+    "id_mep": 96854,
+    "id_seat": 379,
+    "id_group": 4281,
+    "birthday": "30-11-1955"
+  },
+  {
+    "surname": "Ivan",
+    "name": "Cătălin Sorin",
+    "group_code": "NI",
+    "country_code": "ro",
+    "id_mep": 96857,
+    "id_seat": 858,
+    "id_group": 3968,
+    "birthday": "23-12-1978"
+  },
+  {
+    "surname": "Ernst",
+    "name": "Cornelia",
+    "group_code": "GUE/NGL",
+    "country_code": "de",
+    "id_mep": 96852,
+    "id_seat": 376,
+    "id_group": 4281,
+    "birthday": "30-11-1956"
+  },
+  {
+    "surname": "Sargentini",
+    "name": "Judith",
+    "group_code": "Verts/ALE",
+    "country_code": "nl",
+    "id_mep": 96815,
+    "id_seat": 648,
+    "id_group": 4285,
+    "birthday": "13-03-1974"
+  },
+  {
+    "surname": "Vergiat",
+    "name": "Marie-Christine",
+    "group_code": "GUE/NGL",
+    "country_code": "fr",
+    "id_mep": 96858,
+    "id_seat": 302,
+    "id_group": 4281,
+    "birthday": "23-09-1956"
+  },
+  {
+    "surname": "Sassoli",
+    "name": "David-Maria",
+    "group_code": "S&D",
+    "country_code": "it",
+    "id_mep": 96864,
+    "id_seat": 179,
+    "id_group": 4284,
+    "birthday": "30-05-1956"
+  },
+  {
+    "surname": "Delli",
+    "name": "Karima",
+    "group_code": "Verts/ALE",
+    "country_code": "fr",
+    "id_mep": 96868,
+    "id_seat": 397,
+    "id_group": 4285,
+    "birthday": "04-03-1979"
+  },
+  {
+    "surname": "Hirsch",
+    "name": "Nadja",
+    "group_code": "ALDE",
+    "country_code": "de",
+    "id_mep": 96872,
+    "id_seat": 657,
+    "id_group": 4283,
+    "birthday": "13-07-1978"
+  },
+  {
+    "surname": "Ertug",
+    "name": "Ismail",
+    "group_code": "S&D",
+    "country_code": "de",
+    "id_mep": 96842,
+    "id_seat": 314,
+    "id_group": 4284,
+    "birthday": "05-12-1975"
+  },
+  {
+    "surname": "Engel",
+    "name": "Frank",
+    "group_code": "PPE",
+    "country_code": "lu",
+    "id_mep": 96876,
+    "id_seat": 258,
+    "id_group": 4273,
+    "birthday": "10-05-1975"
+  },
+  {
+    "surname": "Cadec",
+    "name": "Alain",
+    "group_code": "PPE",
+    "country_code": "fr",
+    "id_mep": 96849,
+    "id_seat": 203,
+    "id_group": 4273,
+    "birthday": "21-06-1953"
+  },
+  {
+    "surname": "Matias",
+    "name": "Marisa",
+    "group_code": "GUE/NGL",
+    "country_code": "pt",
+    "id_mep": 96820,
+    "id_seat": 454,
+    "id_group": 4281,
+    "birthday": "20-02-1976"
+  },
+  {
+    "surname": "Juvin",
+    "name": "Philippe",
+    "group_code": "PPE",
+    "country_code": "fr",
+    "id_mep": 96884,
+    "id_seat": 579,
+    "id_group": 4273,
+    "birthday": "01-02-1964"
+  },
+  {
+    "surname": "Joly",
+    "name": "Eva",
+    "group_code": "Verts/ALE",
+    "country_code": "fr",
+    "id_mep": 96883,
+    "id_seat": 565,
+    "id_group": 4285,
+    "birthday": "05-12-1943"
+  },
+  {
+    "surname": "Cozzolino",
+    "name": "Andrea",
+    "group_code": "S&D",
+    "country_code": "it",
+    "id_mep": 96880,
+    "id_seat": 396,
+    "id_group": 4284,
+    "birthday": "03-08-1962"
+  },
+  {
+    "surname": "Tănăsescu",
+    "name": "Claudiu Ciprian",
+    "group_code": "S&D",
+    "country_code": "ro",
+    "id_mep": 96847,
+    "id_seat": 728,
+    "id_group": 4284,
+    "birthday": "19-07-1965"
+  },
+  {
+    "surname": "Gualtieri",
+    "name": "Roberto",
+    "group_code": "S&D",
+    "country_code": "it",
+    "id_mep": 96892,
+    "id_seat": 176,
+    "id_group": 4284,
+    "birthday": "19-07-1966"
+  },
+  {
+    "surname": "Geier",
+    "name": "Jens",
+    "group_code": "S&D",
+    "country_code": "de",
+    "id_mep": 96833,
+    "id_seat": 55,
+    "id_group": 4284,
+    "birthday": "22-06-1961"
+  },
+  {
+    "surname": "Nicolai",
+    "name": "Norica",
+    "group_code": "ALDE",
+    "country_code": "ro",
+    "id_mep": 96825,
+    "id_seat": 94,
+    "id_group": 4283,
+    "birthday": "27-01-1958"
+  },
+  {
+    "surname": "Balczó",
+    "name": "Zoltán",
+    "group_code": "NI",
+    "country_code": "hu",
+    "id_mep": 96877,
+    "id_seat": 787,
+    "id_group": 3968,
+    "birthday": "24-03-1948"
+  },
+  {
+    "surname": "Fajon",
+    "name": "Tanja",
+    "group_code": "S&D",
+    "country_code": "si",
+    "id_mep": 96911,
+    "id_seat": 26,
+    "id_group": 4284,
+    "birthday": "09-05-1971"
+  },
+  {
+    "surname": "Fernandes",
+    "name": "José Manuel",
+    "group_code": "PPE",
+    "country_code": "pt",
+    "id_mep": 96899,
+    "id_seat": 260,
+    "id_group": 4273,
+    "birthday": "26-07-1967"
+  },
+  {
+    "surname": "Riquet",
+    "name": "Dominique",
+    "group_code": "ALDE",
+    "country_code": "fr",
+    "id_mep": 96885,
+    "id_seat": 60,
+    "id_group": 4283,
+    "birthday": "18-09-1946"
+  },
+  {
+    "surname": "Campbell Bannerman",
+    "name": "David",
+    "group_code": "ECR",
+    "country_code": "gb",
+    "id_mep": 96912,
+    "id_seat": 427,
+    "id_group": 4275,
+    "birthday": "28-05-1960"
+  },
+  {
+    "surname": "Costa",
+    "name": "Silvia",
+    "group_code": "S&D",
+    "country_code": "it",
+    "id_mep": 96917,
+    "id_seat": 318,
+    "id_group": 4284,
+    "birthday": "12-06-1949"
+  },
+  {
+    "surname": "Cofferati",
+    "name": "Sergio Gaetano",
+    "group_code": "S&D",
+    "country_code": "it",
+    "id_mep": 96915,
+    "id_seat": 395,
+    "id_group": 4284,
+    "birthday": "30-01-1948"
+  },
+  {
+    "surname": "Swinburne",
+    "name": "Kay",
+    "group_code": "ECR",
+    "country_code": "gb",
+    "id_mep": 96920,
+    "id_seat": 777,
+    "id_group": 4275,
+    "birthday": "08-06-1967"
+  },
+  {
+    "surname": "Ponga",
+    "name": "Maurice",
+    "group_code": "PPE",
+    "country_code": "fr",
+    "id_mep": 96931,
+    "id_seat": 747,
+    "id_group": 4273,
+    "birthday": "05-06-1947"
+  },
+  {
+    "surname": "McClarkin",
+    "name": "Emma",
+    "group_code": "ECR",
+    "country_code": "gb",
+    "id_mep": 96919,
+    "id_seat": 211,
+    "id_group": 4275,
+    "birthday": "09-10-1978"
+  },
+  {
+    "surname": "Meissner",
+    "name": "Gesine",
+    "group_code": "ALDE",
+    "country_code": "de",
+    "id_mep": 96870,
+    "id_seat": 193,
+    "id_group": 4283,
+    "birthday": "22-02-1952"
+  },
+  {
+    "surname": "Bilbao Barandica",
+    "name": "Izaskun",
+    "group_code": "ALDE",
+    "country_code": "es",
+    "id_mep": 96922,
+    "id_seat": 95,
+    "id_group": 4283,
+    "birthday": "27-03-1961"
+  },
+  {
+    "surname": "Agnew",
+    "name": "John Stuart",
+    "group_code": "ENF",
+    "country_code": "gb",
+    "id_mep": 96897,
+    "id_seat": 611,
+    "id_group": 4908,
+    "birthday": "30-08-1949"
+  },
+  {
+    "surname": "Vaughan",
+    "name": "Derek",
+    "group_code": "S&D",
+    "country_code": "gb",
+    "id_mep": 96918,
+    "id_seat": 731,
+    "id_group": 4284,
+    "birthday": "02-05-1961"
+  },
+  {
+    "surname": "Zver",
+    "name": "Milan",
+    "group_code": "PPE",
+    "country_code": "si",
+    "id_mep": 96933,
+    "id_seat": 107,
+    "id_group": 4273,
+    "birthday": "25-05-1962"
+  },
+  {
+    "surname": "Sippel",
+    "name": "Birgit",
+    "group_code": "S&D",
+    "country_code": "de",
+    "id_mep": 96932,
+    "id_seat": 320,
+    "id_group": 4284,
+    "birthday": "29-01-1960"
+  },
+  {
+    "surname": "De Castro",
+    "name": "Paolo",
+    "group_code": "S&D",
+    "country_code": "it",
+    "id_mep": 96891,
+    "id_seat": 460,
+    "id_group": 4284,
+    "birthday": "02-02-1958"
+  },
+  {
+    "surname": "Mato",
+    "name": "Gabriel",
+    "group_code": "PPE",
+    "country_code": "es",
+    "id_mep": 96936,
+    "id_seat": 268,
+    "id_group": 4273,
+    "birthday": "29-04-1961"
+  },
+  {
+    "surname": "van Baalen",
+    "name": "Johannes Cornelis",
+    "group_code": "ALDE",
+    "country_code": "nl",
+    "id_mep": 96937,
+    "id_seat": 254,
+    "id_group": 4283,
+    "birthday": "17-06-1960"
+  },
+  {
+    "surname": "Guillaume",
+    "name": "Sylvie",
+    "group_code": "S&D",
+    "country_code": "fr",
+    "id_mep": 96952,
+    "id_seat": 182,
+    "id_group": 4284,
+    "birthday": "11-06-1962"
+  },
+  {
+    "surname": "Rangel",
+    "name": "Paulo",
+    "group_code": "PPE",
+    "country_code": "pt",
+    "id_mep": 96903,
+    "id_seat": 34,
+    "id_group": 4273,
+    "birthday": "18-02-1968"
+  },
+  {
+    "surname": "Schaake",
+    "name": "Marietje",
+    "group_code": "ALDE",
+    "country_code": "nl",
+    "id_mep": 96945,
+    "id_seat": 819,
+    "id_group": 4283,
+    "birthday": "28-10-1978"
+  },
+  {
+    "surname": "Gerbrandy",
+    "name": "Gerben-Jan",
+    "group_code": "ALDE",
+    "country_code": "nl",
+    "id_mep": 96940,
+    "id_seat": 653,
+    "id_group": 4283,
+    "birthday": "28-06-1967"
+  },
+  {
+    "surname": "Girling",
+    "name": "Julie",
+    "group_code": "PPE",
+    "country_code": "gb",
+    "id_mep": 96956,
+    "id_seat": 501,
+    "id_group": 4273,
+    "birthday": "21-12-1956"
+  },
+  {
+    "surname": "Hadjigeorgiou",
+    "name": "Takis",
+    "group_code": "GUE/NGL",
+    "country_code": "cy",
+    "id_mep": 96907,
+    "id_seat": 125,
+    "id_group": 4281,
+    "birthday": "11-12-1956"
+  },
+  {
+    "surname": "Pargneaux",
+    "name": "Gilles",
+    "group_code": "S&D",
+    "country_code": "fr",
+    "id_mep": 96948,
+    "id_seat": 646,
+    "id_group": 4284,
+    "birthday": "24-03-1957"
+  },
+  {
+    "surname": "Gardiazabal Rubial",
+    "name": "Eider",
+    "group_code": "S&D",
+    "country_code": "es",
+    "id_mep": 96991,
+    "id_seat": 240,
+    "id_group": 4284,
+    "birthday": "12-07-1975"
+  },
+  {
+    "surname": "Kalniete",
+    "name": "Sandra",
+    "group_code": "PPE",
+    "country_code": "lv",
+    "id_mep": 96934,
+    "id_seat": 36,
+    "id_group": 4273,
+    "birthday": "22-12-1952"
+  },
+  {
+    "surname": "(The Earl of) Dartmouth",
+    "name": "William",
+    "group_code": "EFDD",
+    "country_code": "gb",
+    "id_mep": 96958,
+    "id_seat": 279,
+    "id_group": 4880,
+    "birthday": "23-09-1949"
+  },
+  {
+    "surname": "Melo",
+    "name": "Nuno",
+    "group_code": "PPE",
+    "country_code": "pt",
+    "id_mep": 96978,
+    "id_seat": 101,
+    "id_group": 4273,
+    "birthday": "18-03-1966"
+  },
+  {
+    "surname": "Scottà",
+    "name": "Giancarlo",
+    "group_code": "ENF",
+    "country_code": "it",
+    "id_mep": 96996,
+    "id_seat": 358,
+    "id_group": 4908,
+    "birthday": "11-04-1953"
+  },
+  {
+    "surname": "Rochefort",
+    "name": "Robert",
+    "group_code": "ALDE",
+    "country_code": "fr",
+    "id_mep": 97022,
+    "id_seat": 817,
+    "id_group": 4283,
+    "birthday": "19-09-1955"
+  },
+  {
+    "surname": "Fox",
+    "name": "Ashley",
+    "group_code": "ECR",
+    "country_code": "gb",
+    "id_mep": 96957,
+    "id_seat": 155,
+    "id_group": 4275,
+    "birthday": "15-11-1969"
+  },
+  {
+    "surname": "Verhofstadt",
+    "name": "Guy",
+    "group_code": "ALDE",
+    "country_code": "be",
+    "id_mep": 97058,
+    "id_seat": 11,
+    "id_group": 4283,
+    "birthday": "11-04-1953"
+  },
+  {
+    "surname": "Bearder",
+    "name": "Catherine",
+    "group_code": "ALDE",
+    "country_code": "gb",
+    "id_mep": 96955,
+    "id_seat": 192,
+    "id_group": 4283,
+    "birthday": "14-01-1949"
+  },
+  {
+    "surname": "Regner",
+    "name": "Evelyn",
+    "group_code": "S&D",
+    "country_code": "at",
+    "id_mep": 96998,
+    "id_seat": 91,
+    "id_group": 4284,
+    "birthday": "24-01-1966"
+  },
+  {
+    "surname": "Vajgl",
+    "name": "Ivo",
+    "group_code": "ALDE",
+    "country_code": "si",
+    "id_mep": 97019,
+    "id_seat": 488,
+    "id_group": 4283,
+    "birthday": "03-03-1943"
+  },
+  {
+    "surname": "Dodds",
+    "name": "Diane",
+    "group_code": "NI",
+    "country_code": "gb",
+    "id_mep": 96951,
+    "id_seat": 861,
+    "id_group": 3968,
+    "birthday": "16-08-1958"
+  },
+  {
+    "surname": "Padar",
+    "name": "Ivari",
+    "group_code": "S&D",
+    "country_code": "ee",
+    "id_mep": 97025,
+    "id_seat": 185,
+    "id_group": 4284,
+    "birthday": "12-03-1965"
+  },
+  {
+    "surname": "Tremosa i Balcells",
+    "name": "Ramon",
+    "group_code": "ALDE",
+    "country_code": "es",
+    "id_mep": 97203,
+    "id_seat": 484,
+    "id_group": 4283,
+    "birthday": "30-06-1965"
+  },
+  {
+    "surname": "Kovatchev",
+    "name": "Andrey",
+    "group_code": "PPE",
+    "country_code": "bg",
+    "id_mep": 97968,
+    "id_seat": 35,
+    "id_group": 4273,
+    "birthday": "13-12-1967"
+  },
+  {
+    "surname": "Bach",
+    "name": "Georges",
+    "group_code": "PPE",
+    "country_code": "lu",
+    "id_mep": 97293,
+    "id_seat": 339,
+    "id_group": 4273,
+    "birthday": "12-06-1955"
+  },
+  {
+    "surname": "Obermayr",
+    "name": "Franz",
+    "group_code": "ENF",
+    "country_code": "at",
+    "id_mep": 96981,
+    "id_seat": 444,
+    "id_group": 4908,
+    "birthday": "25-05-1952"
+  },
+  {
+    "surname": "Aker",
+    "name": "Tim",
+    "group_code": "EFDD",
+    "country_code": "gb",
+    "id_mep": 99650,
+    "id_seat": 609,
+    "id_group": 4880,
+    "birthday": "23-05-1985"
+  },
+  {
+    "surname": "Maydell",
+    "name": "Eva",
+    "group_code": "PPE",
+    "country_code": "bg",
+    "id_mep": 98341,
+    "id_seat": 669,
+    "id_group": 4273,
+    "birthday": "26-01-1986"
+  },
+  {
+    "surname": "Taylor",
+    "name": "Keith",
+    "group_code": "Verts/ALE",
+    "country_code": "gb",
+    "id_mep": 102931,
+    "id_seat": 812,
+    "id_group": 4285,
+    "birthday": "01-08-1953"
+  },
+  {
+    "surname": "Kadenbach",
+    "name": "Karin",
+    "group_code": "S&D",
+    "country_code": "at",
+    "id_mep": 97014,
+    "id_seat": 555,
+    "id_group": 4284,
+    "birthday": "19-04-1958"
+  },
+  {
+    "surname": "Kovács",
+    "name": "Béla",
+    "group_code": "NI",
+    "country_code": "hu",
+    "id_mep": 102887,
+    "id_seat": 788,
+    "id_group": 3968,
+    "birthday": "25-02-1960"
+  },
+  {
+    "surname": "Zijlstra",
+    "name": "Auke",
+    "group_code": "ENF",
+    "country_code": "nl",
+    "id_mep": 103246,
+    "id_seat": 525,
+    "id_group": 4908,
+    "birthday": "01-11-1964"
+  },
+  {
+    "surname": "Becker",
+    "name": "Heinz K.",
+    "group_code": "PPE",
+    "country_code": "at",
+    "id_mep": 107041,
+    "id_seat": 340,
+    "id_group": 4273,
+    "birthday": "29-06-1950"
+  },
+  {
+    "surname": "Jáuregui Atondo",
+    "name": "Ramón",
+    "group_code": "S&D",
+    "country_code": "es",
+    "id_mep": 97078,
+    "id_seat": 554,
+    "id_group": 4284,
+    "birthday": "01-09-1948"
+  },
+  {
+    "surname": "Reintke",
+    "name": "Terry",
+    "group_code": "Verts/ALE",
+    "country_code": "de",
+    "id_mep": 103381,
+    "id_seat": 650,
+    "id_group": 4285,
+    "birthday": "09-05-1987"
+  },
+  {
+    "surname": "Gutiérrez Prieto",
+    "name": "Sergio",
+    "group_code": "S&D",
+    "country_code": "es",
+    "id_mep": 103488,
+    "id_seat": 547,
+    "id_group": 4284,
+    "birthday": "11-07-1982"
+  },
+  {
+    "surname": "Rozière",
+    "name": "Virginie",
+    "group_code": "S&D",
+    "country_code": "fr",
+    "id_mep": 103845,
+    "id_seat": 311,
+    "id_group": 4284,
+    "birthday": "18-06-1976"
+  },
+  {
+    "surname": "Tarand",
+    "name": "Indrek",
+    "group_code": "Verts/ALE",
+    "country_code": "ee",
+    "id_mep": 97136,
+    "id_seat": 734,
+    "id_group": 4285,
+    "birthday": "03-02-1964"
+  },
+  {
+    "surname": "Malinov",
+    "name": "Svetoslav Hristov",
+    "group_code": "PPE",
+    "country_code": "bg",
+    "id_mep": 111027,
+    "id_seat": 663,
+    "id_group": 4273,
+    "birthday": "19-01-1968"
+  },
+  {
+    "surname": "Bizzotto",
+    "name": "Mara",
+    "group_code": "ENF",
+    "country_code": "it",
+    "id_mep": 97198,
+    "id_seat": 361,
+    "id_group": 4908,
+    "birthday": "03-06-1972"
+  },
+  {
+    "surname": "Proust",
+    "name": "Franck",
+    "group_code": "PPE",
+    "country_code": "fr",
+    "id_mep": 108080,
+    "id_seat": 64,
+    "id_group": 4273,
+    "birthday": "02-05-1963"
+  },
+  {
+    "surname": "Novakov",
+    "name": "Andrey",
+    "group_code": "PPE",
+    "country_code": "bg",
+    "id_mep": 107212,
+    "id_seat": 679,
+    "id_group": 4273,
+    "birthday": "07-07-1988"
+  },
+  {
+    "surname": "McIntyre",
+    "name": "Anthea",
+    "group_code": "ECR",
+    "country_code": "gb",
+    "id_mep": 111011,
+    "id_seat": 685,
+    "id_group": 4275,
+    "birthday": "29-06-1954"
+  },
+  {
+    "surname": "Reid",
+    "name": "Julia",
+    "group_code": "EFDD",
+    "country_code": "gb",
+    "id_mep": 106202,
+    "id_seat": 71,
+    "id_group": 4880,
+    "birthday": "16-07-1952"
+  },
+  {
+    "surname": "Sarvamaa",
+    "name": "Petri",
+    "group_code": "PPE",
+    "country_code": "fi",
+    "id_mep": 112611,
+    "id_seat": 261,
+    "id_group": 4273,
+    "birthday": "15-09-1960"
+  },
+  {
+    "surname": "Dantin",
+    "name": "Michel",
+    "group_code": "PPE",
+    "country_code": "fr",
+    "id_mep": 97296,
+    "id_seat": 418,
+    "id_group": 4273,
+    "birthday": "15-01-1960"
+  },
+  {
+    "surname": "Anderson",
+    "name": "Martina",
+    "group_code": "GUE/NGL",
+    "country_code": "gb",
+    "id_mep": 113959,
+    "id_seat": 172,
+    "id_group": 4281,
+    "birthday": "16-04-1962"
+  },
+  {
+    "surname": "Philippot",
+    "name": "Florian",
+    "group_code": "EFDD",
+    "country_code": "fr",
+    "id_mep": 110977,
+    "id_seat": 112,
+    "id_group": 4880,
+    "birthday": "24-10-1981"
+  },
+  {
+    "surname": "Borzan",
+    "name": "Biljana",
+    "group_code": "S&D",
+    "country_code": "hr",
+    "id_mep": 112748,
+    "id_seat": 388,
+    "id_group": 4284,
+    "birthday": "29-11-1971"
+  },
+  {
+    "surname": "Šadurskis",
+    "name": "Kārlis",
+    "group_code": "PPE",
+    "country_code": "lv",
+    "id_mep": 111033,
+    "id_seat": 144,
+    "id_group": 4273,
+    "birthday": "11-10-1959"
+  },
+  {
+    "surname": "Torvalds",
+    "name": "Nils",
+    "group_code": "ALDE",
+    "country_code": "fi",
+    "id_mep": 114268,
+    "id_seat": 32,
+    "id_group": 4283,
+    "birthday": "07-08-1945"
+  },
+  {
+    "surname": "Collin-Langen",
+    "name": "Birgit",
+    "group_code": "PPE",
+    "country_code": "de",
+    "id_mep": 112788,
+    "id_seat": 414,
+    "id_group": 4273,
+    "birthday": "04-09-1956"
+  },
+  {
+    "surname": "Mizzi",
+    "name": "Marlene",
+    "group_code": "S&D",
+    "country_code": "mt",
+    "id_mep": 118858,
+    "id_seat": 637,
+    "id_group": 4284,
+    "birthday": "24-12-1954"
+  },
+  {
+    "surname": "Weidenholzer",
+    "name": "Josef",
+    "group_code": "S&D",
+    "country_code": "at",
+    "id_mep": 111014,
+    "id_seat": 4,
+    "id_group": 4284,
+    "birthday": "06-03-1950"
+  },
+  {
+    "surname": "Hayes",
+    "name": "Brian",
+    "group_code": "PPE",
+    "country_code": "ie",
+    "id_mep": 118658,
+    "id_seat": 505,
+    "id_group": 4273,
+    "birthday": "23-08-1969"
+  },
+  {
+    "surname": "Demesmaeker",
+    "name": "Mark",
+    "group_code": "ECR",
+    "country_code": "be",
+    "id_mep": 117477,
+    "id_seat": 156,
+    "id_group": 4275,
+    "birthday": "12-09-1958"
+  },
+  {
+    "surname": "Van Bossuyt",
+    "name": "Anneleen",
+    "group_code": "ECR",
+    "country_code": "be",
+    "id_mep": 117491,
+    "id_seat": 274,
+    "id_group": 4275,
+    "birthday": "10-01-1980"
+  },
+  {
+    "surname": "Šuica",
+    "name": "Dubravka",
+    "group_code": "PPE",
+    "country_code": "hr",
+    "id_mep": 119434,
+    "id_seat": 105,
+    "id_group": 4273,
+    "birthday": "20-05-1957"
+  },
+  {
+    "surname": "Tomašić",
+    "name": "Ruža",
+    "group_code": "ECR",
+    "country_code": "hr",
+    "id_mep": 119431,
+    "id_seat": 351,
+    "id_group": 4275,
+    "birthday": "10-05-1958"
+  },
+  {
+    "surname": "Picula",
+    "name": "Tonino",
+    "group_code": "S&D",
+    "country_code": "hr",
+    "id_mep": 112744,
+    "id_seat": 127,
+    "id_group": 4284,
+    "birthday": "31-08-1961"
+  },
+  {
+    "surname": "Metsola",
+    "name": "Roberta",
+    "group_code": "PPE",
+    "country_code": "mt",
+    "id_mep": 118859,
+    "id_seat": 271,
+    "id_group": 4273,
+    "birthday": "18-01-1979"
+  },
+  {
+    "surname": "Maletić",
+    "name": "Ivana",
+    "group_code": "PPE",
+    "country_code": "hr",
+    "id_mep": 119436,
+    "id_seat": 662,
+    "id_group": 4273,
+    "birthday": "12-10-1973"
+  },
+  {
+    "surname": "Andrieu",
+    "name": "Eric",
+    "group_code": "S&D",
+    "country_code": "fr",
+    "id_mep": 113892,
+    "id_seat": 29,
+    "id_group": 4284,
+    "birthday": "14-04-1960"
+  },
+  {
+    "surname": "Kari",
+    "name": "Rina Ronja",
+    "group_code": "GUE/NGL",
+    "country_code": "dk",
+    "id_mep": 122885,
+    "id_seat": 82,
+    "id_group": 4281,
+    "birthday": "15-02-1985"
+  },
+  {
+    "surname": "Papadakis",
+    "name": "Demetris",
+    "group_code": "S&D",
+    "country_code": "cy",
+    "id_mep": 124692,
+    "id_seat": 183,
+    "id_group": 4284,
+    "birthday": "22-08-1966"
+  },
+  {
+    "surname": "Radoš",
+    "name": "Jozo",
+    "group_code": "ALDE",
+    "country_code": "hr",
+    "id_mep": 112753,
+    "id_seat": 485,
+    "id_group": 4283,
+    "birthday": "03-11-1956"
+  },
+  {
+    "surname": "Michels",
+    "name": "Martina",
+    "group_code": "GUE/NGL",
+    "country_code": "de",
+    "id_mep": 120478,
+    "id_seat": 374,
+    "id_group": 4281,
+    "birthday": "01-12-1955"
+  },
+  {
+    "surname": "Sylikiotis",
+    "name": "Neoklis",
+    "group_code": "GUE/NGL",
+    "country_code": "cy",
+    "id_mep": 124689,
+    "id_seat": 49,
+    "id_group": 4281,
+    "birthday": "24-01-1959"
+  },
+  {
+    "surname": "Thomas",
+    "name": "Isabelle",
+    "group_code": "S&D",
+    "country_code": "fr",
+    "id_mep": 114279,
+    "id_seat": 730,
+    "id_group": 4284,
+    "birthday": "26-11-1961"
+  },
+  {
+    "surname": "Poche",
+    "name": "Miroslav",
+    "group_code": "S&D",
+    "country_code": "cz",
+    "id_mep": 124699,
+    "id_seat": 712,
+    "id_group": 4284,
+    "birthday": "03-06-1978"
+  },
+  {
+    "surname": "Keller",
+    "name": "Jan",
+    "group_code": "S&D",
+    "country_code": "cz",
+    "id_mep": 124695,
+    "id_seat": 556,
+    "id_group": 4284,
+    "birthday": "23-01-1955"
+  },
+  {
+    "surname": "Mavrides",
+    "name": "Costas",
+    "group_code": "S&D",
+    "country_code": "cy",
+    "id_mep": 124691,
+    "id_seat": 184,
+    "id_group": 4284,
+    "birthday": "27-05-1962"
+  },
+  {
+    "surname": "Ujhelyi",
+    "name": "István",
+    "group_code": "S&D",
+    "country_code": "hu",
+    "id_mep": 124705,
+    "id_seat": 83,
+    "id_group": 4284,
+    "birthday": "28-02-1975"
+  },
+  {
+    "surname": "Štětina",
+    "name": "Jaromír",
+    "group_code": "PPE",
+    "country_code": "cz",
+    "id_mep": 124702,
+    "id_seat": 769,
+    "id_group": 4273,
+    "birthday": "06-04-1943"
+  },
+  {
+    "surname": "Charanzová",
+    "name": "Dita",
+    "group_code": "ALDE",
+    "country_code": "cz",
+    "id_mep": 124708,
+    "id_seat": 255,
+    "id_group": 4283,
+    "birthday": "30-04-1975"
+  },
+  {
+    "surname": "Šojdrová",
+    "name": "Michaela",
+    "group_code": "PPE",
+    "country_code": "cz",
+    "id_mep": 124710,
+    "id_seat": 765,
+    "id_group": 4273,
+    "birthday": "28-10-1963"
+  },
+  {
+    "surname": "Ježek",
+    "name": "Petr",
+    "group_code": "ALDE",
+    "country_code": "cz",
+    "id_mep": 124707,
+    "id_seat": 191,
+    "id_group": 4283,
+    "birthday": "28-03-1965"
+  },
+  {
+    "surname": "Revault d'Allonnes Bonnefoy",
+    "name": "Christine",
+    "group_code": "S&D",
+    "country_code": "fr",
+    "id_mep": 124287,
+    "id_seat": 87,
+    "id_group": 4284,
+    "birthday": "10-11-1971"
+  },
+  {
+    "surname": "Niedermayer",
+    "name": "Luděk",
+    "group_code": "PPE",
+    "country_code": "cz",
+    "id_mep": 124701,
+    "id_seat": 102,
+    "id_group": 4273,
+    "birthday": "13-03-1966"
+  },
+  {
+    "surname": "Toom",
+    "name": "Yana",
+    "group_code": "ALDE",
+    "country_code": "ee",
+    "id_mep": 124700,
+    "id_seat": 486,
+    "id_group": 4283,
+    "birthday": "15-10-1966"
+  },
+  {
+    "surname": "Durand",
+    "name": "Pascal",
+    "group_code": "Verts/ALE",
+    "country_code": "fr",
+    "id_mep": 124693,
+    "id_seat": 92,
+    "id_group": 4285,
+    "birthday": "03-10-1960"
+  },
+  {
+    "surname": "Deli",
+    "name": "Andor",
+    "group_code": "PPE",
+    "country_code": "hu",
+    "id_mep": 124714,
+    "id_seat": 423,
+    "id_group": 4273,
+    "birthday": "02-05-1977"
+  },
+  {
+    "surname": "Polčák",
+    "name": "Stanislav",
+    "group_code": "PPE",
+    "country_code": "cz",
+    "id_mep": 124704,
+    "id_seat": 746,
+    "id_group": 4273,
+    "birthday": "21-02-1980"
+  },
+  {
+    "surname": "Szanyi",
+    "name": "Tibor",
+    "group_code": "S&D",
+    "country_code": "hu",
+    "id_mep": 124703,
+    "id_seat": 727,
+    "id_group": 4284,
+    "birthday": "13-07-1956"
+  },
+  {
+    "surname": "Bocskor",
+    "name": "Andrea",
+    "group_code": "PPE",
+    "country_code": "hu",
+    "id_mep": 124712,
+    "id_seat": 341,
+    "id_group": 4273,
+    "birthday": "11-08-1978"
+  },
+  {
+    "surname": "Hölvényi",
+    "name": "György",
+    "group_code": "PPE",
+    "country_code": "hu",
+    "id_mep": 124715,
+    "id_seat": 509,
+    "id_group": 4273,
+    "birthday": "13-06-1962"
+  },
+  {
+    "surname": "Zdechovský",
+    "name": "Tomáš",
+    "group_code": "PPE",
+    "country_code": "cz",
+    "id_mep": 124713,
+    "id_seat": 845,
+    "id_group": 4273,
+    "birthday": "02-11-1979"
+  },
+  {
+    "surname": "Meszerics",
+    "name": "Tamás",
+    "group_code": "Verts/ALE",
+    "country_code": "hu",
+    "id_mep": 124720,
+    "id_seat": 652,
+    "id_group": 4285,
+    "birthday": "04-12-1964"
+  },
+  {
+    "surname": "Erdős",
+    "name": "Norbert",
+    "group_code": "PPE",
+    "country_code": "hu",
+    "id_mep": 124711,
+    "id_seat": 492,
+    "id_group": 4273,
+    "birthday": "25-10-1972"
+  },
+  {
+    "surname": "Telička",
+    "name": "Pavel",
+    "group_code": "ALDE",
+    "country_code": "cz",
+    "id_mep": 124706,
+    "id_seat": 96,
+    "id_group": 4283,
+    "birthday": "24-08-1965"
+  },
+  {
+    "surname": "Jávor",
+    "name": "Benedek",
+    "group_code": "Verts/ALE",
+    "country_code": "hu",
+    "id_mep": 124721,
+    "id_seat": 566,
+    "id_group": 4285,
+    "birthday": "02-07-1972"
+  },
+  {
+    "surname": "Manscour",
+    "name": "Louis-Joseph",
+    "group_code": "S&D",
+    "country_code": "fr",
+    "id_mep": 124725,
+    "id_seat": 631,
+    "id_group": 4284,
+    "birthday": "20-03-1945"
+  },
+  {
+    "surname": "Joulaud",
+    "name": "Marc",
+    "group_code": "PPE",
+    "country_code": "fr",
+    "id_mep": 124728,
+    "id_seat": 578,
+    "id_group": 4273,
+    "birthday": "03-09-1967"
+  },
+  {
+    "surname": "Niedermüller",
+    "name": "Péter",
+    "group_code": "S&D",
+    "country_code": "hu",
+    "id_mep": 124723,
+    "id_seat": 53,
+    "id_group": 4284,
+    "birthday": "03-09-1952"
+  },
+  {
+    "surname": "Monteiro de Aguiar",
+    "name": "Cláudia",
+    "group_code": "PPE",
+    "country_code": "pt",
+    "id_mep": 124734,
+    "id_seat": 672,
+    "id_group": 4273,
+    "birthday": "08-04-1982"
+  },
+  {
+    "surname": "Lavrilleux",
+    "name": "Jérôme",
+    "group_code": "PPE",
+    "country_code": "fr",
+    "id_mep": 124731,
+    "id_seat": 272,
+    "id_group": 4273,
+    "birthday": "19-09-1969"
+  },
+  {
+    "surname": "Delahaye",
+    "name": "Angélique",
+    "group_code": "PPE",
+    "country_code": "fr",
+    "id_mep": 124732,
+    "id_seat": 420,
+    "id_group": 4273,
+    "birthday": "22-02-1963"
+  },
+  {
+    "surname": "Muselier",
+    "name": "Renaud",
+    "group_code": "PPE",
+    "country_code": "fr",
+    "id_mep": 124729,
+    "id_seat": 676,
+    "id_group": 4273,
+    "birthday": "06-05-1959"
+  },
+  {
+    "surname": "Dlabajová",
+    "name": "Martina",
+    "group_code": "ALDE",
+    "country_code": "cz",
+    "id_mep": 124709,
+    "id_seat": 573,
+    "id_group": 4283,
+    "birthday": "26-07-1976"
+  },
+  {
+    "surname": "Halla-aho",
+    "name": "Jussi",
+    "group_code": "ECR",
+    "country_code": "fi",
+    "id_mep": 124727,
+    "id_seat": 208,
+    "id_group": 4275,
+    "birthday": "27-04-1971"
+  },
+  {
+    "surname": "Ribeiro",
+    "name": "Sofia",
+    "group_code": "PPE",
+    "country_code": "pt",
+    "id_mep": 124733,
+    "id_seat": 751,
+    "id_group": 4273,
+    "birthday": "17-07-1976"
+  },
+  {
+    "surname": "Zorrinho",
+    "name": "Carlos",
+    "group_code": "S&D",
+    "country_code": "pt",
+    "id_mep": 124739,
+    "id_seat": 88,
+    "id_group": 4284,
+    "birthday": "28-05-1959"
+  },
+  {
+    "surname": "Kyllönen",
+    "name": "Merja",
+    "group_code": "GUE/NGL",
+    "country_code": "fi",
+    "id_mep": 124736,
+    "id_seat": 81,
+    "id_group": 4281,
+    "birthday": "25-01-1977"
+  },
+  {
+    "surname": "Serrão Santos",
+    "name": "Ricardo",
+    "group_code": "S&D",
+    "country_code": "pt",
+    "id_mep": 124741,
+    "id_seat": 317,
+    "id_group": 4284,
+    "birthday": "11-10-1954"
+  },
+  {
+    "surname": "Lebreton",
+    "name": "Gilles",
+    "group_code": "ENF",
+    "country_code": "fr",
+    "id_mep": 124738,
+    "id_seat": 286,
+    "id_group": 4908,
+    "birthday": "11-10-1958"
+  },
+  {
+    "surname": "Bergeron",
+    "name": "Joëlle",
+    "group_code": "EFDD",
+    "country_code": "fr",
+    "id_mep": 124740,
+    "id_seat": 518,
+    "id_group": 4880,
+    "birthday": "28-06-1949"
+  },
+  {
+    "surname": "Rodrigues",
+    "name": "Maria João",
+    "group_code": "S&D",
+    "country_code": "pt",
+    "id_mep": 124737,
+    "id_seat": 5,
+    "id_group": 4284,
+    "birthday": "25-09-1955"
+  },
+  {
+    "surname": "Virkkunen",
+    "name": "Henna",
+    "group_code": "PPE",
+    "country_code": "fi",
+    "id_mep": 124726,
+    "id_seat": 837,
+    "id_group": 4273,
+    "birthday": "04-06-1972"
+  },
+  {
+    "surname": "Balas",
+    "name": "Guillaume",
+    "group_code": "S&D",
+    "country_code": "fr",
+    "id_mep": 124744,
+    "id_seat": 382,
+    "id_group": 4284,
+    "birthday": "30-08-1972"
+  },
+  {
+    "surname": "Molnár",
+    "name": "Csaba",
+    "group_code": "S&D",
+    "country_code": "hu",
+    "id_mep": 124722,
+    "id_seat": 639,
+    "id_group": 4284,
+    "birthday": "04-12-1975"
+  },
+  {
+    "surname": "Mamikins",
+    "name": "Andrejs",
+    "group_code": "S&D",
+    "country_code": "lv",
+    "id_mep": 124746,
+    "id_seat": 187,
+    "id_group": 4284,
+    "birthday": "11-03-1976"
+  },
+  {
+    "surname": "Martin",
+    "name": "Dominique",
+    "group_code": "ENF",
+    "country_code": "fr",
+    "id_mep": 124751,
+    "id_seat": 617,
+    "id_group": 4908,
+    "birthday": "01-10-1961"
+  },
+  {
+    "surname": "Arnautu",
+    "name": "Marie-Christine",
+    "group_code": "ENF",
+    "country_code": "fr",
+    "id_mep": 124748,
+    "id_seat": 702,
+    "id_group": 4908,
+    "birthday": "19-10-1952"
+  },
+  {
+    "surname": "D'Ornano",
+    "name": "Mireille",
+    "group_code": "EFDD",
+    "country_code": "fr",
+    "id_mep": 124750,
+    "id_seat": 113,
+    "id_group": 4880,
+    "birthday": "29-06-1951"
+  },
+  {
+    "surname": "Ruas",
+    "name": "Fernando",
+    "group_code": "PPE",
+    "country_code": "pt",
+    "id_mep": 124730,
+    "id_seat": 753,
+    "id_group": 4273,
+    "birthday": "15-01-1949"
+  },
+  {
+    "surname": "Chauprade",
+    "name": "Aymeric",
+    "group_code": "EFDD",
+    "country_code": "fr",
+    "id_mep": 124752,
+    "id_seat": 604,
+    "id_group": 4880,
+    "birthday": "13-01-1969"
+  },
+  {
+    "surname": "Škrlec",
+    "name": "Davor",
+    "group_code": "Verts/ALE",
+    "country_code": "hr",
+    "id_mep": 124756,
+    "id_seat": 737,
+    "id_group": 4285,
+    "birthday": "01-01-1963"
+  },
+  {
+    "surname": "Kumpula-Natri",
+    "name": "Miapetra",
+    "group_code": "S&D",
+    "country_code": "fi",
+    "id_mep": 124735,
+    "id_seat": 126,
+    "id_group": 4284,
+    "birthday": "19-05-1972"
+  },
+  {
+    "surname": "Bay",
+    "name": "Nicolas",
+    "group_code": "ENF",
+    "country_code": "fr",
+    "id_mep": 124760,
+    "id_seat": 162,
+    "id_group": 4908,
+    "birthday": "21-12-1977"
+  },
+  {
+    "surname": "Silva Pereira",
+    "name": "Pedro",
+    "group_code": "S&D",
+    "country_code": "pt",
+    "id_mep": 124747,
+    "id_seat": 723,
+    "id_group": 4284,
+    "birthday": "15-08-1962"
+  },
+  {
+    "surname": "Grigule-Pēterse",
+    "name": "Iveta",
+    "group_code": "ALDE",
+    "country_code": "lv",
+    "id_mep": 124745,
+    "id_seat": 326,
+    "id_group": 4283,
+    "birthday": "30-09-1964"
+  },
+  {
+    "surname": "Briois",
+    "name": "Steeve",
+    "group_code": "ENF",
+    "country_code": "fr",
+    "id_mep": 124757,
+    "id_seat": 615,
+    "id_group": 4908,
+    "birthday": "28-11-1972"
+  },
+  {
+    "surname": "Monot",
+    "name": "Bernard",
+    "group_code": "EFDD",
+    "country_code": "fr",
+    "id_mep": 124761,
+    "id_seat": 519,
+    "id_group": 4880,
+    "birthday": "03-07-1962"
+  },
+  {
+    "surname": "Mélin",
+    "name": "Joëlle",
+    "group_code": "ENF",
+    "country_code": "fr",
+    "id_mep": 124765,
+    "id_seat": 703,
+    "id_group": 4908,
+    "birthday": "26-03-1950"
+  },
+  {
+    "surname": "Marinho e Pinto",
+    "name": "António",
+    "group_code": "ALDE",
+    "country_code": "pt",
+    "id_mep": 124742,
+    "id_seat": 402,
+    "id_group": 4283,
+    "birthday": "10-09-1950"
+  },
+  {
+    "surname": "Petir",
+    "name": "Marijana",
+    "group_code": "PPE",
+    "country_code": "hr",
+    "id_mep": 124749,
+    "id_seat": 683,
+    "id_group": 4273,
+    "birthday": "04-10-1975"
+  },
+  {
+    "surname": "Montel",
+    "name": "Sophie",
+    "group_code": "NI",
+    "country_code": "fr",
+    "id_mep": 124769,
+    "id_seat": 694,
+    "id_group": 3968,
+    "birthday": "22-11-1969"
+  },
+  {
+    "surname": "Guoga",
+    "name": "Antanas",
+    "group_code": "PPE",
+    "country_code": "lt",
+    "id_mep": 124763,
+    "id_seat": 503,
+    "id_group": 4273,
+    "birthday": "17-12-1973"
+  },
+  {
+    "surname": "Mazuronis",
+    "name": "Valentinas",
+    "group_code": "ALDE",
+    "country_code": "lt",
+    "id_mep": 124768,
+    "id_seat": 741,
+    "id_group": 4283,
+    "birthday": "18-11-1953"
+  },
+  {
+    "surname": "Arthuis",
+    "name": "Jean",
+    "group_code": "ALDE",
+    "country_code": "fr",
+    "id_mep": 124773,
+    "id_seat": 139,
+    "id_group": 4283,
+    "birthday": "07-10-1944"
+  },
+  {
+    "surname": "Auštrevičius",
+    "name": "Petras",
+    "group_code": "ALDE",
+    "country_code": "lt",
+    "id_mep": 124766,
+    "id_seat": 253,
+    "id_group": 4283,
+    "birthday": "16-05-1963"
+  },
+  {
+    "surname": "Valli",
+    "name": "Marco",
+    "group_code": "EFDD",
+    "country_code": "it",
+    "id_mep": 124778,
+    "id_seat": 437,
+    "id_group": 4880,
+    "birthday": "29-06-1985"
+  },
+  {
+    "surname": "Boutonnet",
+    "name": "Marie-Christine",
+    "group_code": "ENF",
+    "country_code": "fr",
+    "id_mep": 124753,
+    "id_seat": 704,
+    "id_group": 4908,
+    "birthday": "10-02-1949"
+  },
+  {
+    "surname": "Schaffhauser",
+    "name": "Jean-Luc",
+    "group_code": "ENF",
+    "country_code": "fr",
+    "id_mep": 124755,
+    "id_seat": 705,
+    "id_group": 4908,
+    "birthday": "17-12-1955"
+  },
+  {
+    "surname": "Beghin",
+    "name": "Tiziana",
+    "group_code": "EFDD",
+    "country_code": "it",
+    "id_mep": 124777,
+    "id_seat": 283,
+    "id_group": 4880,
+    "birthday": "04-02-1971"
+  },
+  {
+    "surname": "Delvaux",
+    "name": "Mady",
+    "group_code": "S&D",
+    "country_code": "lu",
+    "id_mep": 124776,
+    "id_seat": 181,
+    "id_group": 4284,
+    "birthday": "11-10-1950"
+  },
+  {
+    "surname": "Zanni",
+    "name": "Marco",
+    "group_code": "ENF",
+    "country_code": "it",
+    "id_mep": 124780,
+    "id_seat": 438,
+    "id_group": 4908,
+    "birthday": "11-07-1986"
+  },
+  {
+    "surname": "Jakovčić",
+    "name": "Ivan",
+    "group_code": "ALDE",
+    "country_code": "hr",
+    "id_mep": 124754,
+    "id_seat": 329,
+    "id_group": 4283,
+    "birthday": "15-11-1957"
+  },
+  {
+    "surname": "Evi",
+    "name": "Eleonora",
+    "group_code": "EFDD",
+    "country_code": "it",
+    "id_mep": 124779,
+    "id_seat": 281,
+    "id_group": 4880,
+    "birthday": "20-11-1983"
+  },
+  {
+    "surname": "Grapini",
+    "name": "Maria",
+    "group_code": "S&D",
+    "country_code": "ro",
+    "id_mep": 124785,
+    "id_seat": 542,
+    "id_group": 4284,
+    "birthday": "07-11-1954"
+  },
+  {
+    "surname": "Nica",
+    "name": "Dan",
+    "group_code": "S&D",
+    "country_code": "ro",
+    "id_mep": 124784,
+    "id_seat": 51,
+    "id_group": 4284,
+    "birthday": "02-07-1960"
+  },
+  {
+    "surname": "Moisă",
+    "name": "Sorin",
+    "group_code": "PPE",
+    "country_code": "ro",
+    "id_mep": 124789,
+    "id_seat": 673,
+    "id_group": 4273,
+    "birthday": "07-01-1976"
+  },
+  {
+    "surname": "Frunzulică",
+    "name": "Doru-Claudian",
+    "group_code": "S&D",
+    "country_code": "ro",
+    "id_mep": 124790,
+    "id_seat": 469,
+    "id_group": 4284,
+    "birthday": ""
+  },
+  {
+    "surname": "Morgano",
+    "name": "Luigi",
+    "group_code": "S&D",
+    "country_code": "it",
+    "id_mep": 124788,
+    "id_seat": 641,
+    "id_group": 4284,
+    "birthday": "15-03-1951"
+  },
+  {
+    "surname": "Viotti",
+    "name": "Daniele",
+    "group_code": "S&D",
+    "country_code": "it",
+    "id_mep": 124791,
+    "id_seat": 796,
+    "id_group": 4284,
+    "birthday": "08-03-1974"
+  },
+  {
+    "surname": "Bilde",
+    "name": "Dominique",
+    "group_code": "ENF",
+    "country_code": "fr",
+    "id_mep": 124771,
+    "id_seat": 613,
+    "id_group": 4908,
+    "birthday": "01-08-1953"
+  },
+  {
+    "surname": "Briano",
+    "name": "Renata",
+    "group_code": "S&D",
+    "country_code": "it",
+    "id_mep": 124787,
+    "id_seat": 390,
+    "id_group": 4284,
+    "birthday": "23-02-1964"
+  },
+  {
+    "surname": "Țapardel",
+    "name": "Claudia",
+    "group_code": "S&D",
+    "country_code": "ro",
+    "id_mep": 124793,
+    "id_seat": 729,
+    "id_group": 4284,
+    "birthday": "16-12-1983"
+  },
+  {
+    "surname": "Jalkh",
+    "name": "Jean-François",
+    "group_code": "ENF",
+    "country_code": "fr",
+    "id_mep": 124770,
+    "id_seat": 616,
+    "id_group": 4908,
+    "birthday": "23-05-1957"
+  },
+  {
+    "surname": "Sernagiotto",
+    "name": "Remo",
+    "group_code": "ECR",
+    "country_code": "it",
+    "id_mep": 124794,
+    "id_seat": 774,
+    "id_group": 4275,
+    "birthday": "01-09-1955"
+  },
+  {
+    "surname": "Sant",
+    "name": "Alfred",
+    "group_code": "S&D",
+    "country_code": "mt",
+    "id_mep": 124781,
+    "id_seat": 129,
+    "id_group": 4284,
+    "birthday": "28-02-1948"
+  },
+  {
+    "surname": "Affronte",
+    "name": "Marco",
+    "group_code": "Verts/ALE",
+    "country_code": "it",
+    "id_mep": 124797,
+    "id_seat": 732,
+    "id_group": 4285,
+    "birthday": "06-05-1965"
+  },
+  {
+    "surname": "Drăghici",
+    "name": "Damian",
+    "group_code": "S&D",
+    "country_code": "ro",
+    "id_mep": 124786,
+    "id_seat": 464,
+    "id_group": 4284,
+    "birthday": "31-03-1970"
+  },
+  {
+    "surname": "Borrelli",
+    "name": "David",
+    "group_code": "NI",
+    "country_code": "it",
+    "id_mep": 124796,
+    "id_seat": 695,
+    "id_group": 3968,
+    "birthday": "28-04-1971"
+  },
+  {
+    "surname": "Diaconu",
+    "name": "Mircea",
+    "group_code": "ALDE",
+    "country_code": "ro",
+    "id_mep": 124805,
+    "id_seat": 256,
+    "id_group": 4283,
+    "birthday": "24-12-1949"
+  },
+  {
+    "surname": "Kyenge",
+    "name": "Cécile Kashetu",
+    "group_code": "S&D",
+    "country_code": "it",
+    "id_mep": 124801,
+    "id_seat": 624,
+    "id_group": 4284,
+    "birthday": "28-08-1964"
+  },
+  {
+    "surname": "Zanonato",
+    "name": "Flavio",
+    "group_code": "S&D",
+    "country_code": "it",
+    "id_mep": 124800,
+    "id_seat": 803,
+    "id_group": 4284,
+    "birthday": "24-07-1950"
+  },
+  {
+    "surname": "Mureşan",
+    "name": "Siegfried",
+    "group_code": "PPE",
+    "country_code": "ro",
+    "id_mep": 124802,
+    "id_seat": 675,
+    "id_group": 4273,
+    "birthday": "20-09-1981"
+  },
+  {
+    "surname": "De Monte",
+    "name": "Isabella",
+    "group_code": "S&D",
+    "country_code": "it",
+    "id_mep": 124803,
+    "id_seat": 461,
+    "id_group": 4284,
+    "birthday": "23-06-1971"
+  },
+  {
+    "surname": "McAllister",
+    "name": "David",
+    "group_code": "PPE",
+    "country_code": "de",
+    "id_mep": 124806,
+    "id_seat": 199,
+    "id_group": 4273,
+    "birthday": "12-01-1971"
+  },
+  {
+    "surname": "Schlein",
+    "name": "Elly",
+    "group_code": "S&D",
+    "country_code": "it",
+    "id_mep": 124804,
+    "id_seat": 720,
+    "id_group": 4284,
+    "birthday": "04-05-1985"
+  },
+  {
+    "surname": "Rebega",
+    "name": "Laurenţiu",
+    "group_code": "ECR",
+    "country_code": "ro",
+    "id_mep": 124792,
+    "id_seat": 772,
+    "id_group": 4275,
+    "birthday": "20-02-1976"
+  },
+  {
+    "surname": "Agea",
+    "name": "Laura",
+    "group_code": "EFDD",
+    "country_code": "it",
+    "id_mep": 124811,
+    "id_seat": 114,
+    "id_group": 4880,
+    "birthday": "17-02-1978"
+  },
+  {
+    "surname": "Lins",
+    "name": "Norbert",
+    "group_code": "PPE",
+    "country_code": "de",
+    "id_mep": 124808,
+    "id_seat": 592,
+    "id_group": 4273,
+    "birthday": "22-12-1977"
+  },
+  {
+    "surname": "Cirio",
+    "name": "Alberto",
+    "group_code": "PPE",
+    "country_code": "it",
+    "id_mep": 124772,
+    "id_seat": 411,
+    "id_group": 4273,
+    "birthday": "06-12-1972"
+  },
+  {
+    "surname": "Schulze",
+    "name": "Sven",
+    "group_code": "PPE",
+    "country_code": "de",
+    "id_mep": 124809,
+    "id_seat": 762,
+    "id_group": 4273,
+    "birthday": "31-07-1979"
+  },
+  {
+    "surname": "Bonafè",
+    "name": "Simona",
+    "group_code": "S&D",
+    "country_code": "it",
+    "id_mep": 124814,
+    "id_seat": 387,
+    "id_group": 4284,
+    "birthday": "12-07-1973"
+  },
+  {
+    "surname": "Gieseke",
+    "name": "Jens",
+    "group_code": "PPE",
+    "country_code": "de",
+    "id_mep": 124807,
+    "id_seat": 500,
+    "id_group": 4273,
+    "birthday": "18-05-1971"
+  },
+  {
+    "surname": "Reda",
+    "name": "Julia",
+    "group_code": "Verts/ALE",
+    "country_code": "de",
+    "id_mep": 124816,
+    "id_seat": 137,
+    "id_group": 4285,
+    "birthday": "30-11-1986"
+  },
+  {
+    "surname": "Bettini",
+    "name": "Goffredo Maria",
+    "group_code": "S&D",
+    "country_code": "it",
+    "id_mep": 124819,
+    "id_seat": 385,
+    "id_group": 4284,
+    "birthday": "05-11-1952"
+  },
+  {
+    "surname": "Castaldo",
+    "name": "Fabio Massimo",
+    "group_code": "EFDD",
+    "country_code": "it",
+    "id_mep": 124812,
+    "id_seat": 216,
+    "id_group": 4880,
+    "birthday": "18-09-1985"
+  },
+  {
+    "surname": "Tamburrano",
+    "name": "Dario",
+    "group_code": "EFDD",
+    "country_code": "it",
+    "id_mep": 124813,
+    "id_seat": 356,
+    "id_group": 4880,
+    "birthday": "27-08-1969"
+  },
+  {
+    "surname": "Spinelli",
+    "name": "Barbara",
+    "group_code": "GUE/NGL",
+    "country_code": "it",
+    "id_mep": 124810,
+    "id_seat": 373,
+    "id_group": 4281,
+    "birthday": "31-05-1946"
+  },
+  {
+    "surname": "Gericke",
+    "name": "Arne",
+    "group_code": "ECR",
+    "country_code": "de",
+    "id_mep": 124815,
+    "id_seat": 515,
+    "id_group": 4275,
+    "birthday": "19-11-1964"
+  },
+  {
+    "surname": "Troszczynski",
+    "name": "Mylène",
+    "group_code": "ENF",
+    "country_code": "fr",
+    "id_mep": 124758,
+    "id_seat": 527,
+    "id_group": 4908,
+    "birthday": "16-05-1972"
+  },
+  {
+    "surname": "Gasbarra",
+    "name": "Enrico",
+    "group_code": "S&D",
+    "country_code": "it",
+    "id_mep": 124817,
+    "id_seat": 470,
+    "id_group": 4284,
+    "birthday": "12-08-1962"
+  },
+  {
+    "surname": "Lucke",
+    "name": "Bernd",
+    "group_code": "ECR",
+    "country_code": "de",
+    "id_mep": 124820,
+    "id_seat": 601,
+    "id_group": 4275,
+    "birthday": "19-08-1962"
+  },
+  {
+    "surname": "Buchner",
+    "name": "Klaus",
+    "group_code": "Verts/ALE",
+    "country_code": "de",
+    "id_mep": 124818,
+    "id_seat": 251,
+    "id_group": 4285,
+    "birthday": "06-02-1941"
+  },
+  {
+    "surname": "Trebesius",
+    "name": "Ulrike",
+    "group_code": "ECR",
+    "country_code": "de",
+    "id_mep": 124829,
+    "id_seat": 68,
+    "id_group": 4275,
+    "birthday": "17-04-1970"
+  },
+  {
+    "surname": "Martusciello",
+    "name": "Fulvio",
+    "group_code": "PPE",
+    "country_code": "it",
+    "id_mep": 124828,
+    "id_seat": 667,
+    "id_group": 4273,
+    "birthday": "25-05-1968"
+  },
+  {
+    "surname": "Danti",
+    "name": "Nicola",
+    "group_code": "S&D",
+    "country_code": "it",
+    "id_mep": 124821,
+    "id_seat": 313,
+    "id_group": 4284,
+    "birthday": "06-09-1966"
+  },
+  {
+    "surname": "Pretzell",
+    "name": "Marcus",
+    "group_code": "ENF",
+    "country_code": "de",
+    "id_mep": 124830,
+    "id_seat": 524,
+    "id_group": 4908,
+    "birthday": "16-07-1973"
+  },
+  {
+    "surname": "Henkel",
+    "name": "Hans-Olaf",
+    "group_code": "ECR",
+    "country_code": "de",
+    "id_mep": 124823,
+    "id_seat": 108,
+    "id_group": 4275,
+    "birthday": "14-03-1940"
+  },
+  {
+    "surname": "Kölmel",
+    "name": "Bernd",
+    "group_code": "ECR",
+    "country_code": "de",
+    "id_mep": 124824,
+    "id_seat": 209,
+    "id_group": 4275,
+    "birthday": "08-12-1958"
+  },
+  {
+    "surname": "Adinolfi",
+    "name": "Isabella",
+    "group_code": "EFDD",
+    "country_code": "it",
+    "id_mep": 124831,
+    "id_seat": 72,
+    "id_group": 4880,
+    "birthday": "27-03-1978"
+  },
+  {
+    "surname": "Werner",
+    "name": "Martina",
+    "group_code": "S&D",
+    "country_code": "de",
+    "id_mep": 124826,
+    "id_seat": 799,
+    "id_group": 4284,
+    "birthday": "28-12-1961"
+  },
+  {
+    "surname": "Sonneborn",
+    "name": "Martin",
+    "group_code": "NI",
+    "country_code": "de",
+    "id_mep": 124834,
+    "id_seat": 697,
+    "id_group": 3968,
+    "birthday": "15-05-1965"
+  },
+  {
+    "surname": "Melior",
+    "name": "Susanne",
+    "group_code": "S&D",
+    "country_code": "de",
+    "id_mep": 124838,
+    "id_seat": 636,
+    "id_group": 4284,
+    "birthday": "01-09-1958"
+  },
+  {
+    "surname": "D'Amato",
+    "name": "Rosa",
+    "group_code": "EFDD",
+    "country_code": "it",
+    "id_mep": 124835,
+    "id_seat": 215,
+    "id_group": 4880,
+    "birthday": "30-03-1969"
+  },
+  {
+    "surname": "Voigt",
+    "name": "Udo",
+    "group_code": "NI",
+    "country_code": "de",
+    "id_mep": 124832,
+    "id_seat": 783,
+    "id_group": 3968,
+    "birthday": "14-04-1952"
+  },
+  {
+    "surname": "Ferrara",
+    "name": "Laura",
+    "group_code": "EFDD",
+    "country_code": "it",
+    "id_mep": 124833,
+    "id_seat": 282,
+    "id_group": 4880,
+    "birthday": "11-09-1983"
+  },
+  {
+    "surname": "Pedicini",
+    "name": "Piernicola",
+    "group_code": "EFDD",
+    "country_code": "it",
+    "id_mep": 124844,
+    "id_seat": 42,
+    "id_group": 4880,
+    "birthday": "22-05-1969"
+  },
+  {
+    "surname": "Starbatty",
+    "name": "Joachim",
+    "group_code": "ECR",
+    "country_code": "de",
+    "id_mep": 124827,
+    "id_seat": 776,
+    "id_group": 4275,
+    "birthday": "09-05-1940"
+  },
+  {
+    "surname": "Noichl",
+    "name": "Maria",
+    "group_code": "S&D",
+    "country_code": "de",
+    "id_mep": 124836,
+    "id_seat": 643,
+    "id_group": 4284,
+    "birthday": "09-01-1967"
+  },
+  {
+    "surname": "Aiuto",
+    "name": "Daniela",
+    "group_code": "EFDD",
+    "country_code": "it",
+    "id_mep": 124842,
+    "id_seat": 160,
+    "id_group": 4880,
+    "birthday": "14-12-1975"
+  },
+  {
+    "surname": "Lietz",
+    "name": "Arne",
+    "group_code": "S&D",
+    "country_code": "de",
+    "id_mep": 124839,
+    "id_seat": 626,
+    "id_group": 4284,
+    "birthday": "23-07-1976"
+  },
+  {
+    "surname": "Heubuch",
+    "name": "Maria",
+    "group_code": "Verts/ALE",
+    "country_code": "de",
+    "id_mep": 124848,
+    "id_seat": 479,
+    "id_group": 4285,
+    "birthday": "12-12-1958"
+  },
+  {
+    "surname": "Köster",
+    "name": "Dietmar",
+    "group_code": "S&D",
+    "country_code": "de",
+    "id_mep": 124822,
+    "id_seat": 560,
+    "id_group": 4284,
+    "birthday": "06-01-1957"
+  },
+  {
+    "surname": "Schuster",
+    "name": "Joachim",
+    "group_code": "S&D",
+    "country_code": "de",
+    "id_mep": 124837,
+    "id_seat": 721,
+    "id_group": 4284,
+    "birthday": "28-10-1962"
+  },
+  {
+    "surname": "Gentile",
+    "name": "Elena",
+    "group_code": "S&D",
+    "country_code": "it",
+    "id_mep": 124847,
+    "id_seat": 472,
+    "id_group": 4284,
+    "birthday": "02-11-1953"
+  },
+  {
+    "surname": "Picierno",
+    "name": "Pina",
+    "group_code": "S&D",
+    "country_code": "it",
+    "id_mep": 124846,
+    "id_seat": 709,
+    "id_group": 4284,
+    "birthday": "10-05-1981"
+  },
+  {
+    "surname": "Kouroumbashev",
+    "name": "Peter",
+    "group_code": "S&D",
+    "country_code": "bg",
+    "id_mep": 124857,
+    "id_seat": 561,
+    "id_group": 4284,
+    "birthday": "28-01-1968"
+  },
+  {
+    "surname": "Stanishev",
+    "name": "Sergei",
+    "group_code": "S&D",
+    "country_code": "bg",
+    "id_mep": 124852,
+    "id_seat": 84,
+    "id_group": 4284,
+    "birthday": "05-05-1966"
+  },
+  {
+    "surname": "Moi",
+    "name": "Giulia",
+    "group_code": "EFDD",
+    "country_code": "it",
+    "id_mep": 124859,
+    "id_seat": 521,
+    "id_group": 4880,
+    "birthday": "24-05-1971"
+  },
+  {
+    "surname": "Paolucci",
+    "name": "Massimo",
+    "group_code": "S&D",
+    "country_code": "it",
+    "id_mep": 124849,
+    "id_seat": 645,
+    "id_group": 4284,
+    "birthday": "13-12-1959"
+  },
+  {
+    "surname": "Caputo",
+    "name": "Nicola",
+    "group_code": "S&D",
+    "country_code": "it",
+    "id_mep": 124851,
+    "id_seat": 316,
+    "id_group": 4284,
+    "birthday": "04-03-1966"
+  },
+  {
+    "surname": "Chinnici",
+    "name": "Caterina",
+    "group_code": "S&D",
+    "country_code": "it",
+    "id_mep": 124861,
+    "id_seat": 393,
+    "id_group": 4284,
+    "birthday": "05-11-1954"
+  },
+  {
+    "surname": "Müller",
+    "name": "Ulrike",
+    "group_code": "ALDE",
+    "country_code": "de",
+    "id_mep": 124862,
+    "id_seat": 405,
+    "id_group": 4283,
+    "birthday": "07-12-1962"
+  },
+  {
+    "surname": "Radev",
+    "name": "Emil",
+    "group_code": "PPE",
+    "country_code": "bg",
+    "id_mep": 124850,
+    "id_seat": 749,
+    "id_group": 4273,
+    "birthday": "26-05-1971"
+  },
+  {
+    "surname": "Pirinski",
+    "name": "Georgi",
+    "group_code": "S&D",
+    "country_code": "bg",
+    "id_mep": 124855,
+    "id_seat": 711,
+    "id_group": 4284,
+    "birthday": "10-09-1948"
+  },
+  {
+    "surname": "Cicu",
+    "name": "Salvatore",
+    "group_code": "PPE",
+    "country_code": "it",
+    "id_mep": 124854,
+    "id_seat": 410,
+    "id_group": 4273,
+    "birthday": "03-09-1957"
+  },
+  {
+    "surname": "Mosca",
+    "name": "Alessia Maria",
+    "group_code": "S&D",
+    "country_code": "it",
+    "id_mep": 124868,
+    "id_seat": 241,
+    "id_group": 4284,
+    "birthday": "23-05-1975"
+  },
+  {
+    "surname": "Barekov",
+    "name": "Nikolay",
+    "group_code": "ECR",
+    "country_code": "bg",
+    "id_mep": 124871,
+    "id_seat": 154,
+    "id_group": 4275,
+    "birthday": "16-10-1972"
+  },
+  {
+    "surname": "Petersen",
+    "name": "Morten Helveg",
+    "group_code": "ALDE",
+    "country_code": "dk",
+    "id_mep": 124872,
+    "id_seat": 483,
+    "id_group": 4283,
+    "birthday": "14-09-1966"
+  },
+  {
+    "surname": "Kyuchyuk",
+    "name": "Ilhan",
+    "group_code": "ALDE",
+    "country_code": "bg",
+    "id_mep": 124866,
+    "id_seat": 739,
+    "id_group": 4283,
+    "birthday": "16-09-1985"
+  },
+  {
+    "surname": "Hoffmann",
+    "name": "Iris",
+    "group_code": "S&D",
+    "country_code": "de",
+    "id_mep": 124841,
+    "id_seat": 549,
+    "id_group": 4284,
+    "birthday": "29-06-1963"
+  },
+  {
+    "surname": "Benifei",
+    "name": "Brando",
+    "group_code": "S&D",
+    "country_code": "it",
+    "id_mep": 124867,
+    "id_seat": 384,
+    "id_group": 4284,
+    "birthday": "01-01-1986"
+  },
+  {
+    "surname": "Karlsson",
+    "name": "Rikke-Louise",
+    "group_code": "NI",
+    "country_code": "dk",
+    "id_mep": 124876,
+    "id_seat": 781,
+    "id_group": 3968,
+    "birthday": "29-04-1965"
+  },
+  {
+    "surname": "Vistisen",
+    "name": "Anders Primdahl",
+    "group_code": "ECR",
+    "country_code": "dk",
+    "id_mep": 124875,
+    "id_seat": 352,
+    "id_group": 4275,
+    "birthday": "12-11-1987"
+  },
+  {
+    "surname": "Kofod",
+    "name": "Jeppe",
+    "group_code": "S&D",
+    "country_code": "dk",
+    "id_mep": 124870,
+    "id_seat": 30,
+    "id_group": 4284,
+    "birthday": "14-03-1974"
+  },
+  {
+    "surname": "Soru",
+    "name": "Renato",
+    "group_code": "S&D",
+    "country_code": "it",
+    "id_mep": 124860,
+    "id_seat": 725,
+    "id_group": 4284,
+    "birthday": "06-08-1957"
+  },
+  {
+    "surname": "Eck",
+    "name": "Stefan",
+    "group_code": "GUE/NGL",
+    "country_code": "de",
+    "id_mep": 124863,
+    "id_seat": 539,
+    "id_group": 4281,
+    "birthday": "08-01-1956"
+  },
+  {
+    "surname": "Wiśniewska",
+    "name": "Jadwiga",
+    "group_code": "ECR",
+    "country_code": "pl",
+    "id_mep": 124877,
+    "id_seat": 854,
+    "id_group": 4275,
+    "birthday": "02-07-1963"
+  },
+  {
+    "surname": "Plura",
+    "name": "Marek",
+    "group_code": "PPE",
+    "country_code": "pl",
+    "id_mep": 124881,
+    "id_seat": 836,
+    "id_group": 4273,
+    "birthday": "18-07-1970"
+  },
+  {
+    "surname": "Giuffrida",
+    "name": "Michela",
+    "group_code": "S&D",
+    "country_code": "it",
+    "id_mep": 124864,
+    "id_seat": 476,
+    "id_group": 4284,
+    "birthday": "12-01-1964"
+  },
+  {
+    "surname": "Iwaszkiewicz",
+    "name": "Robert Jarosław",
+    "group_code": "EFDD",
+    "country_code": "pl",
+    "id_mep": 124886,
+    "id_seat": 434,
+    "id_group": 4880,
+    "birthday": "17-05-1962"
+  },
+  {
+    "surname": "Karski",
+    "name": "Karol",
+    "group_code": "ECR",
+    "country_code": "pl",
+    "id_mep": 124887,
+    "id_seat": 276,
+    "id_group": 4275,
+    "birthday": "13-05-1966"
+  },
+  {
+    "surname": "Corrao",
+    "name": "Ignazio",
+    "group_code": "EFDD",
+    "country_code": "it",
+    "id_mep": 124856,
+    "id_seat": 214,
+    "id_group": 4880,
+    "birthday": "14-01-1984"
+  },
+  {
+    "surname": "Piecha",
+    "name": "Bolesław G.",
+    "group_code": "ECR",
+    "country_code": "pl",
+    "id_mep": 124874,
+    "id_seat": 693,
+    "id_group": 4275,
+    "birthday": "19-09-1954"
+  },
+  {
+    "surname": "Łybacka",
+    "name": "Krystyna",
+    "group_code": "S&D",
+    "country_code": "pl",
+    "id_mep": 124883,
+    "id_seat": 630,
+    "id_group": 4284,
+    "birthday": "10-02-1946"
+  },
+  {
+    "surname": "Marusik",
+    "name": "Michał",
+    "group_code": "ENF",
+    "country_code": "pl",
+    "id_mep": 124894,
+    "id_seat": 285,
+    "id_group": 4908,
+    "birthday": "26-09-1951"
+  },
+  {
+    "surname": "Kozłowska-Rajewicz",
+    "name": "Agnieszka",
+    "group_code": "PPE",
+    "country_code": "pl",
+    "id_mep": 124889,
+    "id_seat": 330,
+    "id_group": 4273,
+    "birthday": "04-12-1969"
+  },
+  {
+    "surname": "Złotowski",
+    "name": "Kosma",
+    "group_code": "ECR",
+    "country_code": "pl",
+    "id_mep": 124884,
+    "id_seat": 212,
+    "id_group": 4275,
+    "birthday": "14-01-1964"
+  },
+  {
+    "surname": "Preuß",
+    "name": "Gabriele",
+    "group_code": "S&D",
+    "country_code": "de",
+    "id_mep": 124888,
+    "id_seat": 714,
+    "id_group": 4284,
+    "birthday": "27-09-1954"
+  },
+  {
+    "surname": "Ożóg",
+    "name": "Stanisław",
+    "group_code": "ECR",
+    "country_code": "pl",
+    "id_mep": 124897,
+    "id_seat": 689,
+    "id_group": 4275,
+    "birthday": "27-05-1953"
+  },
+  {
+    "surname": "Hetman",
+    "name": "Krzysztof",
+    "group_code": "PPE",
+    "country_code": "pl",
+    "id_mep": 124895,
+    "id_seat": 507,
+    "id_group": 4273,
+    "birthday": "27-06-1974"
+  },
+  {
+    "surname": "Krasnodębski",
+    "name": "Zdzisław",
+    "group_code": "ECR",
+    "country_code": "pl",
+    "id_mep": 124891,
+    "id_seat": 278,
+    "id_group": 4275,
+    "birthday": "11-04-1953"
+  },
+  {
+    "surname": "Pitera",
+    "name": "Julia",
+    "group_code": "PPE",
+    "country_code": "pl",
+    "id_mep": 124898,
+    "id_seat": 745,
+    "id_group": 4273,
+    "birthday": "26-05-1953"
+  },
+  {
+    "surname": "Gosiewska",
+    "name": "Beata",
+    "group_code": "ECR",
+    "country_code": "pl",
+    "id_mep": 124900,
+    "id_seat": 516,
+    "id_group": 4275,
+    "birthday": "06-03-1971"
+  },
+  {
+    "surname": "Žitňanská",
+    "name": "Jana",
+    "group_code": "ECR",
+    "country_code": "sk",
+    "id_mep": 124901,
+    "id_seat": 855,
+    "id_group": 4275,
+    "birthday": "14-05-1974"
+  },
+  {
+    "surname": "Nagy",
+    "name": "József",
+    "group_code": "PPE",
+    "country_code": "sk",
+    "id_mep": 124926,
+    "id_seat": 678,
+    "id_group": 4273,
+    "birthday": "11-03-1968"
+  },
+  {
+    "surname": "Żółtek",
+    "name": "Stanisław",
+    "group_code": "ENF",
+    "country_code": "pl",
+    "id_mep": 124902,
+    "id_seat": 284,
+    "id_group": 4908,
+    "birthday": "07-05-1956"
+  },
+  {
+    "surname": "Boni",
+    "name": "Michał",
+    "group_code": "PPE",
+    "country_code": "pl",
+    "id_mep": 124896,
+    "id_seat": 344,
+    "id_group": 4273,
+    "birthday": "10-06-1954"
+  },
+  {
+    "surname": "Škripek",
+    "name": "Branislav",
+    "group_code": "ECR",
+    "country_code": "sk",
+    "id_mep": 124927,
+    "id_seat": 353,
+    "id_group": 4275,
+    "birthday": "30-08-1970"
+  },
+  {
+    "surname": "Sulík",
+    "name": "Richard",
+    "group_code": "ECR",
+    "country_code": "sk",
+    "id_mep": 124928,
+    "id_seat": 429,
+    "id_group": 4275,
+    "birthday": "12-01-1968"
+  },
+  {
+    "surname": "Csáky",
+    "name": "Pál",
+    "group_code": "PPE",
+    "country_code": "sk",
+    "id_mep": 124930,
+    "id_seat": 416,
+    "id_group": 4273,
+    "birthday": "21-03-1956"
+  },
+  {
+    "surname": "Terricabras",
+    "name": "Josep-Maria",
+    "group_code": "Verts/ALE",
+    "country_code": "es",
+    "id_mep": 124932,
+    "id_seat": 323,
+    "id_group": 4285,
+    "birthday": "12-07-1946"
+  },
+  {
+    "surname": "Atkinson",
+    "name": "Janice",
+    "group_code": "ENF",
+    "country_code": "gb",
+    "id_mep": 124938,
+    "id_seat": 217,
+    "id_group": 4908,
+    "birthday": "31-08-1962"
+  },
+  {
+    "surname": "Arena",
+    "name": "Maria",
+    "group_code": "S&D",
+    "country_code": "be",
+    "id_mep": 124936,
+    "id_seat": 380,
+    "id_group": 4284,
+    "birthday": "17-12-1966"
+  },
+  {
+    "surname": "Reimon",
+    "name": "Michel",
+    "group_code": "Verts/ALE",
+    "country_code": "at",
+    "id_mep": 124935,
+    "id_seat": 651,
+    "id_group": 4285,
+    "birthday": "11-07-1971"
+  },
+  {
+    "surname": "O'Flynn",
+    "name": "Patrick",
+    "group_code": "EFDD",
+    "country_code": "gb",
+    "id_mep": 124940,
+    "id_seat": 111,
+    "id_group": 4880,
+    "birthday": "29-08-1965"
+  },
+  {
+    "surname": "Scott Cato",
+    "name": "Molly",
+    "group_code": "Verts/ALE",
+    "country_code": "gb",
+    "id_mep": 124942,
+    "id_seat": 647,
+    "id_group": 4285,
+    "birthday": "21-05-1963"
+  },
+  {
+    "surname": "Finch",
+    "name": "Raymond",
+    "group_code": "EFDD",
+    "country_code": "gb",
+    "id_mep": 124941,
+    "id_seat": 357,
+    "id_group": 4880,
+    "birthday": "02-06-1963"
+  },
+  {
+    "surname": "Szejnfeld",
+    "name": "Adam",
+    "group_code": "PPE",
+    "country_code": "pl",
+    "id_mep": 124890,
+    "id_seat": 771,
+    "id_group": 4273,
+    "birthday": "13-11-1958"
+  },
+  {
+    "surname": "James",
+    "name": "Diane",
+    "group_code": "EFDD",
+    "country_code": "gb",
+    "id_mep": 124939,
+    "id_seat": 608,
+    "id_group": 4880,
+    "birthday": "20-11-1959"
+  },
+  {
+    "surname": "Dohrmann",
+    "name": "Jørn",
+    "group_code": "ECR",
+    "country_code": "dk",
+    "id_mep": 124878,
+    "id_seat": 513,
+    "id_group": 4275,
+    "birthday": "09-01-1969"
+  },
+  {
+    "surname": "Moody",
+    "name": "Clare",
+    "group_code": "S&D",
+    "country_code": "gb",
+    "id_mep": 124944,
+    "id_seat": 640,
+    "id_group": 4284,
+    "birthday": "30-10-1965"
+  },
+  {
+    "surname": "Martin",
+    "name": "Edouard",
+    "group_code": "S&D",
+    "country_code": "fr",
+    "id_mep": 124947,
+    "id_seat": 633,
+    "id_group": 4284,
+    "birthday": "15-06-1963"
+  },
+  {
+    "surname": "Jurek",
+    "name": "Marek",
+    "group_code": "ECR",
+    "country_code": "pl",
+    "id_mep": 124892,
+    "id_seat": 597,
+    "id_group": 4275,
+    "birthday": "28-06-1960"
+  },
+  {
+    "surname": "Seymour",
+    "name": "Jill",
+    "group_code": "EFDD",
+    "country_code": "gb",
+    "id_mep": 124950,
+    "id_seat": 354,
+    "id_group": 4880,
+    "birthday": "08-05-1958"
+  },
+  {
+    "surname": "Etheridge",
+    "name": "Bill",
+    "group_code": "EFDD",
+    "country_code": "gb",
+    "id_mep": 124951,
+    "id_seat": 158,
+    "id_group": 4880,
+    "birthday": "18-03-1970"
+  },
+  {
+    "surname": "Anderson",
+    "name": "Lucy",
+    "group_code": "S&D",
+    "country_code": "gb",
+    "id_mep": 124949,
+    "id_seat": 306,
+    "id_group": 4284,
+    "birthday": ""
+  },
+  {
+    "surname": "Kirton-Darling",
+    "name": "Jude",
+    "group_code": "S&D",
+    "country_code": "gb",
+    "id_mep": 124953,
+    "id_seat": 558,
+    "id_group": 4284,
+    "birthday": "02-06-1977"
+  },
+  {
+    "surname": "Dzhambazki",
+    "name": "Angel",
+    "group_code": "ECR",
+    "country_code": "bg",
+    "id_mep": 124873,
+    "id_seat": 210,
+    "id_group": 4275,
+    "birthday": "21-03-1979"
+  },
+  {
+    "surname": "Simon",
+    "name": "Siôn",
+    "group_code": "S&D",
+    "country_code": "gb",
+    "id_mep": 124948,
+    "id_seat": 724,
+    "id_group": 4284,
+    "birthday": "23-12-1968"
+  },
+  {
+    "surname": "Dance",
+    "name": "Seb",
+    "group_code": "S&D",
+    "country_code": "gb",
+    "id_mep": 124952,
+    "id_seat": 309,
+    "id_group": 4284,
+    "birthday": "01-12-1981"
+  },
+  {
+    "surname": "Brannen",
+    "name": "Paul",
+    "group_code": "S&D",
+    "country_code": "gb",
+    "id_mep": 124954,
+    "id_seat": 389,
+    "id_group": 4284,
+    "birthday": "13-09-1962"
+  },
+  {
+    "surname": "Zdrojewski",
+    "name": "Bogdan Andrzej",
+    "group_code": "PPE",
+    "country_code": "pl",
+    "id_mep": 124893,
+    "id_seat": 846,
+    "id_group": 4273,
+    "birthday": "18-05-1957"
+  },
+  {
+    "surname": "Collins",
+    "name": "Jane",
+    "group_code": "ENF",
+    "country_code": "gb",
+    "id_mep": 124955,
+    "id_seat": 610,
+    "id_group": 4908,
+    "birthday": "17-02-1962"
+  },
+  {
+    "surname": "Hookem",
+    "name": "Mike",
+    "group_code": "NI",
+    "country_code": "gb",
+    "id_mep": 124957,
+    "id_seat": 786,
+    "id_group": 3968,
+    "birthday": "09-10-1953"
+  },
+  {
+    "surname": "Arnott",
+    "name": "Jonathan",
+    "group_code": "EFDD",
+    "country_code": "gb",
+    "id_mep": 124958,
+    "id_seat": 280,
+    "id_group": 4880,
+    "birthday": "12-01-1981"
+  },
+  {
+    "surname": "Griffin",
+    "name": "Theresa",
+    "group_code": "S&D",
+    "country_code": "gb",
+    "id_mep": 124961,
+    "id_seat": 544,
+    "id_group": 4284,
+    "birthday": "11-12-1962"
+  },
+  {
+    "surname": "Bashir",
+    "name": "Amjad",
+    "group_code": "ECR",
+    "country_code": "gb",
+    "id_mep": 124956,
+    "id_seat": 432,
+    "id_group": 4275,
+    "birthday": "17-09-1952"
+  },
+  {
+    "surname": "Gill",
+    "name": "Nathan",
+    "group_code": "EFDD",
+    "country_code": "gb",
+    "id_mep": 124965,
+    "id_seat": 436,
+    "id_group": 4880,
+    "birthday": "06-07-1973"
+  },
+  {
+    "surname": "Ward",
+    "name": "Julie",
+    "group_code": "S&D",
+    "country_code": "gb",
+    "id_mep": 124963,
+    "id_seat": 797,
+    "id_group": 4284,
+    "birthday": "07-03-1957"
+  },
+  {
+    "surname": "Bours",
+    "name": "Louise",
+    "group_code": "EFDD",
+    "country_code": "gb",
+    "id_mep": 124964,
+    "id_seat": 159,
+    "id_group": 4880,
+    "birthday": "23-12-1968"
+  },
+  {
+    "surname": "Vana",
+    "name": "Monika",
+    "group_code": "Verts/ALE",
+    "country_code": "at",
+    "id_mep": 124934,
+    "id_seat": 136,
+    "id_group": 4285,
+    "birthday": "14-09-1969"
+  },
+  {
+    "surname": "Woolfe",
+    "name": "Steven",
+    "group_code": "NI",
+    "country_code": "gb",
+    "id_mep": 124966,
+    "id_seat": 860,
+    "id_group": 3968,
+    "birthday": "06-10-1967"
+  },
+  {
+    "surname": "Carver",
+    "name": "James",
+    "group_code": "EFDD",
+    "country_code": "gb",
+    "id_mep": 124971,
+    "id_seat": 607,
+    "id_group": 4880,
+    "birthday": "15-08-1969"
+  },
+  {
+    "surname": "Coburn",
+    "name": "David",
+    "group_code": "EFDD",
+    "country_code": "gb",
+    "id_mep": 124967,
+    "id_seat": 435,
+    "id_group": 4880,
+    "birthday": "11-02-1959"
+  },
+  {
+    "surname": "Štefanec",
+    "name": "Ivan",
+    "group_code": "PPE",
+    "country_code": "sk",
+    "id_mep": 124929,
+    "id_seat": 103,
+    "id_group": 4273,
+    "birthday": "30-09-1961"
+  },
+  {
+    "surname": "Parker",
+    "name": "Margot",
+    "group_code": "EFDD",
+    "country_code": "gb",
+    "id_mep": 124945,
+    "id_seat": 70,
+    "id_group": 4880,
+    "birthday": "24-07-1943"
+  },
+  {
+    "surname": "Boylan",
+    "name": "Lynn",
+    "group_code": "GUE/NGL",
+    "country_code": "ie",
+    "id_mep": 124984,
+    "id_seat": 174,
+    "id_group": 4281,
+    "birthday": "29-11-1976"
+  },
+  {
+    "surname": "Dalli",
+    "name": "Miriam",
+    "group_code": "S&D",
+    "country_code": "mt",
+    "id_mep": 124970,
+    "id_seat": 236,
+    "id_group": 4284,
+    "birthday": "19-05-1976"
+  },
+  {
+    "surname": "Carthy",
+    "name": "Matt",
+    "group_code": "GUE/NGL",
+    "country_code": "ie",
+    "id_mep": 124986,
+    "id_seat": 173,
+    "id_group": 4281,
+    "birthday": "19-07-1977"
+  },
+  {
+    "surname": "Urtasun",
+    "name": "Ernest",
+    "group_code": "Verts/ALE",
+    "country_code": "es",
+    "id_mep": 124972,
+    "id_seat": 814,
+    "id_group": 4285,
+    "birthday": "27-01-1982"
+  },
+  {
+    "surname": "Annemans",
+    "name": "Gerolf",
+    "group_code": "ENF",
+    "country_code": "be",
+    "id_mep": 124973,
+    "id_seat": 218,
+    "id_group": 4908,
+    "birthday": "08-11-1958"
+  },
+  {
+    "surname": "Guteland",
+    "name": "Jytte",
+    "group_code": "S&D",
+    "country_code": "se",
+    "id_mep": 124991,
+    "id_seat": 546,
+    "id_group": 4284,
+    "birthday": "16-09-1979"
+  },
+  {
+    "surname": "Ní Riada",
+    "name": "Liadh",
+    "group_code": "GUE/NGL",
+    "country_code": "ie",
+    "id_mep": 124987,
+    "id_seat": 175,
+    "id_group": 4281,
+    "birthday": "28-11-1966"
+  },
+  {
+    "surname": "Federley",
+    "name": "Fredrick",
+    "group_code": "ALDE",
+    "country_code": "se",
+    "id_mep": 124989,
+    "id_seat": 257,
+    "id_group": 4283,
+    "birthday": "06-05-1978"
+  },
+  {
+    "surname": "Clune",
+    "name": "Deirdre",
+    "group_code": "PPE",
+    "country_code": "ie",
+    "id_mep": 124988,
+    "id_seat": 412,
+    "id_group": 4273,
+    "birthday": "01-06-1959"
+  },
+  {
+    "surname": "Andersson",
+    "name": "Max",
+    "group_code": "Verts/ALE",
+    "country_code": "se",
+    "id_mep": 124994,
+    "id_seat": 189,
+    "id_group": 4285,
+    "birthday": "26-10-1973"
+  },
+  {
+    "surname": "Flanagan",
+    "name": "Luke Ming",
+    "group_code": "GUE/NGL",
+    "country_code": "ie",
+    "id_mep": 124985,
+    "id_seat": 620,
+    "id_group": 4281,
+    "birthday": "22-01-1972"
+  },
+  {
+    "surname": "Lundgren",
+    "name": "Peter",
+    "group_code": "ECR",
+    "country_code": "se",
+    "id_mep": 124996,
+    "id_seat": 347,
+    "id_group": 4275,
+    "birthday": "02-02-1963"
+  },
+  {
+    "surname": "Björk",
+    "name": "Malin",
+    "group_code": "GUE/NGL",
+    "country_code": "se",
+    "id_mep": 124992,
+    "id_seat": 48,
+    "id_group": 4281,
+    "birthday": "22-05-1972"
+  },
+  {
+    "surname": "Valero",
+    "name": "Bodil",
+    "group_code": "Verts/ALE",
+    "country_code": "se",
+    "id_mep": 124993,
+    "id_seat": 56,
+    "id_group": 4285,
+    "birthday": "14-05-1958"
+  },
+  {
+    "surname": "Bogovič",
+    "name": "Franc",
+    "group_code": "PPE",
+    "country_code": "si",
+    "id_mep": 125004,
+    "id_seat": 343,
+    "id_group": 4273,
+    "birthday": "02-02-1963"
+  },
+  {
+    "surname": "Vilimsky",
+    "name": "Harald",
+    "group_code": "ENF",
+    "country_code": "at",
+    "id_mep": 125001,
+    "id_seat": 443,
+    "id_group": 4908,
+    "birthday": "22-07-1966"
+  },
+  {
+    "surname": "Šoltes",
+    "name": "Igor",
+    "group_code": "Verts/ALE",
+    "country_code": "si",
+    "id_mep": 125003,
+    "id_seat": 736,
+    "id_group": 4285,
+    "birthday": "22-08-1964"
+  },
+  {
+    "surname": "Schmidt",
+    "name": "Claudia",
+    "group_code": "PPE",
+    "country_code": "at",
+    "id_mep": 125016,
+    "id_seat": 760,
+    "id_group": 4273,
+    "birthday": "26-04-1963"
+  },
+  {
+    "surname": "Bayet",
+    "name": "Hugues",
+    "group_code": "S&D",
+    "country_code": "be",
+    "id_mep": 125002,
+    "id_seat": 383,
+    "id_group": 4284,
+    "birthday": "12-04-1975"
+  },
+  {
+    "surname": "Freund",
+    "name": "Eugen",
+    "group_code": "S&D",
+    "country_code": "at",
+    "id_mep": 125018,
+    "id_seat": 468,
+    "id_group": 4284,
+    "birthday": "15-04-1951"
+  },
+  {
+    "surname": "Nart",
+    "name": "Javier",
+    "group_code": "ALDE",
+    "country_code": "es",
+    "id_mep": 125005,
+    "id_seat": 33,
+    "id_group": 4283,
+    "birthday": "19-08-1947"
+  },
+  {
+    "surname": "Hazekamp",
+    "name": "Anja",
+    "group_code": "GUE/NGL",
+    "country_code": "nl",
+    "id_mep": 125023,
+    "id_seat": 540,
+    "id_group": 4281,
+    "birthday": "21-01-1968"
+  },
+  {
+    "surname": "Nekov",
+    "name": "Momchil",
+    "group_code": "S&D",
+    "country_code": "bg",
+    "id_mep": 125013,
+    "id_seat": 642,
+    "id_group": 4284,
+    "birthday": "13-05-1986"
+  },
+  {
+    "surname": "Kappel",
+    "name": "Barbara",
+    "group_code": "ENF",
+    "country_code": "at",
+    "id_mep": 125024,
+    "id_seat": 441,
+    "id_group": 4908,
+    "birthday": "16-02-1965"
+  },
+  {
+    "surname": "van Miltenburg",
+    "name": "Matthijs",
+    "group_code": "ALDE",
+    "country_code": "nl",
+    "id_mep": 125022,
+    "id_seat": 821,
+    "id_group": 4283,
+    "birthday": "02-04-1972"
+  },
+  {
+    "surname": "Jongerius",
+    "name": "Agnes",
+    "group_code": "S&D",
+    "country_code": "nl",
+    "id_mep": 125021,
+    "id_seat": 237,
+    "id_group": 4284,
+    "birthday": "04-11-1960"
+  },
+  {
+    "surname": "González Pons",
+    "name": "Esteban",
+    "group_code": "PPE",
+    "country_code": "es",
+    "id_mep": 125027,
+    "id_seat": 12,
+    "id_group": 4273,
+    "birthday": "21-08-1964"
+  },
+  {
+    "surname": "Mlinar",
+    "name": "Angelika",
+    "group_code": "ALDE",
+    "country_code": "at",
+    "id_mep": 125026,
+    "id_seat": 404,
+    "id_group": 4283,
+    "birthday": "29-06-1970"
+  },
+  {
+    "surname": "Valcárcel Siso",
+    "name": "Ramón Luis",
+    "group_code": "PPE",
+    "country_code": "es",
+    "id_mep": 125032,
+    "id_seat": 196,
+    "id_group": 4273,
+    "birthday": "16-11-1954"
+  },
+  {
+    "surname": "Stuger",
+    "name": "Olaf",
+    "group_code": "ENF",
+    "country_code": "nl",
+    "id_mep": 125028,
+    "id_seat": 439,
+    "id_group": 4908,
+    "birthday": "03-05-1969"
+  },
+  {
+    "surname": "Schreijer-Pierik",
+    "name": "Annie",
+    "group_code": "PPE",
+    "country_code": "nl",
+    "id_mep": 125030,
+    "id_seat": 761,
+    "id_group": 4273,
+    "birthday": "17-02-1953"
+  },
+  {
+    "surname": "Pagazaurtundúa Ruiz",
+    "name": "Maite",
+    "group_code": "ALDE",
+    "country_code": "es",
+    "id_mep": 125038,
+    "id_seat": 407,
+    "id_group": 4283,
+    "birthday": "11-02-1965"
+  },
+  {
+    "surname": "Buda",
+    "name": "Daniel",
+    "group_code": "PPE",
+    "country_code": "ro",
+    "id_mep": 125012,
+    "id_seat": 408,
+    "id_group": 4273,
+    "birthday": "11-01-1970"
+  },
+  {
+    "surname": "Becerra Basterrechea",
+    "name": "Beatriz",
+    "group_code": "ALDE",
+    "country_code": "es",
+    "id_mep": 125040,
+    "id_seat": 568,
+    "id_group": 4283,
+    "birthday": "14-11-1966"
+  },
+  {
+    "surname": "Mineur",
+    "name": "Anne-Marie",
+    "group_code": "GUE/NGL",
+    "country_code": "nl",
+    "id_mep": 125037,
+    "id_seat": 458,
+    "id_group": 4281,
+    "birthday": "14-05-1967"
+  },
+  {
+    "surname": "Tang",
+    "name": "Paul",
+    "group_code": "S&D",
+    "country_code": "nl",
+    "id_mep": 125020,
+    "id_seat": 128,
+    "id_group": 4284,
+    "birthday": "23-04-1967"
+  },
+  {
+    "surname": "de Graaff",
+    "name": "Marcel",
+    "group_code": "ENF",
+    "country_code": "nl",
+    "id_mep": 125025,
+    "id_seat": 161,
+    "id_group": 4908,
+    "birthday": "07-04-1962"
+  },
+  {
+    "surname": "Aguilera García",
+    "name": "Clara Eugenia",
+    "group_code": "S&D",
+    "country_code": "es",
+    "id_mep": 125045,
+    "id_seat": 305,
+    "id_group": 4284,
+    "birthday": "03-01-1964"
+  },
+  {
+    "surname": "Rodríguez-Piñero Fernández",
+    "name": "Inmaculada",
+    "group_code": "S&D",
+    "country_code": "es",
+    "id_mep": 125043,
+    "id_seat": 716,
+    "id_group": 4284,
+    "birthday": "07-01-1958"
+  },
+  {
+    "surname": "Fernández",
+    "name": "Jonás",
+    "group_code": "S&D",
+    "country_code": "es",
+    "id_mep": 125046,
+    "id_seat": 465,
+    "id_group": 4284,
+    "birthday": "08-01-1979"
+  },
+  {
+    "surname": "Gambús",
+    "name": "Francesc",
+    "group_code": "PPE",
+    "country_code": "es",
+    "id_mep": 125006,
+    "id_seat": 66,
+    "id_group": 4273,
+    "birthday": "21-05-1974"
+  },
+  {
+    "surname": "Albiol Guzmán",
+    "name": "Marina",
+    "group_code": "GUE/NGL",
+    "country_code": "es",
+    "id_mep": 125048,
+    "id_seat": 230,
+    "id_group": 4281,
+    "birthday": "15-12-1982"
+  },
+  {
+    "surname": "López Bermejo",
+    "name": "Paloma",
+    "group_code": "GUE/NGL",
+    "country_code": "es",
+    "id_mep": 125047,
+    "id_seat": 231,
+    "id_group": 4281,
+    "birthday": "20-02-1962"
+  },
+  {
+    "surname": "Vallina",
+    "name": "Ángela",
+    "group_code": "GUE/NGL",
+    "country_code": "es",
+    "id_mep": 125050,
+    "id_seat": 232,
+    "id_group": 4281,
+    "birthday": "06-07-1959"
+  },
+  {
+    "surname": "Post",
+    "name": "Soraya",
+    "group_code": "S&D",
+    "country_code": "se",
+    "id_mep": 124997,
+    "id_seat": 90,
+    "id_group": 4284,
+    "birthday": "15-10-1956"
+  },
+  {
+    "surname": "Chrysogonos",
+    "name": "Kostas",
+    "group_code": "GUE/NGL",
+    "country_code": "gr",
+    "id_mep": 125061,
+    "id_seat": 453,
+    "id_group": 4281,
+    "birthday": "27-06-1961"
+  },
+  {
+    "surname": "Spyraki",
+    "name": "Maria",
+    "group_code": "PPE",
+    "country_code": "gr",
+    "id_mep": 125064,
+    "id_seat": 768,
+    "id_group": 4273,
+    "birthday": "11-09-1965"
+  },
+  {
+    "surname": "Winberg",
+    "name": "Kristina",
+    "group_code": "ECR",
+    "country_code": "se",
+    "id_mep": 124995,
+    "id_seat": 852,
+    "id_group": 4275,
+    "birthday": "27-05-1965"
+  },
+  {
+    "surname": "López",
+    "name": "Javi",
+    "group_code": "S&D",
+    "country_code": "es",
+    "id_mep": 125042,
+    "id_seat": 627,
+    "id_group": 4284,
+    "birthday": "11-11-1985"
+  },
+  {
+    "surname": "Marias",
+    "name": "Notis",
+    "group_code": "ECR",
+    "country_code": "gr",
+    "id_mep": 125069,
+    "id_seat": 348,
+    "id_group": 4275,
+    "birthday": "05-04-1957"
+  },
+  {
+    "surname": "Zagorakis",
+    "name": "Theodoros",
+    "group_code": "PPE",
+    "country_code": "gr",
+    "id_mep": 125067,
+    "id_seat": 843,
+    "id_group": 4273,
+    "birthday": "27-10-1971"
+  },
+  {
+    "surname": "Sánchez Caldentey",
+    "name": "Lola",
+    "group_code": "GUE/NGL",
+    "country_code": "es",
+    "id_mep": 125035,
+    "id_seat": 537,
+    "id_group": 4281,
+    "birthday": "17-03-1978"
+  },
+  {
+    "surname": "Synadinos",
+    "name": "Eleftherios",
+    "group_code": "NI",
+    "country_code": "gr",
+    "id_mep": 125072,
+    "id_seat": 698,
+    "id_group": 3968,
+    "birthday": "06-07-1955"
+  },
+  {
+    "surname": "Cabezón Ruiz",
+    "name": "Soledad",
+    "group_code": "S&D",
+    "country_code": "es",
+    "id_mep": 125041,
+    "id_seat": 391,
+    "id_group": 4284,
+    "birthday": "01-09-1973"
+  },
+  {
+    "surname": "Blanco López",
+    "name": "José",
+    "group_code": "S&D",
+    "country_code": "es",
+    "id_mep": 125044,
+    "id_seat": 386,
+    "id_group": 4284,
+    "birthday": "06-02-1962"
+  },
+  {
+    "surname": "Kefalogiannis",
+    "name": "Manolis",
+    "group_code": "PPE",
+    "country_code": "gr",
+    "id_mep": 125068,
+    "id_seat": 106,
+    "id_group": 4273,
+    "birthday": "24-05-1959"
+  },
+  {
+    "surname": "Senra Rodríguez",
+    "name": "Maria Lidia",
+    "group_code": "GUE/NGL",
+    "country_code": "es",
+    "id_mep": 125049,
+    "id_seat": 233,
+    "id_group": 4281,
+    "birthday": "14-06-1958"
+  },
+  {
+    "surname": "Kyrtsos",
+    "name": "Georgios",
+    "group_code": "PPE",
+    "country_code": "gr",
+    "id_mep": 125063,
+    "id_seat": 585,
+    "id_group": 4273,
+    "birthday": "04-06-1952"
+  },
+  {
+    "surname": "Zarianopoulos",
+    "name": "Sotirios",
+    "group_code": "NI",
+    "country_code": "gr",
+    "id_mep": 125090,
+    "id_seat": 863,
+    "id_group": 3968,
+    "birthday": "16-02-1961"
+  },
+  {
+    "surname": "Viegas",
+    "name": "Miguel",
+    "group_code": "GUE/NGL",
+    "country_code": "pt",
+    "id_mep": 125100,
+    "id_seat": 301,
+    "id_group": 4281,
+    "birthday": "27-06-1969"
+  },
+  {
+    "surname": "Fountoulis",
+    "name": "Lampros",
+    "group_code": "NI",
+    "country_code": "gr",
+    "id_mep": 125070,
+    "id_seat": 699,
+    "id_group": 3968,
+    "birthday": "23-01-1961"
+  },
+  {
+    "surname": "Papadakis",
+    "name": "Konstantinos",
+    "group_code": "NI",
+    "country_code": "gr",
+    "id_mep": 125093,
+    "id_seat": 862,
+    "id_group": 3968,
+    "birthday": "18-04-1975"
+  },
+  {
+    "surname": "Epitideios",
+    "name": "Georgios",
+    "group_code": "NI",
+    "country_code": "gr",
+    "id_mep": 125071,
+    "id_seat": 700,
+    "id_group": 3968,
+    "birthday": "02-03-1953"
+  },
+  {
+    "surname": "Vozemberg-Vrionidi",
+    "name": "Elissavet",
+    "group_code": "PPE",
+    "country_code": "gr",
+    "id_mep": 125065,
+    "id_seat": 838,
+    "id_group": 4273,
+    "birthday": "14-09-1956"
+  },
+  {
+    "surname": "Tomc",
+    "name": "Romana",
+    "group_code": "PPE",
+    "country_code": "si",
+    "id_mep": 125104,
+    "id_seat": 587,
+    "id_group": 4273,
+    "birthday": "02-11-1965"
+  },
+  {
+    "surname": "Šulin",
+    "name": "Patricija",
+    "group_code": "PPE",
+    "country_code": "si",
+    "id_mep": 125103,
+    "id_seat": 770,
+    "id_group": 4273,
+    "birthday": "25-11-1965"
+  },
+  {
+    "surname": "Stevens",
+    "name": "Helga",
+    "group_code": "ECR",
+    "country_code": "be",
+    "id_mep": 125105,
+    "id_seat": 157,
+    "id_group": 4275,
+    "birthday": "09-08-1968"
+  },
+  {
+    "surname": "Kaili",
+    "name": "Eva",
+    "group_code": "S&D",
+    "country_code": "gr",
+    "id_mep": 125109,
+    "id_seat": 132,
+    "id_group": 4284,
+    "birthday": "26-10-1978"
+  },
+  {
+    "surname": "Grammatikakis",
+    "name": "Giorgos",
+    "group_code": "S&D",
+    "country_code": "gr",
+    "id_mep": 125112,
+    "id_seat": 541,
+    "id_group": 4284,
+    "birthday": "21-05-1939"
+  },
+  {
+    "surname": "Faria",
+    "name": "José Inácio",
+    "group_code": "PPE",
+    "country_code": "pt",
+    "id_mep": 125101,
+    "id_seat": 494,
+    "id_group": 4273,
+    "birthday": "13-03-1962"
+  },
+  {
+    "surname": "Androulakis",
+    "name": "Nikos",
+    "group_code": "S&D",
+    "country_code": "gr",
+    "id_mep": 125110,
+    "id_seat": 307,
+    "id_group": 4284,
+    "birthday": "07-02-1979"
+  },
+  {
+    "surname": "Kyrkos",
+    "name": "Miltiadis",
+    "group_code": "S&D",
+    "country_code": "gr",
+    "id_mep": 125113,
+    "id_seat": 133,
+    "id_group": 4284,
+    "birthday": "01-04-1959"
+  },
+  {
+    "surname": "Zullo",
+    "name": "Marco",
+    "group_code": "EFDD",
+    "country_code": "it",
+    "id_mep": 125237,
+    "id_seat": 522,
+    "id_group": 4880,
+    "birthday": "29-10-1978"
+  },
+  {
+    "surname": "Kuneva",
+    "name": "Kostadinka",
+    "group_code": "GUE/NGL",
+    "country_code": "gr",
+    "id_mep": 125092,
+    "id_seat": 532,
+    "id_group": 4281,
+    "birthday": "28-09-1964"
+  },
+  {
+    "surname": "Forenza",
+    "name": "Eleonora",
+    "group_code": "GUE/NGL",
+    "country_code": "it",
+    "id_mep": 125193,
+    "id_seat": 123,
+    "id_group": 4281,
+    "birthday": "10-11-1976"
+  },
+  {
+    "surname": "Rodrigues",
+    "name": "Liliana",
+    "group_code": "S&D",
+    "country_code": "pt",
+    "id_mep": 125099,
+    "id_seat": 715,
+    "id_group": 4284,
+    "birthday": "13-04-1973"
+  },
+  {
+    "surname": "Maltese",
+    "name": "Curzio",
+    "group_code": "GUE/NGL",
+    "country_code": "it",
+    "id_mep": 125192,
+    "id_seat": 124,
+    "id_group": 4281,
+    "birthday": "30-03-1959"
+  },
+  {
+    "surname": "Loiseau",
+    "name": "Philippe",
+    "group_code": "ENF",
+    "country_code": "fr",
+    "id_mep": 125684,
+    "id_seat": 528,
+    "id_group": 4908,
+    "birthday": "24-11-1957"
+  },
+  {
+    "surname": "Mihaylova",
+    "name": "Iskra",
+    "group_code": "ALDE",
+    "country_code": "bg",
+    "id_mep": 125128,
+    "id_seat": 140,
+    "id_group": 4283,
+    "birthday": "07-09-1957"
+  },
+  {
+    "surname": "Salini",
+    "name": "Massimiliano",
+    "group_code": "PPE",
+    "country_code": "it",
+    "id_mep": 125670,
+    "id_seat": 757,
+    "id_group": 4273,
+    "birthday": "11-03-1973"
+  },
+  {
+    "surname": "Vandenkendelaere",
+    "name": "Tom",
+    "group_code": "PPE",
+    "country_code": "be",
+    "id_mep": 129164,
+    "id_seat": 834,
+    "id_group": 4273,
+    "birthday": "02-09-1984"
+  },
+  {
+    "surname": "González Peñas",
+    "name": "Tania",
+    "group_code": "GUE/NGL",
+    "country_code": "es",
+    "id_mep": 127330,
+    "id_seat": 535,
+    "id_group": 4281,
+    "birthday": "18-10-1982"
+  },
+  {
+    "surname": "Pospíšil",
+    "name": "Jiří",
+    "group_code": "PPE",
+    "country_code": "cz",
+    "id_mep": 125706,
+    "id_seat": 748,
+    "id_group": 4273,
+    "birthday": "24-11-1975"
+  },
+  {
+    "surname": "Paet",
+    "name": "Urmas",
+    "group_code": "ALDE",
+    "country_code": "ee",
+    "id_mep": 129073,
+    "id_seat": 406,
+    "id_group": 4283,
+    "birthday": "20-04-1974"
+  },
+  {
+    "surname": "Kouloglou",
+    "name": "Stelios",
+    "group_code": "GUE/NGL",
+    "country_code": "gr",
+    "id_mep": 130833,
+    "id_seat": 452,
+    "id_group": 4281,
+    "birthday": "27-02-1953"
+  },
+  {
+    "surname": "Vautmans",
+    "name": "Hilde",
+    "group_code": "ALDE",
+    "country_code": "be",
+    "id_mep": 130100,
+    "id_seat": 489,
+    "id_group": 4283,
+    "birthday": "02-05-1972"
+  },
+  {
+    "surname": "Couso Permuy",
+    "name": "Javier",
+    "group_code": "GUE/NGL",
+    "country_code": "es",
+    "id_mep": 125997,
+    "id_seat": 234,
+    "id_group": 4281,
+    "birthday": "08-11-1968"
+  },
+  {
+    "surname": "Sakorafa",
+    "name": "Sofia",
+    "group_code": "GUE/NGL",
+    "country_code": "gr",
+    "id_mep": 125091,
+    "id_seat": 451,
+    "id_group": 4281,
+    "birthday": "29-04-1957"
+  },
+  {
+    "surname": "Rolin",
+    "name": "Claude",
+    "group_code": "PPE",
+    "country_code": "be",
+    "id_mep": 125107,
+    "id_seat": 752,
+    "id_group": 4273,
+    "birthday": "26-05-1957"
+  },
+  {
+    "surname": "Zoffoli",
+    "name": "Damiano",
+    "group_code": "S&D",
+    "country_code": "it",
+    "id_mep": 131051,
+    "id_seat": 806,
+    "id_group": 4284,
+    "birthday": "17-07-1960"
+  },
+  {
+    "surname": "Torres Martínez",
+    "name": "Estefanía",
+    "group_code": "GUE/NGL",
+    "country_code": "es",
+    "id_mep": 131749,
+    "id_seat": 538,
+    "id_group": 4281,
+    "birthday": "27-04-1982"
+  },
+  {
+    "surname": "Calvet Chambon",
+    "name": "Enrique",
+    "group_code": "ALDE",
+    "country_code": "es",
+    "id_mep": 129407,
+    "id_seat": 569,
+    "id_group": 4283,
+    "birthday": "28-10-1950"
+  },
+  {
+    "surname": "Urbán Crespo",
+    "name": "Miguel",
+    "group_code": "GUE/NGL",
+    "country_code": "es",
+    "id_mep": 131507,
+    "id_seat": 536,
+    "id_group": 4281,
+    "birthday": "26-03-1980"
+  },
+  {
+    "surname": "Czesak",
+    "name": "Edward",
+    "group_code": "ECR",
+    "country_code": "pl",
+    "id_mep": 132925,
+    "id_seat": 510,
+    "id_group": 4275,
+    "birthday": "22-02-1951"
+  },
+  {
+    "surname": "Selimovic",
+    "name": "Jasenko",
+    "group_code": "ALDE",
+    "country_code": "se",
+    "id_mep": 134243,
+    "id_seat": 820,
+    "id_group": 4283,
+    "birthday": "17-04-1968"
+  },
+  {
+    "surname": "Benito Ziluaga",
+    "name": "Xabier",
+    "group_code": "GUE/NGL",
+    "country_code": "es",
+    "id_mep": 135490,
+    "id_seat": 534,
+    "id_group": 4281,
+    "birthday": "23-05-1988"
+  },
+  {
+    "surname": "Maullu",
+    "name": "Stefano",
+    "group_code": "ECR",
+    "country_code": "it",
+    "id_mep": 133326,
+    "id_seat": 686,
+    "id_group": 4275,
+    "birthday": "15-03-1962"
+  },
+  {
+    "surname": "Ruohonen-Lerner",
+    "name": "Pirkko",
+    "group_code": "ECR",
+    "country_code": "fi",
+    "id_mep": 132366,
+    "id_seat": 773,
+    "id_group": 4275,
+    "birthday": "06-02-1957"
+  },
+  {
+    "surname": "Hoc",
+    "name": "Czesław",
+    "group_code": "ECR",
+    "country_code": "pl",
+    "id_mep": 135540,
+    "id_seat": 596,
+    "id_group": 4275,
+    "birthday": "22-02-1954"
+  },
+  {
+    "surname": "Kłosowski",
+    "name": "Sławomir",
+    "group_code": "ECR",
+    "country_code": "pl",
+    "id_mep": 135541,
+    "id_seat": 599,
+    "id_group": 4275,
+    "birthday": "21-02-1964"
+  },
+  {
+    "surname": "Ropė",
+    "name": "Bronis",
+    "group_code": "Verts/ALE",
+    "country_code": "lt",
+    "id_mep": 125214,
+    "id_seat": 649,
+    "id_group": 4285,
+    "birthday": "14-04-1955"
+  },
+  {
+    "surname": "Giménez Barbat",
+    "name": "María Teresa",
+    "group_code": "ALDE",
+    "country_code": "es",
+    "id_mep": 135491,
+    "id_seat": 654,
+    "id_group": 4283,
+    "birthday": "04-06-1955"
+  },
+  {
+    "surname": "Wierinck",
+    "name": "Lieve",
+    "group_code": "ALDE",
+    "country_code": "be",
+    "id_mep": 183022,
+    "id_seat": 823,
+    "id_group": 4283,
+    "birthday": "03-07-1957"
+  },
+  {
+    "surname": "Dalunde",
+    "name": "Jakop",
+    "group_code": "Verts/ALE",
+    "country_code": "se",
+    "id_mep": 183338,
+    "id_seat": 813,
+    "id_group": 4285,
+    "birthday": "02-02-1984"
+  },
+  {
+    "surname": "Ciocca",
+    "name": "Angelo",
+    "group_code": "ENF",
+    "country_code": "it",
+    "id_mep": 183793,
+    "id_seat": 359,
+    "id_group": 4908,
+    "birthday": "28-06-1975"
+  },
+  {
+    "surname": "Mayer",
+    "name": "Alex",
+    "group_code": "S&D",
+    "country_code": "gb",
+    "id_mep": 185637,
+    "id_seat": 635,
+    "id_group": 4284,
+    "birthday": "02-06-1981"
+  },
+  {
+    "surname": "Tolić",
+    "name": "Ivica",
+    "group_code": "PPE",
+    "country_code": "hr",
+    "id_mep": 185340,
+    "id_seat": 849,
+    "id_group": 4273,
+    "birthday": "01-09-1968"
+  },
+  {
+    "surname": "Zovko",
+    "name": "Željana",
+    "group_code": "PPE",
+    "country_code": "hr",
+    "id_mep": 185341,
+    "id_seat": 848,
+    "id_group": 4273,
+    "birthday": "25-03-1970"
+  },
+  {
+    "surname": "Procter",
+    "name": "John",
+    "group_code": "ECR",
+    "country_code": "gb",
+    "id_mep": 185628,
+    "id_seat": 517,
+    "id_group": 4275,
+    "birthday": ""
+  },
+  {
+    "surname": "Wölken",
+    "name": "Tiemo",
+    "group_code": "S&D",
+    "country_code": "de",
+    "id_mep": 185619,
+    "id_seat": 801,
+    "id_group": 4284,
+    "birthday": "05-12-1985"
+  },
+  {
+    "surname": "Kohn",
+    "name": "Arndt",
+    "group_code": "S&D",
+    "country_code": "de",
+    "id_mep": 186884,
+    "id_seat": 559,
+    "id_group": 4284,
+    "birthday": "03-09-1980"
+  },
+  {
+    "surname": "Elissen",
+    "name": "André",
+    "group_code": "ENF",
+    "country_code": "nl",
+    "id_mep": 188445,
+    "id_seat": 440,
+    "id_group": 4908,
+    "birthday": "12-02-1960"
+  },
+  {
+    "surname": "Solé",
+    "name": "Jordi",
+    "group_code": "Verts/ALE",
+    "country_code": "es",
+    "id_mep": 185974,
+    "id_seat": 322,
+    "id_group": 4285,
+    "birthday": "26-10-1976"
+  },
+  {
+    "surname": "Matthews",
+    "name": "Rupert",
+    "group_code": "ECR",
+    "country_code": "gb",
+    "id_mep": 188622,
+    "id_seat": 687,
+    "id_group": 4275,
+    "birthday": "05-12-1961"
+  },
+  {
+    "surname": "Engström",
+    "name": "Linnéa",
+    "group_code": "Verts/ALE",
+    "country_code": "se",
+    "id_mep": 128588,
+    "id_seat": 562,
+    "id_group": 4285,
+    "birthday": "02-04-1981"
+  },
+  {
+    "surname": "Khan",
+    "name": "Wajid",
+    "group_code": "S&D",
+    "country_code": "gb",
+    "id_mep": 188624,
+    "id_seat": 557,
+    "id_group": 4284,
+    "birthday": "15-10-1979"
+  },
+  {
+    "surname": "Lechevalier",
+    "name": "Christelle",
+    "group_code": "ENF",
+    "country_code": "fr",
+    "id_mep": 188718,
+    "id_seat": 529,
+    "id_group": 4908,
+    "birthday": "27-09-1968"
+  },
+  {
+    "surname": "Lalonde",
+    "name": "Patricia",
+    "group_code": "ALDE",
+    "country_code": "fr",
+    "id_mep": 188254,
+    "id_seat": 740,
+    "id_group": 4283,
+    "birthday": "28-08-1952"
+  },
+  {
+    "surname": "Pavel",
+    "name": "Emilian",
+    "group_code": "S&D",
+    "country_code": "ro",
+    "id_mep": 129256,
+    "id_seat": 707,
+    "id_group": 4284,
+    "birthday": "25-10-1983"
+  },
+  {
+    "surname": "Flack",
+    "name": "John",
+    "group_code": "ECR",
+    "country_code": "gb",
+    "id_mep": 188623,
+    "id_seat": 511,
+    "id_group": 4275,
+    "birthday": "03-01-1957"
+  },
+  {
+    "surname": "Pimenta Lopes",
+    "name": "João",
+    "group_code": "GUE/NGL",
+    "country_code": "pt",
+    "id_mep": 136236,
+    "id_seat": 300,
+    "id_group": 4281,
+    "birthday": "12-04-1980"
+  },
+  {
+    "surname": "Ţurcanu",
+    "name": "Mihai",
+    "group_code": "PPE",
+    "country_code": "ro",
+    "id_mep": 131750,
+    "id_seat": 830,
+    "id_group": 4273,
+    "birthday": "02-11-1975"
+  },
+  {
+    "surname": "Jamet",
+    "name": "France",
+    "group_code": "ENF",
+    "country_code": "fr",
+    "id_mep": 189065,
+    "id_seat": 614,
+    "id_group": 4908,
+    "birthday": "05-02-1961"
+  },
+  {
+    "surname": "Radtke",
+    "name": "Dennis",
+    "group_code": "PPE",
+    "country_code": "de",
+    "id_mep": 188945,
+    "id_seat": 750,
+    "id_group": 4273,
+    "birthday": "29-04-1979"
+  },
+  {
+    "surname": "Bullock",
+    "name": "Jonathan",
+    "group_code": "EFDD",
+    "country_code": "gb",
+    "id_mep": 188733,
+    "id_seat": 523,
+    "id_group": 4880,
+    "birthday": "03-03-1963"
+  },
+  {
+    "surname": "Graswander-Hainz",
+    "name": "Karoline",
+    "group_code": "S&D",
+    "country_code": "at",
+    "id_mep": 133316,
+    "id_seat": 543,
+    "id_group": 4284,
+    "birthday": "02-02-1974"
+  },
+  {
+    "surname": "Mobarik",
+    "name": "Nosheena",
+    "group_code": "ECR",
+    "country_code": "gb",
+    "id_mep": 189391,
+    "id_seat": 775,
+    "id_group": 4275,
+    "birthday": "16-10-1957"
+  },
+  {
+    "surname": "Popa",
+    "name": "Răzvan",
+    "group_code": "S&D",
+    "country_code": "ro",
+    "id_mep": 189490,
+    "id_seat": 713,
+    "id_group": 4284,
+    "birthday": "20-01-1978"
+  },
+  {
+    "surname": "Payne",
+    "name": "Jiří",
+    "group_code": "EFDD",
+    "country_code": "cz",
+    "id_mep": 189507,
+    "id_seat": 606,
+    "id_group": 4880,
+    "birthday": "07-07-1956"
+  },
+  {
+    "surname": "Meuthen",
+    "name": "Jörg",
+    "group_code": "EFDD",
+    "country_code": "de",
+    "id_mep": 190518,
+    "id_seat": 605,
+    "id_group": 4880,
+    "birthday": "29-06-1961"
+  },
+  {
+    "surname": "Waitz",
+    "name": "Thomas",
+    "group_code": "Verts/ALE",
+    "country_code": "at",
+    "id_mep": 190464,
+    "id_seat": 811,
+    "id_group": 4285,
+    "birthday": "16-05-1973"
+  },
+  {
+    "surname": "Palmer",
+    "name": "Rory",
+    "group_code": "S&D",
+    "country_code": "gb",
+    "id_mep": 190099,
+    "id_seat": 644,
+    "id_group": 4284,
+    "birthday": "19-11-1981"
+  },
+  {
+    "surname": "Nagtegaal",
+    "name": "Caroline",
+    "group_code": "ALDE",
+    "country_code": "nl",
+    "id_mep": 190519,
+    "id_seat": 742,
+    "id_group": 4283,
+    "birthday": "01-06-1980"
+  },
+  {
+    "surname": "Ademov",
+    "name": "Asim",
+    "group_code": "PPE",
+    "country_code": "bg",
+    "id_mep": 189525,
+    "id_seat": 334,
+    "id_group": 4273,
+    "birthday": "03-12-1968"
+  },
+  {
+    "surname": "Didier",
+    "name": "Geoffroy",
+    "group_code": "PPE",
+    "country_code": "fr",
+    "id_mep": 190774,
+    "id_seat": 426,
+    "id_group": 4273,
+    "birthday": "12-04-1976"
+  },
+  {
+    "surname": "Detjen",
+    "name": "Michael",
+    "group_code": "S&D",
+    "country_code": "de",
+    "id_mep": 190799,
+    "id_seat": 462,
+    "id_group": 4284,
+    "birthday": "28-04-1958"
+  },
+  {
+    "surname": "Mandl",
+    "name": "Lukas",
+    "group_code": "PPE",
+    "country_code": "at",
+    "id_mep": 190713,
+    "id_seat": 664,
+    "id_group": 4273,
+    "birthday": "12-07-1979"
+  },
+  {
+    "surname": "Zoană",
+    "name": "Maria Gabriela",
+    "group_code": "S&D",
+    "country_code": "ro",
+    "id_mep": 191377,
+    "id_seat": 805,
+    "id_group": 4284,
+    "birthday": "15-06-1979"
+  },
+  {
+    "surname": "Katainen",
+    "name": "Elsi",
+    "group_code": "ALDE",
+    "country_code": "fi",
+    "id_mep": 191693,
+    "id_seat": 659,
+    "id_group": 4283,
+    "birthday": "17-12-1966"
+  },
+  {
+    "surname": "Schirdewan",
+    "name": "Martin",
+    "group_code": "GUE/NGL",
+    "country_code": "de",
+    "id_mep": 190517,
+    "id_seat": 378,
+    "id_group": 4281,
+    "birthday": "12-07-1975"
+  },
+  {
+    "surname": "Howarth",
+    "name": "John",
+    "group_code": "S&D",
+    "country_code": "gb",
+    "id_mep": 188636,
+    "id_seat": 551,
+    "id_group": 4284,
+    "birthday": "31-10-1958"
+  },
+  {
+    "surname": "Zammit Dimech",
+    "name": "Francis",
+    "group_code": "PPE",
+    "country_code": "mt",
+    "id_mep": 188906,
+    "id_seat": 844,
+    "id_group": 4273,
+    "birthday": "23-10-1954"
+  },
+  {
+    "surname": "Vieu",
+    "name": "Marie-Pierre",
+    "group_code": "GUE/NGL",
+    "country_code": "fr",
+    "id_mep": 188721,
+    "id_seat": 303,
+    "id_group": 4281,
+    "birthday": "01-02-1967"
+  },
+  {
+    "surname": "Colombier",
+    "name": "Jacques",
+    "group_code": "ENF",
+    "country_code": "fr",
+    "id_mep": 191510,
+    "id_seat": 526,
+    "id_group": 4908,
+    "birthday": "17-02-1952"
+  },
+  {
+    "surname": "Gabelic",
+    "name": "Aleksander",
+    "group_code": "S&D",
+    "country_code": "se",
+    "id_mep": 192465,
+    "id_seat": 471,
+    "id_group": 4284,
+    "birthday": "17-09-1965"
+  },
+  {
+    "surname": "Ferrandino",
+    "name": "Giuseppe",
+    "group_code": "S&D",
+    "country_code": "it",
+    "id_mep": 192634,
+    "id_seat": 466,
+    "id_group": 4284,
+    "birthday": "21-03-1963"
+  },
+  {
+    "surname": "Gloanec Maurin",
+    "name": "Karine",
+    "group_code": "S&D",
+    "country_code": "fr",
+    "id_mep": 193080,
+    "id_seat": 477,
+    "id_group": 4284,
+    "birthday": "11-01-1958"
+  },
+  {
+    "surname": "Franz",
+    "name": "Romeo",
+    "group_code": "Verts/ALE",
+    "country_code": "de",
+    "id_mep": 193273,
+    "id_seat": 190,
+    "id_group": 4285,
+    "birthday": "28-10-1966"
+  },
+  {
+    "surname": "Metz",
+    "name": "Tilly",
+    "group_code": "Verts/ALE",
+    "country_code": "lu",
+    "id_mep": 193292,
+    "id_seat": 815,
+    "id_group": 4285,
+    "birthday": "26-05-1967"
+  },
+  {
+    "surname": "Sośnierz",
+    "name": "Dobromir",
+    "group_code": "NI",
+    "country_code": "pl",
+    "id_mep": 192298,
+    "id_seat": 859,
+    "id_group": 3968,
+    "birthday": "18-10-1976"
+  },
+  {
+    "surname": "Mitrofanovs",
+    "name": "Miroslavs",
+    "group_code": "Verts/ALE",
+    "country_code": "lv",
+    "id_mep": 191695,
+    "id_seat": 399,
+    "id_group": 4285,
+    "birthday": "18-12-1966"
+  },
+  {
+    "surname": "Lancini",
+    "name": "Danilo Oscar",
+    "group_code": "ENF",
+    "country_code": "it",
+    "id_mep": 192635,
+    "id_seat": 360,
+    "id_group": 4908,
+    "birthday": "15-10-1965"
+  },
+  {
+    "surname": "Loskutovs",
+    "name": "Aleksejs",
+    "group_code": "PPE",
+    "country_code": "lv",
+    "id_mep": 196042,
+    "id_seat": 660,
+    "id_group": 4273,
+    "birthday": "22-08-1962"
+  },
+  {
+    "surname": "Packet",
+    "name": "Ralph",
+    "group_code": "ECR",
+    "country_code": "be",
+    "id_mep": 195454,
+    "id_seat": 690,
+    "id_group": 4275,
+    "birthday": "17-07-1990"
+  },
+  {
+    "surname": "Hansen",
+    "name": "Christophe",
+    "group_code": "PPE",
+    "country_code": "lu",
+    "id_mep": 193419,
+    "id_seat": 148,
+    "id_group": 4273,
+    "birthday": "21-02-1982"
+  },
+  {
+    "surname": "Gehrold",
+    "name": "Stefan",
+    "group_code": "PPE",
+    "country_code": "de",
+    "id_mep": 194391,
+    "id_seat": 499,
+    "id_group": 4273,
+    "birthday": "14-11-1965"
+  },
+  {
+    "surname": "Winter",
+    "name": "Babette",
+    "group_code": "S&D",
+    "country_code": "de",
+    "id_mep": 195912,
+    "id_seat": 798,
+    "id_group": 4284,
+    "birthday": "06-06-1964"
+  },
+  {
+    "surname": "Gräzin",
+    "name": "Igor",
+    "group_code": "ALDE",
+    "country_code": "ee",
+    "id_mep": 193879,
+    "id_seat": 655,
+    "id_group": 4283,
+    "birthday": "27-06-1952"
+  },
+  {
+    "surname": "Sellström",
+    "name": "Anders",
+    "group_code": "PPE",
+    "country_code": "se",
+    "id_mep": 194658,
+    "id_seat": 763,
+    "id_group": 4273,
+    "birthday": "19-03-1964"
+  },
+  {
+    "surname": "Vehkaperä",
+    "name": "Mirja",
+    "group_code": "ALDE",
+    "country_code": "fi",
+    "id_mep": 193269,
+    "id_seat": 822,
+    "id_group": 4283,
+    "birthday": "06-04-1976"
+  }
+]

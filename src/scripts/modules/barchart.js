@@ -6,32 +6,31 @@ export default (function() {
     tooltip: '.barchart-tooltip',
     width: 960,
     height: 820,
-    margin: 50
+    midX: 480
   };
 
-  let voteTypes = [
-    {
-      key: 'yesVotes',
-      color: '#0571b0',
-      offsetX: (config.width / 2) + 30,
-      reverse: false,
-      showLabels: true
-    },
-    {
-      key: 'noVotes',
-      color: '#ca0020',
-      offsetX: (config.width / 2) - 35,
-      reverse: true,
-      showLabels: true
-    },
-    {
-      key: 'abstentions',
-      color: '#a9a9a9',
-      offsetX: (config.width / 2) - 15,
-      reverse: false,
-      showLabels: false
-    }
-  ];
+  let voteTypes = [{
+    key: 'yesVotes',
+    description: 'voted in favor',
+    color: '#0571b0',
+    offsetX: config.midX + 5,
+    reverse: false,
+    showLabels: true
+  }, {
+    key: 'noVotes',
+    description: 'voted against',
+    color: '#ca0020',
+    offsetX: config.midX - 65,
+    reverse: true,
+    showLabels: true
+  }, {
+    key: 'abstentions',
+    description: 'abstained',
+    color: '#a9a9a9',
+    offsetX: config.midX - 45,
+    reverse: false,
+    showLabels: false
+  }];
 
   let data = {};
   let groups = {};
@@ -46,6 +45,7 @@ export default (function() {
       Object.keys(data.votes.noVotes),
       Object.keys(data.votes.abstentions)
     );
+
     render();
   }
 
@@ -72,9 +72,9 @@ export default (function() {
       .range([0, chart.bounds.height]);
 
     chart.$svg.append('line')
-      .attr('x1', (config.width / 2) - 25)
+      .attr('x1', config.midX - 55)
       .attr('y1', 0)
-      .attr('x2', (config.width / 2) - 25)
+      .attr('x2', config.midX - 55)
       .attr('y2', config.height)
       .attr('shape-rendering', 'crispEdges')
       .attr('stroke', 'black')
@@ -90,7 +90,7 @@ export default (function() {
 
         $group.append('text')
           .attr('font-size', 16)
-          .attr('x', (config.width / 2) - 20)
+          .attr('x', config.midX - 50)
           .attr('y', -15)
           .text(group);
 
@@ -109,8 +109,8 @@ export default (function() {
               votes.forEach((vote, column) => {
                 $voteType.append('circle')
                   .attr('r', 4.7)
-                  .attr('cx', voteType.offsetX + (modifier * (column * 10)))
-                  .attr('cy', row * 10)
+                  .attr('cx', voteType.offsetX + (modifier * (column * 11)))
+                  .attr('cy', row * 11)
                   .attr('fill', voteType.color);
               });
             });
@@ -119,7 +119,7 @@ export default (function() {
               $voteType.append('text')
                 .attr('font-size', 16)
                 .attr('text-anchor', voteType.reverse ? 'end' : 'start')
-                .attr('x', voteType.offsetX + (modifier * (maxDots * 10)) + (modifier * 5))
+                .attr('x', voteType.offsetX + (modifier * (maxDots * 11)) + (modifier * 5))
                 .attr('y', 21)
                 .attr('fill', voteType.color)
                 .text(votes[group].length);
