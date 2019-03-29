@@ -5,8 +5,7 @@ export default (function() {
     container: '.hemicycle',
     tooltip: '.hemicycle-tooltip',
     width: 960,
-    height: 500,
-    margin: 50
+    height: 500
   };
 
   let chart = {};
@@ -15,7 +14,36 @@ export default (function() {
   function init(_data, _config) {
     config = Object.assign(config, _config);
     data = _data;
+    data.merged = merge(_data);
+
     render();
+  }
+
+  function merge(_data) {
+    return _data.seats.map(d => {
+      d.member = _data.members.filter(m => {
+        return d.id === m.id_seat;
+      })[0];
+
+      if (d.member) {
+        const group = d.member.group_code;
+
+        if (_data.votes.yesVotes[group]
+          .includes(d.member.surname)) {
+            d.vote = 'yes';
+        } else if (_data.votes.noVotes[group]
+          .includes(d.member.surname)) {
+            d.vote = 'no';
+        } else if (_data.votes.abstentions[group]
+          .includes(d.member.surname)) {
+            d.vote = 'abstained';
+        } else {
+          d.vote = false;
+        }
+      }
+
+      return d;
+    });
   }
 
   function render() {
@@ -42,15 +70,15 @@ export default (function() {
 
     chart.$seats = chart.$svg.append('g')
       .selectAll('circle')
-      .data(data.seats)
+      .data(data.merged)
       .enter()
       .append('circle')
       .attr('cx', d => d.x)
       .attr('cy', d => d.y)
       .attr('r', 4.7)
       .attr('fill', getVoteColor)
-      .attr('stroke', d => d.voted ? 'none' : '#a9a9a9')
-      .attr('stroke-width', d => d.voted ? 0 : 1)
+      .attr('stroke', d => d.vote ? 'none' : '#a9a9a9')
+      .attr('stroke-width', d => d.vote ? 0 : 1)
       .attr('stroke-alignment', 'inner') // Don't stop believin'
       .on('mouseenter', showTooltip)
       .on('mouseleave', hideTooltip);
@@ -72,7 +100,8 @@ export default (function() {
     chart.$yesCount = chart.$voteCount.append('g');
     chart.$yesCount.append('text')
       .attr('font-size', 60)
-      .attr('x', 30)
+      .attr('text-anchor', 'end')
+      .attr('x', config.width - 30)
       .attr('y', 90)
       .attr('fill', '#0571b0')
       .text(yesCount);
@@ -80,7 +109,8 @@ export default (function() {
     chart.$yesCount
       .append('text')
       .attr('font-size', 16)
-      .attr('x', 30)
+      .attr('text-anchor', 'end')
+      .attr('x', config.width - 30)
       .attr('y', 110)
       .attr('fill', '#0571b0')
       .text('voted in favor');
@@ -88,8 +118,7 @@ export default (function() {
     chart.$noCount = chart.$voteCount.append('g');
     chart.$noCount.append('text')
       .attr('font-size', 60)
-      .attr('text-anchor', 'end')
-      .attr('x', config.width - 30)
+      .attr('x', 30)
       .attr('y', 90)
       .attr('fill', '#ca0020')
       .text(noCount);
@@ -97,8 +126,7 @@ export default (function() {
     chart.$noCount
       .append('text')
       .attr('font-size', 16)
-      .attr('text-anchor', 'end')
-      .attr('x', config.width - 30)
+      .attr('x', 30)
       .attr('y', 110)
       .attr('fill', '#ca0020')
       .text('voted against');
@@ -166,24 +194,13 @@ export default (function() {
   }
 
   function getVoteColor(d) {
-    d.member = data.members.filter(m => {
-      return d.id === m.id_seat;
-    })[0];
+    const voteColor = {
+      yes: '#0571b0',
+      no: '#ca0020',
+      abstained: '#a9a9a9'
+    };
 
-    if (d.member) {
-      d.member.votedYes = data.votes.yesVotes[d.member.group_code]
-        .includes(d.member.surname);
-      d.member.votedNo = data.votes.noVotes[d.member.group_code]
-        .includes(d.member.surname);
-      d.member.abstained = data.votes.abstentions[d.member.group_code]
-        .includes(d.member.surname);
-      d.voted = d.member.votedYes || d.member.votedNo || d.member.abstained;
-
-      if (d.member.votedYes) { return '#0571b0'; }
-      if (d.member.votedNo) { return '#ca0020'; }
-      if (d.member.abstained) { return '#a9a9a9'; }
-    }
-    return 'none';
+    return voteColor[d.vote] || 'none';
   }
 
   function getGroupColor(name) {
