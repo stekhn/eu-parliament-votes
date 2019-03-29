@@ -9,12 +9,43 @@ export default (function() {
     margin: 50
   };
 
-  let chart = {};
-  let data = {};
+  let voteTypes = [
+    {
+      key: 'yesVotes',
+      color: '#0571b0',
+      offsetX: (config.width / 2) + 30,
+      reverse: false,
+      showLabels: true
+    },
+    {
+      key: 'noVotes',
+      color: '#ca0020',
+      offsetX: (config.width / 2) - 35,
+      reverse: true,
+      showLabels: true
+    },
+    {
+      key: 'abstentions',
+      color: '#a9a9a9',
+      offsetX: (config.width / 2) - 15,
+      reverse: false,
+      showLabels: false
+    }
+  ];
 
-  function init(_data, _config) {
-    config = Object.assign(config, _config);
+  let data = {};
+  let groups = {};
+  let chart = {};
+
+  function init(_data, _config, _voteTypes) {
     data = _data;
+    config = Object.assign(config, _config);
+    voteTypes = _voteTypes || voteTypes;
+    groups = Object.assign(
+      Object.keys(data.votes.yesVotes),
+      Object.keys(data.votes.noVotes),
+      Object.keys(data.votes.abstentions)
+    );
     render();
   }
 
@@ -40,12 +71,6 @@ export default (function() {
       .domain([0, config.height])
       .range([0, chart.bounds.height]);
 
-    const groups = Object.assign(
-      Object.keys(data.votes.yesVotes),
-      Object.keys(data.votes.noVotes),
-      Object.keys(data.votes.abstentions)
-    );
-
     chart.$svg.append('line')
       .attr('x1', (config.width / 2) - 25)
       .attr('y1', 0)
@@ -55,93 +80,51 @@ export default (function() {
       .attr('stroke', 'black')
       .attr('stroke-width', '1');
 
-    chart.$groups = chart.$svg.append('g')
-      .selectAll('g')
+    chart.$groups = chart.$svg.selectAll('g')
       .data(groups)
       .enter()
       .append('g')
-      .attr('data-group', d => d)
       .attr('transform', (d, i) => `translate(0, ${(++i * 90) - 45})`)
-      .each(function (d) {
+      .each(function (group) {
         const $group = d3.select(this);
-        const chunkedVotes = chunkArray(data.votes.yesVotes[d], 4);
-
-        chunkedVotes.forEach((votes, row) => {
-          votes.forEach((vote, column) => {
-            $group.append('circle')
-              .attr('r', 4.7)
-              .attr('cx', ((config.width / 2) + 30) + (column * 10))
-              .attr('cy', row * 10)
-              .attr('fill', '#0571b0');
-          });
-        });
 
         $group.append('text')
           .attr('font-size', 16)
-          .attr('x', ((config.width / 2) + 30) + ((Math.ceil(data.votes.yesVotes[d].length) / 4) * 10) + 10)
-          .attr('y', 21)
-          .attr('fill', '#0571b0')
-          .text(data.votes.yesVotes[d].length);
-
-        $group.append('text')
-          .attr('font-size', 16)
-          .attr('font-weight', 'bold')
           .attr('x', (config.width / 2) - 20)
           .attr('y', -15)
-          // .attr('fill', '#ca0020')
-          .text(d);
-      });
+          .text(group);
 
-    chart.$groups = chart.$svg.append('g')
-      .selectAll('g')
-      .data(groups)
-      .enter()
-      .append('g')
-      .attr('data-group', d => d)
-      .attr('transform', (d, i) => `translate(0, ${(++i * 90) - 45})`)
-      .each(function (d) {
-        const $group = d3.select(this);
-        const chunkedVotes = chunkArray(data.votes.noVotes[d], 4);
+        chart.$groups = $group.selectAll('g')
+          .data(voteTypes)
+          .enter()
+          .append('g')
+          .each(function (voteType) {
+            const $voteType = d3.select(this);
+            const votes = data.votes[voteType.key];
+            const chunkedVotes = chunkArray(votes[group], 4);
+            const maxDots = Math.ceil(votes[group].length / 4);
+            const modifier = voteType.reverse ? -1 : 1;
 
-        chunkedVotes.forEach((votes, row) => {
-          votes.forEach((vote, column) => {
-            $group.append('circle')
-              .attr('r', 4.7)
-              .attr('cx', ((config.width / 2) - 40) - (column * 10))
-              .attr('cy', row * 10)
-              .attr('fill', '#ca0020');
+            chunkedVotes.forEach((votes, row) => {
+              votes.forEach((vote, column) => {
+                $voteType.append('circle')
+                  .attr('r', 4.7)
+                  .attr('cx', voteType.offsetX + (modifier * (column * 10)))
+                  .attr('cy', row * 10)
+                  .attr('fill', voteType.color);
+              });
+            });
+
+            if (voteType.showLabels) {
+              $voteType.append('text')
+                .attr('font-size', 16)
+                .attr('text-anchor', voteType.reverse ? 'end' : 'start')
+                .attr('x', voteType.offsetX + (modifier * (maxDots * 10)) + (modifier * 5))
+                .attr('y', 21)
+                .attr('fill', voteType.color)
+                .text(votes[group].length);
+            }
           });
-        });
-
-        $group.append('text')
-          .attr('font-size', 16)
-          .attr('text-anchor', 'end')
-          .attr('x', ((config.width / 2) - 40) - ((Math.ceil(data.votes.noVotes[d].length) / 4) * 10) - 10)
-          .attr('y', 21)
-          .attr('fill', '#ca0020')
-          .text(data.votes.noVotes[d].length);
-      });
-
-     chart.$groups = chart.$svg.append('g')
-      .selectAll('g')
-      .data(groups)
-      .enter()
-      .append('g')
-      .attr('data-group', d => d)
-      .attr('transform', (d, i) => `translate(0, ${(++i * 90) - 45})`)
-      .each(function (d) {
-        const $group = d3.select(this);
-        const chunkedVotes = chunkArray(data.votes.abstentions[d], 4);
-
-        chunkedVotes.forEach((votes, row) => {
-          votes.forEach((vote, column) => {
-            $group.append('circle')
-              .attr('r', 4.7)
-              .attr('cx', ((config.width / 2) - 15) + (column * 10))
-              .attr('cy', row * 10)
-              .attr('fill', '#a9a9a9');
-          });
-        });
       });
   }
 
