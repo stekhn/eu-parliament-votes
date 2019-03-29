@@ -1,0 +1,102 @@
+[
+  {
+    "surname": "Quisthoudt-Rowohl",
+    "name": "Godelieve",
+    "group_code": "PPE",
+    "country_code": "de",
+    "id_mep": 1055,
+    "id_seat": 259,
+    "id_group": 4273,
+    "birthday": "18-06-1947"
+  },
+  {
+    "surname": "Goerens",
+    "name": "Charles",
+    "group_code": "ALDE",
+    "country_code": "lu",
+    "id_mep": 840,
+    "id_seat": 325,
+    "id_group": 4283,
+    "birthday": "06-02-1952"
+  },
+  {
+    "surname": "Lamassoure",
+    "name": "Alain",
+    "group_code": "PPE",
+    "country_code": "fr",
+    "id_mep": 1204,
+    "id_seat": 586,
+    "id_group": 4273,
+    "birthday": "10-02-1944"
+  },
+  {
+    "surname": "Gollnisch",
+    "name": "Bruno",
+    "group_code": "NI",
+    "country_code": "fr",
+    "id_mep": 1164,
+    "id_seat": 784,
+    "id_group": 3968,
+    "birthday": "28-01-1950"
+  },
+  {
+    "surname": "Böge",
+    "name": "Reimer",
+    "group_code": "PPE",
+    "country_code": "de",
+    "id_mep": 1037,
+    "id_seat": 342,
+    "id_group": 4273,
+    "birthday": "18-12-1951"
+  },
+  {
+    "surname": "Nicholson",
+    "name": "James",
+    "group_code": "ECR",
+    "country_code": "gb",
+    "id_mep": 1318,
+    "id_seat": 349,
+    "id_group": 4275,
+    "birthday": "29-01-1945"
+  },
+  {
+    "surname": "Florenz",
+    "name": "Karl-Heinz",
+    "group_code": "PPE",
+    "country_code": "de",
+    "id_mep": 1038,
+    "id_seat": 497,
+    "id_group": 4273,
+    "birthday": "22-10-1947"
+  },
+  {
+    "surname": "Alliot-Marie",
+    "name": "Michèle",
+    "group_code": "PPE",
+    "country_code": "fr",
+    "id_mep": 1179,
+    "id_seat": 335,
+    "id_group": 4273,
+    "birthday": "10-09-1946"
+  },
+  {
+    "surname": "Brok",
+    "name": "Elmar",
+    "group_code": "PPE",
+    "country_code": "de",
+    "id_mep": 1263,
+    "id_seat": 345,
+    "id_group": 4273,
+    "birthday": "14-05-1946"
+  },
+  {
+    "surname": "Le Pen",
+    "name": "Jean-Marie",
+    "group_code": "NI",
+    "country_code": "fr",
+    "id_mep": 1023,
+    "id_seat": 785,
+    "id_group": 3968,
+    "birthday": "20-06-1928"
+  }
+]
