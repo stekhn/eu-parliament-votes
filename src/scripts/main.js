@@ -11,18 +11,13 @@ import flags from '../data/flags.json';
 
 const merged = merge();
 
-console.log(merged);
-
 function init() {
   hemicycle.init({
     merged,
     flags
   });
 
-  groupChart.init({
-    members,
-    votes
-  });
+  groupChart.init(merged);
 
   // ageChart.init({
   //   members,
@@ -32,31 +27,31 @@ function init() {
 
 function merge() {
   return seats.map(d => {
-    d.member = members.filter(m => {
+    const seat = d;
+    const member = members.filter(m => {
       return d.id === m.id_seat;
     })[0];
+    let vote = undefined;
 
-    if (d.member) {
-      const group = d.member.group_code;
-      const votedYes = votes.yesVotes[group].includes(d.member.surname) ||
-        votes.yesVotes[group].includes(`${d.member.surname} ${d.member.name}`);
-      const votedNo = votes.noVotes[group].includes(d.member.surname) ||
-        votes.noVotes[group].includes(`${d.member.surname} ${d.member.name}`);
-      const abstained = votes.abstentions[group].includes(d.member.surname) ||
-        votes.abstentions[group].includes(`${d.member.surname} ${d.member.name}`);
+    if (member) {
+      const group = member.group_code;
+      const votedYes = votes.yesVotes[group].includes(member.surname) ||
+        votes.yesVotes[group].includes(`${member.surname} ${member.name}`);
+      const votedNo = votes.noVotes[group].includes(member.surname) ||
+        votes.noVotes[group].includes(`${member.surname} ${member.name}`);
+      const abstained = votes.abstentions[group].includes(member.surname) ||
+        votes.abstentions[group].includes(`${member.surname} ${member.name}`);
 
       if (votedYes) {
-          d.vote = 'yes';
+        vote = 'yes';
       } else if (votedNo) {
-          d.vote = 'no';
+        vote = 'no';
       } else if (abstained) {
-          d.vote = 'abstained';
-      } else {
-        d.vote = false;
+        vote = 'abstained';
       }
     }
 
-    return d;
+    return { seat, member, vote };
   });
 }
 
