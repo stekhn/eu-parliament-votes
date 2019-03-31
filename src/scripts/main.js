@@ -38,15 +38,18 @@ function merge() {
 
     if (d.member) {
       const group = d.member.group_code;
+      const votedYes = votes.yesVotes[group].includes(d.member.surname) ||
+        votes.yesVotes[group].includes(`${d.member.surname} ${d.member.name}`);
+      const votedNo = votes.noVotes[group].includes(d.member.surname) ||
+        votes.noVotes[group].includes(`${d.member.surname} ${d.member.name}`);
+      const abstained = votes.abstentions[group].includes(d.member.surname) ||
+        votes.abstentions[group].includes(`${d.member.surname} ${d.member.name}`);
 
-      if (votes.yesVotes[group]
-        .includes(d.member.surname)) {
+      if (votedYes) {
           d.vote = 'yes';
-      } else if (votes.noVotes[group]
-        .includes(d.member.surname)) {
+      } else if (votedNo) {
           d.vote = 'no';
-      } else if (votes.abstentions[group]
-        .includes(d.member.surname)) {
+      } else if (abstained) {
           d.vote = 'abstained';
       } else {
         d.vote = false;

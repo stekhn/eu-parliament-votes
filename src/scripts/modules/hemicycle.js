@@ -117,7 +117,7 @@ export default (function() {
   }
 
   function showTooltip(d) {
-    if (d.member) {
+    if (d.member && d.vote) {
       const element = d3.select(this);
       const x = parseInt(element.attr('cx'));
       const offsetX = chart.xScale(x) - 150;
@@ -151,7 +151,7 @@ export default (function() {
   }
 
   function hideTooltip(d) {
-    if (d.member) {
+    if (d.member && d.vote) {
       const element = d3.select(this);
 
       element.attr('stroke', 'none');
