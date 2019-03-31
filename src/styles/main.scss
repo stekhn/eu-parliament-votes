@@ -7,6 +7,11 @@ html, body {
   line-height: 1.8;
 }
 
+header, section, footer {
+  max-width: 640px;
+  margin: 0 auto;
+}
+
 h1, h2, h3 {
   font-family: 'Domine', serif;
   font-weight: 700;
