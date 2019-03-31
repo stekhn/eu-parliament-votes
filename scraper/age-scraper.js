@@ -19,7 +19,8 @@ const crawler = new Crawler({
       console.error(error);
     } else {
       const $ = res.$;
-      res.options.member.birthday = $('#birthDate').text();
+      const dateString = $('#birthDate').text();
+      res.options.member.birthday = dateString.split('-').reverse().join('-');
       results.push(res.options.member);
     }
     done();
