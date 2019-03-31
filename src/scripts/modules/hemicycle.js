@@ -14,36 +14,8 @@ export default (function() {
   function init(_data, _config) {
     config = Object.assign(config, _config);
     data = _data;
-    data.merged = merge(_data);
 
     render();
-  }
-
-  function merge(_data) {
-    return _data.seats.map(d => {
-      d.member = _data.members.filter(m => {
-        return d.id === m.id_seat;
-      })[0];
-
-      if (d.member) {
-        const group = d.member.group_code;
-
-        if (_data.votes.yesVotes[group]
-          .includes(d.member.surname)) {
-            d.vote = 'yes';
-        } else if (_data.votes.noVotes[group]
-          .includes(d.member.surname)) {
-            d.vote = 'no';
-        } else if (_data.votes.abstentions[group]
-          .includes(d.member.surname)) {
-            d.vote = 'abstained';
-        } else {
-          d.vote = false;
-        }
-      }
-
-      return d;
-    });
   }
 
   function render() {
@@ -83,18 +55,6 @@ export default (function() {
       .on('mouseenter', showTooltip)
       .on('mouseleave', hideTooltip);
 
-    const yesCount = Object.keys(data.votes.yesVotes).reduce((prev, curr) => {
-      return prev + data.votes.yesVotes[curr].length;
-    }, 0);
-
-    const noCount = Object.keys(data.votes.noVotes).reduce((prev, curr) => {
-      return prev + data.votes.noVotes[curr].length;
-    }, 0);
-
-    const abstainedCount = Object.keys(data.votes.abstentions).reduce((prev, curr) => {
-      return prev + data.votes.abstentions[curr].length;
-    }, 0);
-
     chart.$voteCount = chart.$svg.append('g');
 
     chart.$yesCount = chart.$voteCount.append('g');
@@ -104,7 +64,9 @@ export default (function() {
       .attr('x', config.width - 30)
       .attr('y', 90)
       .attr('fill', '#0571b0')
-      .text(yesCount);
+      .text(data.merged.reduce((acc, curr) => {
+        return (curr.vote === 'yes') ? ++acc : acc;
+      }, 0));
 
     chart.$yesCount
       .append('text')
@@ -121,7 +83,9 @@ export default (function() {
       .attr('x', 30)
       .attr('y', 90)
       .attr('fill', '#ca0020')
-      .text(noCount);
+      .text(data.merged.reduce((acc, curr) => {
+        return (curr.vote === 'no') ? ++acc : acc;
+      }, 0));
 
     chart.$noCount
       .append('text')
@@ -138,7 +102,9 @@ export default (function() {
       .attr('x', config.width / 2)
       .attr('y', config.height - 40)
       .attr('fill', '#a9a9a9')
-      .text(abstainedCount);
+      .text(data.merged.reduce((acc, curr) => {
+        return (curr.vote === 'abstained') ? ++acc : acc;
+      }, 0));
 
     chart.$abstainedCount
       .append('text')
