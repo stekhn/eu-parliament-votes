@@ -1,5 +1,8 @@
 import * as d3 from 'd3';
 
+import tooltip from './tooltip';
+import util from './util';
+
 export default (function() {
   let config = {
     container: '.group-chart',
@@ -41,7 +44,7 @@ export default (function() {
       .key(d => d.member.group_code)
       .key(d => d.vote)
       .entries(_data.filter(d => d.member && d.vote))
-      .sort(sortByLength);
+      .sort(util.sortByLength);
     config = Object.assign(config, _config);
 
     render();
@@ -82,12 +85,15 @@ export default (function() {
       .data(data)
       .enter()
       .append('g')
-      .attr('transform', (d, i) => `translate(0, ${(++i * 90) - 45})`)
+      .attr('data-index', (d, i) => i);
 
     chart.$groups.append('text')
       .attr('font-size', 16)
       .attr('x', config.midX - 50)
-      .attr('y', -15)
+      .attr('y', (d, i) => {
+        const offsetY = (i * 90) + 45;
+        return offsetY - 15;
+      })
       .text(d => d.key);
 
     chart.$groups.selectAll('g')
@@ -97,17 +103,25 @@ export default (function() {
       .each(function (d) {
         const $voteType = d3.select(this);
         const voteType = voteTypes[d.key];
-        const chunkedVotes = chunkArray(d.values, 4);
+        const chunkedVotes = util.chunkArray(d.values, 4);
         const maxDots = Math.ceil(d.values.length / 4);
         const modifier = voteType.reverse ? -1 : 1;
+        const index = d3.select(this.parentNode).attr('data-index');
+        const offsetY = (index * 90) + 45;
 
         chunkedVotes.forEach((votes, row) => {
           votes.forEach((vote, column) => {
             $voteType.append('circle')
               .attr('r', 4.7)
               .attr('cx', voteType.offsetX + (modifier * (column * 11)))
-              .attr('cy', row * 11)
-              .attr('fill', voteType.color);
+              .attr('cy', offsetY + (row * 11))
+              .attr('fill', voteType.color)
+              .on('mouseenter', function () {
+                tooltip.show(this, vote, chart);
+              })
+              .on('mouseleave', function () {
+                tooltip.hide(this, vote, chart);
+              });
           });
         });
 
@@ -116,35 +130,11 @@ export default (function() {
             .attr('font-size', 16)
             .attr('text-anchor', voteType.reverse ? 'end' : 'start')
             .attr('x', voteType.offsetX + (modifier * (maxDots * 11)) + (modifier * 5))
-            .attr('y', 21)
+            .attr('y', offsetY + 21)
             .attr('fill', voteType.color)
             .text(d.values.length);
         }
       });
-  }
-
-  function sortByLength(a, b) {
-    const aLength = a.values.reduce((acc, cur) => {
-      return acc + cur.values.length;
-    }, 0);
-    const bLength = b.values.reduce((acc, cur) => {
-      return acc + cur.values.length;
-    }, 0);
-
-    return (aLength > bLength) ? -1 : ((bLength > aLength) ? 1 : 0);
-  }
-
-  function chunkArray(arr, chunkCount) {
-    const chunks = [];
-
-    while(arr.length) {
-      const chunkSize = Math.ceil(arr.length / chunkCount--);
-      const chunk = arr.slice(0, chunkSize);
-      chunks.push(chunk);
-      arr = arr.slice(chunkSize);
-    }
-
-    return chunks;
   }
 
   return {

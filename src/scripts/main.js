@@ -9,15 +9,11 @@ import ageChart from './modules/age-chart';
 import members from '../data/members-age.json';
 import seats from '../data/seats.json';
 import votes from '../data/votes.json';
-import flags from '../data/flags.json';
 
 const merged = merge();
 
 function init() {
-  hemicycle.init({
-    merged,
-    flags
-  });
+  hemicycle.init(merged);
   groupChart.init(merged);
   ageChart.init(merged);
 }
