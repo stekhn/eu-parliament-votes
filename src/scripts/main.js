@@ -27,9 +27,8 @@ function merge() {
   const scale = d3.scaleLinear().domain([min, max + 1]);
   const bins = d3.histogram()
     .domain(scale.domain())
-    .thresholds(scale.ticks(5))(members);
-
-  console.log(bins);
+    .thresholds([28, 40, 50, 60, 70])(members);
+    //.thresholds(scale.ticks(5))(members);
 
   return seats.map(d => {
     const seat = d;

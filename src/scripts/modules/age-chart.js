@@ -5,7 +5,7 @@ export default (function() {
     container: '.age-chart',
     tooltip: '.age-chart-tooltip',
     width: 960,
-    height: 640,
+    height: 470,
     midX: 480
   };
 
@@ -43,8 +43,6 @@ export default (function() {
       .key(d => d.vote)
       .entries(_data.filter(d => d.member && d.vote));
     config = Object.assign(config, _config);
-
-    console.log(data);
 
     render();
   }
@@ -84,13 +82,13 @@ export default (function() {
       .data(data)
       .enter()
       .append('g')
-      .attr('transform', (d, i) => `translate(0, ${(++i * 90) - 45})`)
+      .attr('transform', (d, i) => `translate(0, ${(++i * 90) - 45})`);
 
     chart.$groups.append('text')
       .attr('font-size', 16)
       .attr('x', config.midX - 50)
       .attr('y', -15)
-      .text(d => d.key);
+      .text(d => `${d.key} and older`);
 
     chart.$groups.selectAll('g')
       .data(d => d.values)
@@ -109,7 +107,10 @@ export default (function() {
               .attr('r', 4.7)
               .attr('cx', voteType.offsetX + (modifier * (column * 11)))
               .attr('cy', row * 11)
-              .attr('fill', voteType.color);
+              .attr('fill', voteType.color)
+              .on('mouseenter', () => {
+                console.log(vote.age.age);
+              });
           });
         });
 
