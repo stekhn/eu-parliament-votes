@@ -40,7 +40,8 @@ export default (function() {
     data = d3.nest()
       .key(d => d.member.group_code)
       .key(d => d.vote)
-      .entries(_data.filter(d => d.member && d.vote));
+      .entries(_data.filter(d => d.member && d.vote))
+      .sort(sortByLength);
     config = Object.assign(config, _config);
 
     render();
@@ -120,6 +121,17 @@ export default (function() {
             .text(d.values.length);
         }
       });
+  }
+
+  function sortByLength(a, b) {
+    const aLength = a.values.reduce((acc, cur) => {
+      return acc + cur.values.length;
+    }, 0);
+    const bLength = b.values.reduce((acc, cur) => {
+      return acc + cur.values.length;
+    }, 0);
+
+    return (aLength > bLength) ? -1 : ((bLength > aLength) ? 1 : 0);
   }
 
   function chunkArray(arr, chunkCount) {
