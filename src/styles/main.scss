@@ -53,7 +53,14 @@ article {
   // box-shadow: 2px 2px 5px 0px rgba(0,0,0,0.5);
 
   p {
-    margin-right: 1em;
+    line-height: 1.2;
+    margin: .5em 1em;
+  }
+
+  div {
+    margin: .15em .5em .5em;
+    font-size: 1.1em;
+    float: right;
   }
 
   img {

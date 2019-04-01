@@ -19,13 +19,14 @@ export default (function() {
       element.attr('stroke-width', 2);
 
       chart.$tooltip.html(() => {
+        // ${d.member.name.length + d.member.surname.length < 18 ? '<br>' : ' '}
         return `
           <img src="http://www.europarl.europa.eu/mepphoto/${d.member.id_mep}.jpg">
+          <div>${flags.filter(f => f.code.toLowerCase() == d.member.country_code)[0].emoji}</div>
           <p>
-            <strong>${d.member.name} ${d.member.surname}</strong>
-            ${flags.filter(f => f.code.toLowerCase() == d.member.country_code)[0].emoji}
-            ${d.member.name.length + d.member.surname.length < 18 ? '<br>' : '/ '}
-            ${d.member.group_code}
+            <strong>${d.member.name} ${d.member.surname}</strong>, ${d.age.age}
+            <br>
+            Group: ${d.member.group_code}
           </p>
         `;
       });
