@@ -1,24 +1,12 @@
 {
   "extends": "eslint:recommended",
-  "parser": "babel-eslint",
-  "globals": {
-    "window": true,
-    "document": true,
-    "d3": true,
-    "scroll": true,
-    "modal": true,
-    "diffString": true
-  },
-  "rules": {
-    "indent": [0, 2, { "SwitchCase": 1 }],
-    "quotes": [2, "single"],
-    "linebreak-style": [2, "unix"],
-    "semi": [2, "always"],
-    "comma-dangle": [1, "never"],
-    "no-trailing-spaces": [2, { "skipBlankLines": true }],
-    "no-console": 0
+  "parserOptions": {
+    "ecmaVersion": 6,
+    "sourceType": "module"
   },
   "env": {
+    "browser": true,
+    "es6": true,
     "node": true
   }
 }
