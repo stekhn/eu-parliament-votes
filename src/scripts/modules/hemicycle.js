@@ -1,7 +1,7 @@
 import * as d3 from 'd3';
 
 import tooltip from './tooltip';
-import util from './util';
+import map from '../mapping';
 
 export default (function() {
   let config = {
@@ -51,7 +51,7 @@ export default (function() {
       .attr('cx', d => d.seat.x)
       .attr('cy', d => d.seat.y)
       .attr('r', 4.7)
-      .attr('fill', d => util.voteColor(d.vote))
+      .attr('fill', d => map.voteColor(d.vote))
       .attr('stroke', d => d.vote ? 'none' : '#a9a9a9')
       .attr('stroke-width', d => d.vote ? 0 : 1)
       .attr('stroke-alignment', 'inner') // Don't stop believin'
@@ -70,7 +70,7 @@ export default (function() {
       .attr('text-anchor', 'end')
       .attr('x', config.width - 30)
       .attr('y', 90)
-      .attr('fill', util.voteColor('yes'))
+      .attr('fill', map.voteColor('yes'))
       .text(data.reduce((acc, curr) => {
         return (curr.vote === 'yes') ? ++acc : acc;
       }, 0));
@@ -81,7 +81,7 @@ export default (function() {
       .attr('text-anchor', 'end')
       .attr('x', config.width - 30)
       .attr('y', 110)
-      .attr('fill', util.voteColor('yes'))
+      .attr('fill', map.voteColor('yes'))
       .text('voted in favor');
 
     chart.$noCount = chart.$voteCount.append('g');
@@ -89,7 +89,7 @@ export default (function() {
       .attr('font-size', 60)
       .attr('x', 30)
       .attr('y', 90)
-      .attr('fill', util.voteColor('no'))
+      .attr('fill', map.voteColor('no'))
       .text(data.reduce((acc, curr) => {
         return (curr.vote === 'no') ? ++acc : acc;
       }, 0));
@@ -99,7 +99,7 @@ export default (function() {
       .attr('font-size', 16)
       .attr('x', 30)
       .attr('y', 110)
-      .attr('fill', util.voteColor('no'))
+      .attr('fill', map.voteColor('no'))
       .text('voted against');
 
     chart.$abstainedCount = chart.$voteCount.append('g');
@@ -108,7 +108,7 @@ export default (function() {
       .attr('text-anchor', 'middle')
       .attr('x', config.width / 2)
       .attr('y', config.height - 40)
-      .attr('fill', util.voteColor('abstained'))
+      .attr('fill', map.voteColor('abstained'))
       .text(data.reduce((acc, curr) => {
         return (curr.vote === 'abstained') ? ++acc : acc;
       }, 0));
@@ -119,7 +119,7 @@ export default (function() {
       .attr('text-anchor', 'middle')
       .attr('x', config.width / 2)
       .attr('y', config.height - 20)
-      .attr('fill', util.voteColor('abstained'))
+      .attr('fill', map.voteColor('abstained'))
       .text('abstained');
   }
 

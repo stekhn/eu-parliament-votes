@@ -1,6 +1,6 @@
 import * as d3 from 'd3';
 
-import util from './util';
+import util from '../mapping';
 import flags from '../../data/flags.json';
 
 export default (function() {
@@ -19,7 +19,6 @@ export default (function() {
       element.attr('stroke-width', 2);
 
       chart.$tooltip.html(() => {
-        // ${d.member.name.length + d.member.surname.length < 18 ? '<br>' : ' '}
         return `
           <img src="http://www.europarl.europa.eu/mepphoto/${d.member.id_mep}.jpg">
           <div>${flags.filter(f => f.code.toLowerCase() == d.member.country_code)[0].emoji}</div>

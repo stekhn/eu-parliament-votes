@@ -1,7 +1,7 @@
 import * as d3 from 'd3';
 
 import tooltip from './tooltip';
-import util from './util';
+import map from '../mapping';
 
 export default (function() {
   let config = {
@@ -12,35 +12,11 @@ export default (function() {
     midX: 480
   };
 
-  let voteTypes = {
-    'yes': {
-      description: 'voted in favor',
-      color: '#0571b0',
-      offsetX: config.midX + 5,
-      reverse: false,
-      showLabels: true
-    },
-    'no': {
-      description: 'voted against',
-      color: '#ca0020',
-      offsetX: config.midX - 65,
-      reverse: true,
-      showLabels: true
-    },
-    'abstained': {
-      description: 'abstained',
-      color: '#a9a9a9',
-      offsetX: config.midX - 45,
-      reverse: false,
-      showLabels: false
-    }
-  };
-
   let data = {};
   let chart = {};
 
   function init(_data, _prepare, _config) {
-    data = _prepare(_data, util);
+    data = _prepare(_data);
     config = Object.assign(config, _config);
 
     render();
@@ -98,8 +74,8 @@ export default (function() {
       .append('g')
       .each(function (d) {
         const $voteType = d3.select(this);
-        const voteType = voteTypes[d.key];
-        const chunkedVotes = util.chunkArray(d.values, 4);
+        const voteType = map.voteType(d.key, config);
+        const chunkedVotes = chunkArray(d.values, 4);
         const maxDots = Math.ceil(d.values.length / 4);
         const modifier = voteType.reverse ? -1 : 1;
         const index = d3.select(this.parentNode).attr('data-index');
@@ -131,6 +107,19 @@ export default (function() {
             .text(d.values.length);
         }
       });
+  }
+
+  function chunkArray(arr, chunkCount) {
+    const chunks = [];
+
+    while(arr.length) {
+      const chunkSize = Math.ceil(arr.length / chunkCount--);
+      const chunk = arr.slice(0, chunkSize);
+      chunks.push(chunk);
+      arr = arr.slice(chunkSize);
+    }
+
+    return chunks;
   }
 
   return {

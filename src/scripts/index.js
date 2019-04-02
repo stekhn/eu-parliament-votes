@@ -20,12 +20,12 @@ function init() {
   });
 
   barchart.init(merged,
-  (_data, _util) => {
+  (_data) => {
     return d3.nest()
       .key(d => d.member.group_code)
       .key(d => d.vote)
       .entries(_data.filter(d => d.member && d.vote))
-      .sort(_util.sortByLength);
+      .sort(sortByLength);
   },
   {
     container: '.group-chart',
@@ -119,6 +119,17 @@ function calculateAge(dateString) {
   const ageDiff = Date.now() - new Date(dateString).getTime();
   const ageDate = new Date(ageDiff);
   return Math.abs(ageDate.getUTCFullYear() - 1970);
+}
+
+function sortByLength(a, b) {
+  const aLength = a.values.reduce((acc, cur) => {
+    return acc + cur.values.length;
+  }, 0);
+  const bLength = b.values.reduce((acc, cur) => {
+    return acc + cur.values.length;
+  }, 0);
+
+  return (aLength > bLength) ? -1 : ((bLength > aLength) ? 1 : 0);
 }
 
 document.addEventListener('DOMContentLoaded', init, false);
