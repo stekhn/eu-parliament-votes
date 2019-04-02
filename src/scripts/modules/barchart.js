@@ -5,10 +5,10 @@ import util from './util';
 
 export default (function() {
   let config = {
-    container: '.group-chart',
-    tooltip: '.group-chart-tooltip',
+    container: '.barchart',
+    tooltip: '.barchart-tooltip',
     width: 960,
-    height: 820,
+    height: 960,
     midX: 480
   };
 
@@ -39,12 +39,8 @@ export default (function() {
   let data = {};
   let chart = {};
 
-  function init(_data, _config) {
-    data = d3.nest()
-      .key(d => d.member.group_code)
-      .key(d => d.vote)
-      .entries(_data.filter(d => d.member && d.vote))
-      .sort(util.sortByLength);
+  function init(_data, _prepare, _config) {
+    data = _prepare(_data, util);
     config = Object.assign(config, _config);
 
     render();

@@ -3,8 +3,7 @@ import '../styles/main.scss';
 import * as d3 from 'd3';
 
 import hemicycle from './modules/hemicycle';
-import groupChart from './modules/group-chart';
-import ageChart from './modules/age-chart';
+import barchart from './modules/barchart';
 
 import members from '../data/members-age.json';
 import seats from '../data/seats.json';
@@ -13,9 +12,44 @@ import votes from '../data/votes.json';
 const merged = merge();
 
 function init() {
-  hemicycle.init(merged);
-  groupChart.init(merged);
-  ageChart.init(merged);
+  hemicycle.init(merged, {
+    container: '.hemicycle',
+    tooltip: '.hemicycle-tooltip',
+    width: 960,
+    height: 500
+  });
+
+  barchart.init(merged,
+  (_data, _util) => {
+    return d3.nest()
+      .key(d => d.member.group_code)
+      .key(d => d.vote)
+      .entries(_data.filter(d => d.member && d.vote))
+      .sort(_util.sortByLength);
+  },
+  {
+    container: '.group-chart',
+    tooltip: '.group-chart-tooltip',
+    width: 960,
+    height: 820,
+    midX: 480
+  });
+
+  barchart.init(merged,
+  (_data) => {
+    return d3.nest()
+      .key(d => d.age.bin[0])
+      .sortKeys(d3.ascending)
+      .key(d => d.vote)
+      .entries(_data.filter(d => d.member && d.vote));
+  },
+  {
+    container: '.age-chart',
+    tooltip: '.age-chart-tooltip',
+    width: 960,
+    height: 470,
+    midX: 480
+  });
 }
 
 function merge() {
