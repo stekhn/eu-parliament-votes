@@ -1,5 +1,6 @@
 const path = require('path');
-
+const CleanWebpackPlugin = require('clean-webpack-plugin');
+const CleanWebpackPluginConfig = new CleanWebpackPlugin();
 const HtmlWebpackPlugin = require('html-webpack-plugin');
 const HtmlWebpackPluginConfig = new HtmlWebpackPlugin({
   template: './src/index.html',
@@ -17,7 +18,7 @@ module.exports = {
   },
 
   output: {
-    filename: 'app.bundle.js',
+    filename: '[name].bundle.js',
     path: path.resolve('./dist')
   },
 
@@ -38,7 +39,22 @@ module.exports = {
       },
       {
         test: /\.(jpe?g|png|gif)$/,
-        use: ['file-loader']
+        use: [{
+          loader: 'file-loader',
+          options: {
+            name: '[name].[ext]'
+          }
+        }]
+      },
+      {
+        type: 'javascript/auto',
+        test: /\.json$/,
+        use: [{
+          loader: 'file-loader',
+          options: {
+            name: '[name].[ext]'
+          }
+        }]
       }
     ]
   },
@@ -50,5 +66,8 @@ module.exports = {
     port: 9000
   },
 
-  plugins: [HtmlWebpackPluginConfig]
+  plugins: [
+    CleanWebpackPluginConfig,
+    HtmlWebpackPluginConfig
+  ]
 };
