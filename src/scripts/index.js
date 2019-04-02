@@ -1,9 +1,11 @@
 import '../styles/main.scss';
 
-import * as d3 from 'd3';
+import { nest } from 'd3-collection';
+import { ascending, extent, histogram } from 'd3-array';
+import { scaleLinear } from 'd3-scale';
 
-import hemicycle from './modules/hemicycle';
-import barchart from './modules/barchart';
+import HemiCycle from './modules/hemicycle';
+import BarChart from './modules/barchart';
 
 import members from '../data/members-age.json';
 import seats from '../data/seats.json';
@@ -12,50 +14,57 @@ import votes from '../data/votes.json';
 const merged = merge();
 
 function init() {
-  hemicycle.init(merged, {
-    container: '.hemicycle',
-    tooltip: '.hemicycle-tooltip',
-    width: 960,
-    height: 500
-  });
+  new HemiCycle(
+    merged,
+    {
+      container: '.hemicycle',
+      tooltip: '.hemicycle-tooltip',
+      width: 960,
+      height: 500
+    }
+  );
 
-  barchart.init(merged,
-  (_data, _util) => {
-    return d3.nest()
-      .key(d => d.member.group_code)
-      .key(d => d.vote)
-      .entries(_data.filter(d => d.member && d.vote))
-      .sort(_util.sortByLength);
-  },
-  {
-    container: '.group-chart',
-    tooltip: '.group-chart-tooltip',
-    width: 960,
-    height: 820,
-    midX: 480
-  });
+  new BarChart(
+    merged,
+    data => {
+      return nest()
+        .key(d => d.member.group_code)
+        .key(d => d.vote)
+        .entries(data.filter(d => d.member && d.vote))
+        .sort(sortByLength);
+    },
+    {
+      container: '.group-chart',
+      tooltip: '.group-chart-tooltip',
+      width: 960,
+      height: 820,
+      midX: 480
+    }
+  );
 
-  barchart.init(merged,
-  (_data) => {
-    return d3.nest()
-      .key(d => d.age.bin[0])
-      .sortKeys(d3.ascending)
-      .key(d => d.vote)
-      .entries(_data.filter(d => d.member && d.vote));
-  },
-  {
-    container: '.age-chart',
-    tooltip: '.age-chart-tooltip',
-    width: 960,
-    height: 470,
-    midX: 480
-  });
+  new BarChart(
+    merged,
+    data => {
+      return nest()
+        .key(d => d.age.bin[0])
+        .sortKeys(ascending)
+        .key(d => d.vote)
+        .entries(data.filter(d => d.member && d.vote));
+    },
+    {
+      container: '.age-chart',
+      tooltip: '.age-chart-tooltip',
+      width: 960,
+      height: 470,
+      midX: 480
+    }
+  );
 }
 
 function merge() {
-  const [min, max] = d3.extent(members, d => calculateAge(d.birthday));
-  const scale = d3.scaleLinear().domain([min, max + 1]);
-  const bins = d3.histogram()
+  const [min, max] = extent(members, d => calculateAge(d.birthday));
+  const scale = scaleLinear().domain([min, max + 1]);
+  const bins = histogram()
     .domain(scale.domain())
     .thresholds([28, 40, 50, 60, 70])(members);
     //.thresholds(scale.ticks(5))(members);
@@ -119,6 +128,17 @@ function calculateAge(dateString) {
   const ageDiff = Date.now() - new Date(dateString).getTime();
   const ageDate = new Date(ageDiff);
   return Math.abs(ageDate.getUTCFullYear() - 1970);
+}
+
+function sortByLength(a, b) {
+  const aLength = a.values.reduce((acc, cur) => {
+    return acc + cur.values.length;
+  }, 0);
+  const bLength = b.values.reduce((acc, cur) => {
+    return acc + cur.values.length;
+  }, 0);
+
+  return (aLength > bLength) ? -1 : ((bLength > aLength) ? 1 : 0);
 }
 
 document.addEventListener('DOMContentLoaded', init, false);

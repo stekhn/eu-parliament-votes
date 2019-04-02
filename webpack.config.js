@@ -13,11 +13,11 @@ module.exports = {
   },
 
   entry: {
-    main: path.resolve('./src/scripts/main.js')
+    main: path.resolve('./src/scripts/index.js')
   },
 
   output: {
-    filename: 'main.bundle.js',
+    filename: 'app.bundle.js',
     path: path.resolve('./dist')
   },
 
