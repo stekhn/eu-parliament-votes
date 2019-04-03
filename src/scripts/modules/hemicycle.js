@@ -1,8 +1,8 @@
 import { select } from 'd3-selection';
 import { scaleLinear } from 'd3-scale';
 
+import { vote } from '../mapping';
 import tooltip from './tooltip';
-import map from '../mapping';
 
 const defaults = {
   container: '.hemicycle',
@@ -51,7 +51,7 @@ export default class Hemicycle {
       .attr('cx', d => d.seat.x)
       .attr('cy', d => d.seat.y)
       .attr('r', 4.7)
-      .attr('fill', d => map.voteColor(d.vote))
+      .attr('fill', d => vote(d.vote).color)
       .attr('stroke', d => d.vote ? 'none' : '#a9a9a9')
       .attr('stroke-width', d => d.vote ? 0 : 1)
       .attr('stroke-alignment', 'inner') // Don't stop believin'
@@ -70,7 +70,7 @@ export default class Hemicycle {
       .attr('text-anchor', 'end')
       .attr('x', config.width - 30)
       .attr('y', 90)
-      .attr('fill', map.voteColor('yes'))
+      .attr('fill', vote('yes').color)
       .text(data.reduce((acc, curr) => {
         return (curr.vote === 'yes') ? ++acc : acc;
       }, 0));
@@ -81,15 +81,15 @@ export default class Hemicycle {
       .attr('text-anchor', 'end')
       .attr('x', config.width - 30)
       .attr('y', 110)
-      .attr('fill', map.voteColor('yes'))
-      .text('voted in favor');
+      .attr('fill', vote('yes').color)
+      .text(vote('yes').name);
 
     chart.$noCount = chart.$voteCount.append('g');
     chart.$noCount.append('text')
       .attr('font-size', 60)
       .attr('x', 30)
       .attr('y', 90)
-      .attr('fill', map.voteColor('no'))
+      .attr('fill', vote('no').color)
       .text(data.reduce((acc, curr) => {
         return (curr.vote === 'no') ? ++acc : acc;
       }, 0));
@@ -99,8 +99,8 @@ export default class Hemicycle {
       .attr('font-size', 16)
       .attr('x', 30)
       .attr('y', 110)
-      .attr('fill', map.voteColor('no'))
-      .text('voted against');
+      .attr('fill', vote('no').color)
+      .text(vote('no').name);
 
     chart.$abstainedCount = chart.$voteCount.append('g');
     chart.$abstainedCount.append('text')
@@ -108,7 +108,7 @@ export default class Hemicycle {
       .attr('text-anchor', 'middle')
       .attr('x', config.width / 2)
       .attr('y', config.height - 40)
-      .attr('fill', map.voteColor('abstained'))
+      .attr('fill', vote('abstained').color)
       .text(data.reduce((acc, curr) => {
         return (curr.vote === 'abstained') ? ++acc : acc;
       }, 0));
@@ -119,7 +119,7 @@ export default class Hemicycle {
       .attr('text-anchor', 'middle')
       .attr('x', config.width / 2)
       .attr('y', config.height - 20)
-      .attr('fill', map.voteColor('abstained'))
-      .text('abstained');
+      .attr('fill', vote('abstained').color)
+      .text(vote('abstained').name);
   }
 }

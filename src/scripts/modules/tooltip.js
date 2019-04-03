@@ -1,6 +1,6 @@
 import * as d3 from 'd3';
 
-import util from '../mapping';
+import { group } from '../mapping';
 import flags from '../../data/flags.json';
 
 export default (function() {
@@ -25,7 +25,7 @@ export default (function() {
           <p>
             <strong>${d.member.name} ${d.member.surname}</strong>, ${d.age.age}
             <br>
-            Group: ${d.member.group_code}
+            Group: ${group(d.member.group_code).name}
           </p>
         `;
       });
@@ -34,7 +34,7 @@ export default (function() {
         .style('display', 'block')
         .style(
           'border-bottom',
-          `4px solid ${util.groupColor(d.member.group_code)}`
+          `4px solid ${group(d.member.group_code).color}`
         )
         .style('left', `${offsetX}px`)
         .style('top', `${offsetY}px`);

@@ -4,10 +4,11 @@ import { nest } from 'd3-collection';
 import { ascending, extent, histogram } from 'd3-array';
 import { scaleLinear } from 'd3-scale';
 
+import { group, age } from './mapping';
 import HemiCycle from './modules/hemicycle';
 import BarChart from './modules/barchart';
 
-import members from '../data/members-age.json';
+import members from '../data/members.json';
 import seats from '../data/seats.json';
 import votes from '../data/votes.json';
 
@@ -33,6 +34,7 @@ function init() {
         .entries(data.filter(d => d.member && d.vote))
         .sort(sortByLength);
     },
+    key => [group(key).name, group(key).type],
     {
       container: '.group-chart',
       tooltip: '.group-chart-tooltip',
@@ -51,6 +53,7 @@ function init() {
         .key(d => d.vote)
         .entries(data.filter(d => d.member && d.vote));
     },
+    key => [age(key).name],
     {
       container: '.age-chart',
       tooltip: '.age-chart-tooltip',

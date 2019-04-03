@@ -1,8 +1,8 @@
 import { select } from 'd3-selection';
 import { scaleLinear } from 'd3-scale';
 
+import { vote } from '../mapping';
 import tooltip from './tooltip';
-import map from '../mapping';
 
 const defaults = {
   container: '.barchart',
@@ -14,15 +14,16 @@ const defaults = {
 
 export default class Barchart {
 
-  constructor(data, prepare, config) {
+  constructor(data, prepare, mapping, config) {
     this.data = prepare(data);
+    this.mapping = mapping;
     this.config = Object.assign(defaults, config);
     this.chart = {};
     this.draw();
   }
 
   draw() {
-    const { data, chart, config, createBars } = this;
+    const { data, mapping, chart, config, createBars } = this;
     const classThis = this;
 
     chart.$container = select(config.container);
@@ -61,13 +62,20 @@ export default class Barchart {
       .attr('data-index', (d, i) => i);
 
     chart.$groups.append('text')
-      .attr('font-size', 16)
       .attr('x', config.midX - 50)
       .attr('y', (d, i) => {
         const offsetY = (i * 90) + 45;
         return offsetY - 15;
       })
-      .text(d => d.key);
+      .selectAll('tspan')
+      .data(d => mapping(d.key))
+      .enter()
+      .append('tspan')
+      .attr('font-size', (d, i) => i > 0 ? 14 : 16)
+      //.attr('font-weight', (d, i) => i > 0 ? 'normal' : 'bold')
+      .attr('fill', (d, i) => i > 0 ? '#666' : '#000')
+      .attr('dx', (d, i) => i > 0 ? 5 : 0)
+      .text(d => d)
 
     chart.$groups.selectAll('g')
       .data(d => d.values)
@@ -82,7 +90,7 @@ export default class Barchart {
     const { chart, config, chunkArray } = classThis;
 
     const $voteType = select(elementThis);
-    const voteType = map.voteType(d.key, config);
+    const voteType = vote(d.key, config);
     const maxDots = Math.ceil(d.values.length / 4);
     const modifier = voteType.reverse ? -1 : 1;
     const index = select(elementThis.parentNode).attr('data-index');
