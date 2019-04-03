@@ -1,29 +1,30 @@
-import * as d3 from 'd3';
+import { select } from 'd3-selection';
+import { scaleLinear } from 'd3-scale';
 
 import tooltip from './tooltip';
 import map from '../mapping';
 
-export default (function() {
-  let config = {
-    container: '.hemicycle',
-    tooltip: '.hemicycle-tooltip',
-    width: 960,
-    height: 500
-  };
+const defaults = {
+  container: '.hemicycle',
+  tooltip: '.hemicycle-tooltip',
+  width: 960,
+  height: 500
+};
 
-  let chart = {};
-  let data = {};
+export default class Hemicycle {
 
-  function init(_data, _config) {
-    config = Object.assign(config, _config);
-    data = _data;
-
-    render();
+  constructor(data, config) {
+    this.data = data;
+    this.config = Object.assign(defaults, config);
+    this.chart = {};
+    this.draw();
   }
 
-  function render() {
-    chart.$container = d3.select(config.container);
-    chart.$tooltip = d3.select(config.tooltip);
+  draw() {
+    const { data, chart, config } = this;
+
+    chart.$container = select(config.container);
+    chart.$tooltip = select(config.tooltip);
 
     chart.$svg = chart.$container
       .append('svg')
@@ -34,12 +35,11 @@ export default (function() {
 
     chart.bounds = chart.$container.node().getBoundingClientRect();
 
-    chart.xScale = d3
-      .scaleLinear()
+    chart.xScale = scaleLinear()
       .domain([0, config.width])
       .range([0, chart.bounds.width]);
 
-    chart.yScale = d3.scaleLinear()
+    chart.yScale = scaleLinear()
       .domain([0, config.height])
       .range([0, chart.bounds.height]);
 
@@ -122,8 +122,4 @@ export default (function() {
       .attr('fill', map.voteColor('abstained'))
       .text('abstained');
   }
-
-  return {
-    init
-  };
-})();
+}
