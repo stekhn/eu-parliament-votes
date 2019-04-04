@@ -1,27 +1,39 @@
 const path = require('path');
 const CleanWebpackPlugin = require('clean-webpack-plugin');
-const CleanWebpackPluginConfig = new CleanWebpackPlugin();
 const HtmlWebpackPlugin = require('html-webpack-plugin');
-const HtmlWebpackPluginConfig = new HtmlWebpackPlugin({
-  template: './src/index.html',
-  filename: 'index.html',
-  inject: 'body'
-});
 
 module.exports = {
-  resolve: {
-    modules: ['node_modules']
-  },
-
   entry: {
     main: path.resolve('./src/scripts/index.js')
   },
-
   output: {
-    filename: '[name].bundle.js',
-    path: path.resolve('./dist')
+    path: path.resolve('./dist'),
+    filename: '[name].bundle.js'
   },
-
+  devtool: '#cheap-source-map',
+  devServer: {
+    contentBase: path.resolve('./dist'),
+    port: 9000
+  },
+  resolve: {
+    modules: ['node_modules']
+  },
+  optimization: {
+    splitChunks: {
+      chunks: 'all',
+      minSize: 0,
+      cacheGroups: {
+        data: {
+          test: /\.json$/,
+          filename: '[name].js',
+          name(module) {
+            const filename = module.rawRequest.replace(/^.*[\\/]/, '');
+            return filename.substring(0, filename.lastIndexOf('.'));
+          },
+        }
+      }
+    }
+  },
   module: {
     rules: [
       {
@@ -45,29 +57,15 @@ module.exports = {
             name: '[name].[ext]'
           }
         }]
-      },
-      {
-        type: 'javascript/auto',
-        test: /\.json$/,
-        use: [{
-          loader: 'file-loader',
-          options: {
-            name: '[name].[ext]'
-          }
-        }]
       }
     ]
   },
-
-  devtool: '#cheap-source-map',
-
-  devServer: {
-    contentBase: path.resolve('./dist'),
-    port: 9000
-  },
-
   plugins: [
-    CleanWebpackPluginConfig,
-    HtmlWebpackPluginConfig
+    new CleanWebpackPlugin(),
+    new HtmlWebpackPlugin({
+      template: './src/index.html',
+      filename: 'index.html',
+      inject: 'body'
+    })
   ]
 };
