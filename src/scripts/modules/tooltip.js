@@ -13,7 +13,7 @@ export default (function() {
       const offsetX = chart.xScale(x) - 150;
       // const y = parseInt(element.attr('cy'));
       const y = parseInt(d3.mouse(self)[1]);
-      const offsetY = chart.yScale(y) - 110;
+      const offsetY = chart.yScale(y) - 105;
 
       element.attr('stroke', 'black');
       element.attr('stroke-width', 2);

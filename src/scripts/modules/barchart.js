@@ -19,12 +19,15 @@ export default class Barchart {
     this.mapping = mapping;
     this.config = Object.assign(defaults, config);
     this.chart = {};
-    this.draw();
+    this.draw(this);
+
+    window.addEventListener('resize', () => {
+      this.resize(this);
+    });
   }
 
-  draw() {
+  draw(instance) {
     const { data, mapping, chart, config, createBars } = this;
-    const classThis = this;
 
     chart.$container = select(config.container);
     chart.$tooltip = select(config.tooltip);
@@ -81,18 +84,18 @@ export default class Barchart {
       .enter()
       .append('g')
       .each(function (d) {
-        createBars(d, classThis, this);
+        createBars(d, instance, this);
       });
   }
 
-  createBars(d, classThis, elementThis) {
-    const { chart, config, chunkArray } = classThis;
+  createBars(d, instance, element) {
+    const { chart, config, chunkArray } = instance;
 
-    const $voteType = select(elementThis);
+    const $voteType = select(element);
     const voteType = vote(d.key, config);
     const maxDots = Math.ceil(d.values.length / 4);
     const modifier = voteType.reverse ? -1 : 1;
-    const index = select(elementThis.parentNode).attr('data-index');
+    const index = select(element.parentNode).attr('data-index');
     const offsetY = (index * 90) + 45;
 
     chunkArray(d.values, 4).forEach((votes, row) => {
@@ -120,6 +123,14 @@ export default class Barchart {
         .attr('fill', voteType.color)
         .text(d.values.length);
     }
+  }
+
+  resize(instance) {
+    const { chart } = instance;
+
+    chart.bounds = chart.$container.node().getBoundingClientRect();
+    chart.xScale.range([0, chart.bounds.width]);
+    chart.yScale.range([0, chart.bounds.height]);
   }
 
   chunkArray(arr, chunkCount) {
