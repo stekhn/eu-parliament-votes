@@ -14,8 +14,8 @@ const defaults = {
 
 export default class Barchart {
 
-  constructor(data, prepare, mapping, config) {
-    this.data = prepare(data);
+  constructor(data, mapping, config) {
+    this.data = data;
     this.mapping = mapping;
     this.config = Object.assign(defaults, config);
     this.chart = {};
@@ -61,20 +61,19 @@ export default class Barchart {
       .append('g')
       .attr('data-index', (d, i) => i);
 
-    chart.$groups.append('text')
-      .attr('x', config.midX - 50)
-      .attr('y', (d, i) => {
-        const offsetY = (i * 90) + 45;
-        return offsetY - 15;
-      })
-      .selectAll('tspan')
+    chart.$groups.selectAll('text')
       .data(d => mapping(d.key))
       .enter()
-      .append('tspan')
-      .attr('font-size', (d, i) => i > 0 ? 14 : 16)
-      //.attr('font-weight', (d, i) => i > 0 ? 'normal' : 'bold')
-      .attr('fill', (d, i) => i > 0 ? '#666' : '#000')
-      .attr('dx', (d, i) => i > 0 ? 5 : 0)
+      .append('text')
+      .attr('x', config.midX - 50)
+      .attr('y', function () {
+        const index = select(this.parentNode).attr('data-index');
+        const offsetY = (index * 90) + 45;
+        return offsetY - 15;
+      })
+      .attr('font-size', (d, i) => i > 0 ? 13 : 16)
+      .attr('text-anchor', (d, i) => i > 0 ? 'end' : 'start')
+      .attr('dx', (d, i) => i > 0 ? -12 : 0)
       .text(d => d)
 
     chart.$groups.selectAll('g')

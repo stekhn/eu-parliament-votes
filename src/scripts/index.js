@@ -26,14 +26,11 @@ function init() {
   );
 
   new BarChart(
-    merged,
-    data => {
-      return nest()
-        .key(d => d.member.group_code)
-        .key(d => d.vote)
-        .entries(data.filter(d => d.member && d.vote))
-        .sort(sortByLength);
-    },
+    nest()
+      .key(d => d.member.group_code)
+      .key(d => d.vote)
+      .entries(merged.filter(d => d.member && d.vote))
+      .sort(sortByLength),
     key => [group(key).name, group(key).type],
     {
       container: '.group-chart',
@@ -45,14 +42,11 @@ function init() {
   );
 
   new BarChart(
-    merged,
-    data => {
-      return nest()
-        .key(d => d.age.bin[0])
-        .sortKeys(ascending)
-        .key(d => d.vote)
-        .entries(data.filter(d => d.member && d.vote));
-    },
+    nest()
+      .key(d => d.age.bin[0])
+      .sortKeys(ascending)
+      .key(d => d.vote)
+      .entries(merged.filter(d => d.member && d.vote)),
     key => [age(key).name],
     {
       container: '.age-chart',

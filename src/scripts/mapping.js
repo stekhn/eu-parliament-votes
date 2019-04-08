@@ -10,7 +10,7 @@ export function vote(key, config = { midX: 0 }) {
     'no': {
       name: 'voted against',
       color: '#ca0020',
-      offsetX: config.midX - 65,
+      offsetX: config.midX - 66,
       reverse: true,
       showLabels: true
     },
@@ -31,55 +31,55 @@ export function group(key) {
     'PPE': {
       name: 'EPP',
       long: 'European People\'s Party',
-      type: 'christian democrats',
+      type: 'Christian Democrats',
       color: '#003C78'
     },
     'S&D': {
       name: 'S&D',
       long: 'Progressive Alliance of Socialists and Democrats',
-      type: 'social democrats',
+      type: 'Social Democrats',
       color: '#C80000'
     },
     'ECR': {
       name: 'ECR',
       long: 'European Conservatives and Reformists',
-      type: 'eurosceptic conservatives',
+      type: 'Eurosceptic Conservatives',
       color: '#0082FF'
     },
     'ALDE': {
       name: 'ALDE',
       long: 'Alliance of Liberals and Democrats for Europe',
-      type: 'liberals and centrists',
+      type: 'Liberals and Centrists',
       color: '#FFAA00'
     },
     'Verts/ALE': {
       name: 'Greens/EFA',
       long: 'The Greens–European Free Alliance',
-      type: 'greens and regionalists',
+      type: 'Greens and Regionalists',
       color: '#009900'
     },
     'GUE/NGL': {
       name: 'GUE/NGL',
       long: 'European United Left–Nordic Green Left',
-      type: 'communists and socialists',
+      type: 'Communists and Socialists',
       color: '#460000'
     },
     'EFDD': {
       name: 'EFDD',
       long: 'Europe of Freedom and Direct Democracy',
-      type: 'eurosceptic populists',
+      type: 'Eurosceptic Populists',
       color: '#8B9FA0'
     },
     'ENF': {
       name: 'ENF',
       long: 'Europe of Nations and Freedom',
-      type: 'far-right nationalists',
+      type: 'Far-right Nationalists',
       color: '#9B20A9'
     },
     'NI': {
       name: 'NI',
       long: 'Non-Inscrits',
-      type: 'other',
+      type: 'Other',
       color: '#666666'
     }
   };
