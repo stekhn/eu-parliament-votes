@@ -33,6 +33,25 @@ article {
   padding: 1em;
 }
 
+a {
+  color: black;
+  text-decoration: none;
+  box-shadow: inset 0 -2px 0 #a9a9a9;
+  transition: box-shadow .2s ease;
+}
+
+a:hover {
+  box-shadow: inset 0 -2px 0 black;
+}
+
+.voted-for {
+  box-shadow: inset 0 -2px 0 #0571b0;
+}
+
+.voted-against {
+  box-shadow: inset 0 -2px 0 #ca0020;
+}
+
 .chart {
   margin: 3em 0;
   position: relative;

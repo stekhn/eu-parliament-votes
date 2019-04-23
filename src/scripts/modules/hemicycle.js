@@ -72,7 +72,7 @@ export default class Hemicycle {
     chart.$yesCount.append('text')
       .attr('font-size', 60)
       .attr('text-anchor', 'end')
-      .attr('x', config.width - 30)
+      .attr('x', config.width - 40)
       .attr('y', 90)
       .attr('fill', vote('yes').color)
       .text(data.reduce((acc, curr) => {
@@ -83,7 +83,7 @@ export default class Hemicycle {
       .append('text')
       .attr('font-size', 16)
       .attr('text-anchor', 'end')
-      .attr('x', config.width - 30)
+      .attr('x', config.width - 40)
       .attr('y', 110)
       .attr('fill', vote('yes').color)
       .text(vote('yes').name);
@@ -91,7 +91,7 @@ export default class Hemicycle {
     chart.$noCount = chart.$voteCount.append('g');
     chart.$noCount.append('text')
       .attr('font-size', 60)
-      .attr('x', 30)
+      .attr('x', 40)
       .attr('y', 90)
       .attr('fill', vote('no').color)
       .text(data.reduce((acc, curr) => {
@@ -101,7 +101,7 @@ export default class Hemicycle {
     chart.$noCount
       .append('text')
       .attr('font-size', 16)
-      .attr('x', 30)
+      .attr('x', 40)
       .attr('y', 110)
       .attr('fill', vote('no').color)
       .text(vote('no').name);
