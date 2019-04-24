@@ -42,7 +42,7 @@ function init() {
     }
   );
 
-  new DotChart(
+  new BarChart(
     nest()
       .key(d => d.age.bin[0])
       .sortKeys(ascending)

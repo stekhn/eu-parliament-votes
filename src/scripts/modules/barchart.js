@@ -8,10 +8,7 @@ import { vote } from '../mapping';
 const defaults = {
   container: '.barchart',
   tooltip: '.barchart-tooltip',
-  width: 960,
-  height: 960,
-  offsetX: 100,
-  barHeight: 30
+  barHeight: 35
 };
 
 export default class BarChart {
@@ -46,14 +43,16 @@ export default class BarChart {
 
     chart.xScale = scaleLinear()
       .domain([0, max(data, d => max(d.values, c => c.values.length))])
-      .range([0, chart.bounds.width - config.offsetX]);
+      .range([0, chart.bounds.width]);
 
     chart.groupScale = scaleBand()
       .domain(data.map(d => d.key))
       .rangeRound([0, config.height])
-      .padding(0.3);
+      .paddingInner(0.4)
+      .paddingOuter(0.3);
 
     chart.groupAxis = axisLeft(chart.groupScale)
+      .tickValues([])
       .tickSize(0)
       .tickPadding(10);
 
@@ -69,6 +68,17 @@ export default class BarChart {
       .append('g')
       .attr('transform', d => `translate(0, ${chart.groupScale(d.key)})`);
 
+    chart.$groups.append('text')
+      .selectAll('tspan')
+      .data(d => mapping(d.key))
+      .enter()
+      .append('tspan')
+      .attr('dx', 3)
+      .attr('dy', (d, i) => i > 0 ? -1 : -5)
+      .attr('fill', (d, i) => i > 0 ? '#666' : 'black')
+      .attr('font-size', (d, i) => i > 0 ? 12 : 16)
+      .text(d => d);
+
     chart.$bars = chart.$groups
       .selectAll('rect')
       .data(d => d.values)
@@ -76,7 +86,6 @@ export default class BarChart {
 
     chart.$bars
       .append('rect')
-      .attr('x', config.offsetX)
       .attr('y', d => chart.voteScale(d.key))
       .attr('width', d => chart.xScale(d.values.length))
       .attr('height', chart.voteScale.bandwidth())
@@ -84,31 +93,17 @@ export default class BarChart {
 
     chart.$bars
       .append('text')
-      .attr('x', config.offsetX)
       .attr('y', d => chart.voteScale(d.key))
       .attr('dy', 15)
       .attr('dx', d =>
-        d.values.length > 6 ? 3 : chart.xScale(d.values.length) + 3
+        d.values.length > 5 ? chart.xScale(d.values.length) - 3 : chart.xScale(d.values.length) + 12
       )
-      .attr('fill', d => (d.values.length > 6 ? 'white' : 'black'))
+      .attr('fill', d => (d.values.length > 5 ? 'white' : 'black'))
+      .attr('text-anchor', 'end')
       .text(d => d.values.length);
 
     chart.$axis = chart.$svg
       .append('g')
-      .attr('transform', `translate(${config.offsetX}, 0)`)
       .call(chart.groupAxis);
-
-    chart.$axis
-      .selectAll('text')
-      .attr('font-size', 16)
-      .text(d => mapping(d)[0]);
-  }
-
-  resize(instance) {
-    const { chart } = instance;
-
-    // chart.bounds = chart.$container.node().getBoundingClientRect();
-    // chart.xScale.range([0, chart.bounds.width]);
-    // chart.voteScale.range([0, chart.bounds.height]);
   }
 }
