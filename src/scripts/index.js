@@ -6,6 +6,7 @@ import { scaleLinear } from 'd3-scale';
 
 import { group, age } from './mapping';
 import HemiCycle from './modules/hemicycle';
+import DotChart from './modules/dotchart';
 import BarChart from './modules/barchart';
 
 import members from '../data/members.json';
@@ -41,7 +42,7 @@ function init() {
     }
   );
 
-  new BarChart(
+  new DotChart(
     nest()
       .key(d => d.age.bin[0])
       .sortKeys(ascending)

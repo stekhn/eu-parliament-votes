@@ -1,19 +1,20 @@
 import { select } from 'd3-selection';
-import { scaleLinear } from 'd3-scale';
+import { scaleLinear, scaleBand } from 'd3-scale';
+import { max } from 'd3-array';
+import { axisLeft } from 'd3-axis';
 
 import { vote } from '../mapping';
-import tooltip from './tooltip';
 
 const defaults = {
   container: '.barchart',
   tooltip: '.barchart-tooltip',
   width: 960,
   height: 960,
-  midX: 480
+  offsetX: 100,
+  barHeight: 30
 };
 
-export default class Barchart {
-
+export default class BarChart {
   constructor(data, mapping, config) {
     this.data = data;
     this.mapping = mapping;
@@ -22,127 +23,92 @@ export default class Barchart {
     this.draw(this);
 
     window.addEventListener('resize', () => {
-      this.resize(this);
+      this.chart.$container.html('');
+      this.draw(this);
     });
   }
 
-  draw(instance) {
-    const { data, mapping, chart, config, createBars } = this;
+  draw() {
+    const { data, mapping, chart, config } = this;
+
+    config.height = data.length * config.barHeight * 3;
 
     chart.$container = select(config.container);
     chart.$tooltip = select(config.tooltip);
 
-    chart.$svg = chart.$container
-      .append('svg')
-      .attr('width', '100%')
-      .attr('height', '100%')
-      .attr('preserveAspectRatio', 'xMinYMin meet')
-      .attr('viewBox', `0 0 ${config.width} ${config.height}`);
-
     chart.bounds = chart.$container.node().getBoundingClientRect();
 
+    chart.$svg = chart.$container
+      .append('svg')
+      .attr('width', chart.bounds.width)
+      .attr('height', config.height)
+      .attr('viewBox', `0 0 ${chart.bounds.width} ${config.height}`);
+
     chart.xScale = scaleLinear()
-      .domain([0, config.width])
-      .range([0, chart.bounds.width]);
+      .domain([0, max(data, d => max(d.values, c => c.values.length))])
+      .range([0, chart.bounds.width - config.offsetX]);
 
-    chart.yScale = scaleLinear()
-      .domain([0, config.height])
-      .range([0, chart.bounds.height]);
+    chart.groupScale = scaleBand()
+      .domain(data.map(d => d.key))
+      .rangeRound([0, config.height])
+      .padding(0.3);
 
-    chart.$svg.append('line')
-      .attr('x1', config.midX - 55)
-      .attr('y1', 0)
-      .attr('x2', config.midX - 55)
-      .attr('y2', config.height)
-      .attr('shape-rendering', 'crispEdges')
-      .attr('stroke', 'black')
-      .attr('stroke-width', '1');
+    chart.groupAxis = axisLeft(chart.groupScale)
+      .tickSize(0)
+      .tickPadding(10);
 
-    chart.$groups = chart.$svg.selectAll('g')
+    chart.voteScale = scaleBand()
+      .domain(['yes', 'no', 'abstained'])
+      .rangeRound([0, chart.groupScale.bandwidth()])
+      .paddingInner(0.05);
+
+    chart.$groups = chart.$svg
+      .selectAll('g')
       .data(data)
       .enter()
       .append('g')
-      .attr('data-index', (d, i) => i);
+      .attr('transform', d => `translate(0, ${chart.groupScale(d.key)})`);
 
-    chart.$groups.selectAll('text')
-      .data(d => mapping(d.key))
-      .enter()
-      .append('text')
-      .attr('x', config.midX - 50)
-      .attr('y', function () {
-        const index = select(this.parentNode).attr('data-index');
-        const offsetY = (index * 90) + 45;
-        return offsetY - 15;
-      })
-      .attr('font-size', (d, i) => i > 0 ? 13 : 16)
-      .attr('text-anchor', (d, i) => i > 0 ? 'end' : 'start')
-      .attr('dx', (d, i) => i > 0 ? -12 : 0)
-      .text(d => d)
-
-    chart.$groups.selectAll('g')
+    chart.$bars = chart.$groups
+      .selectAll('rect')
       .data(d => d.values)
-      .enter()
+      .enter();
+
+    chart.$bars
+      .append('rect')
+      .attr('x', config.offsetX)
+      .attr('y', d => chart.voteScale(d.key))
+      .attr('width', d => chart.xScale(d.values.length))
+      .attr('height', chart.voteScale.bandwidth())
+      .attr('fill', d => vote(d.key).color);
+
+    chart.$bars
+      .append('text')
+      .attr('x', config.offsetX)
+      .attr('y', d => chart.voteScale(d.key))
+      .attr('dy', 15)
+      .attr('dx', d =>
+        d.values.length > 6 ? 3 : chart.xScale(d.values.length) + 3
+      )
+      .attr('fill', d => (d.values.length > 6 ? 'white' : 'black'))
+      .text(d => d.values.length);
+
+    chart.$axis = chart.$svg
       .append('g')
-      .each(function (d) {
-        createBars(d, instance, this);
-      });
-  }
+      .attr('transform', `translate(${config.offsetX}, 0)`)
+      .call(chart.groupAxis);
 
-  createBars(d, instance, element) {
-    const { chart, config, chunkArray } = instance;
-
-    const $voteType = select(element);
-    const voteType = vote(d.key, config);
-    const maxDots = Math.ceil(d.values.length / 4);
-    const modifier = voteType.reverse ? -1 : 1;
-    const index = select(element.parentNode).attr('data-index');
-    const offsetY = (index * 90) + 45;
-
-    chunkArray(d.values, 4).forEach((votes, row) => {
-      votes.forEach((vote, column) => {
-        $voteType.append('circle')
-          .attr('r', 4.7)
-          .attr('cx', voteType.offsetX + (modifier * (column * 11)))
-          .attr('cy', offsetY + (row * 11))
-          .attr('fill', voteType.color)
-          .on('mouseenter', function () {
-            tooltip.show(this, vote, chart);
-          })
-          .on('mouseleave', function () {
-            tooltip.hide(this, vote, chart);
-          });
-      });
-    });
-
-    if (voteType.showLabels) {
-      $voteType.append('text')
-        .attr('font-size', 16)
-        .attr('text-anchor', voteType.reverse ? 'end' : 'start')
-        .attr('x', voteType.offsetX + (modifier * (maxDots * 11)) + (modifier * 5))
-        .attr('y', offsetY + 21)
-        .attr('fill', voteType.color)
-        .text(d.values.length);
-    }
+    chart.$axis
+      .selectAll('text')
+      .attr('font-size', 16)
+      .text(d => mapping(d)[0]);
   }
 
   resize(instance) {
     const { chart } = instance;
 
-    chart.bounds = chart.$container.node().getBoundingClientRect();
-    chart.xScale.range([0, chart.bounds.width]);
-    chart.yScale.range([0, chart.bounds.height]);
-  }
-
-  chunkArray(arr, chunkCount) {
-    const chunks = [];
-
-    while (arr.length) {
-      const chunkSize = Math.ceil(arr.length / chunkCount--);
-      const chunk = arr.slice(0, chunkSize);
-      chunks.push(chunk);
-      arr = arr.slice(chunkSize);
-    }
-
-    return chunks;
+    // chart.bounds = chart.$container.node().getBoundingClientRect();
+    // chart.xScale.range([0, chart.bounds.width]);
+    // chart.voteScale.range([0, chart.bounds.height]);
   }
 }
