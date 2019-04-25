@@ -7,6 +7,7 @@ import { scaleLinear } from 'd3-scale';
 import { group, age } from './mapping';
 import HemiCycle from './modules/hemicycle';
 import DotChart from './modules/dotchart';
+import PieChart from './modules/piechart';
 import BarChart from './modules/barchart';
 
 import members from '../data/members.json';
@@ -16,7 +17,7 @@ import votes from '../data/votes.json';
 const merged = merge();
 
 function init() {
-  new HemiCycle(
+  new PieChart(
     merged,
     {
       container: '.hemicycle',

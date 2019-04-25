@@ -7,7 +7,6 @@ import { vote } from '../mapping';
 
 const defaults = {
   container: '.barchart',
-  tooltip: '.barchart-tooltip',
   barHeight: 35
 };
 
@@ -28,18 +27,14 @@ export default class BarChart {
   draw() {
     const { data, mapping, chart, config } = this;
 
-    config.height = data.length * config.barHeight * 3;
-
     chart.$container = select(config.container);
-    chart.$tooltip = select(config.tooltip);
-
     chart.bounds = chart.$container.node().getBoundingClientRect();
+    config.height = data.length * config.barHeight * 3;
 
     chart.$svg = chart.$container
       .append('svg')
       .attr('width', chart.bounds.width)
-      .attr('height', config.height)
-      .attr('viewBox', `0 0 ${chart.bounds.width} ${config.height}`);
+      .attr('height', config.height);
 
     chart.xScale = scaleLinear()
       .domain([0, max(data, d => max(d.values, c => c.values.length))])
