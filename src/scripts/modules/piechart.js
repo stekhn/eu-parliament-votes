@@ -74,24 +74,33 @@ export default class PieChart {
       .attr('fill', d => vote(d.data.key).color)
       .attr('d', voteArc);
 
-    chart.$labels = chart.$segments
-      .append('g')
-      .attr('transform', d => `translate(${labelArc.centroid(d)})`);
+    chart.$labels = chart.$segments.append('g').attr('transform', d => {
+      let offsetX = 0;
+
+      if (d.data.key === 'yes') {
+        offsetX = -chart.bounds.width / 4;
+      }
+
+      if (d.data.key === 'no') {
+        offsetX = chart.bounds.width / 4;
+      }
+
+      return `translate(${offsetX}, -30)`;
+    });
 
     chart.$labels
       .append('text')
-      .attr('dy', '16')
       .attr('text-anchor', 'middle')
-      .attr('font-size', 40)
+      .attr('font-size', 32)
       .attr('fill', d => vote(d.data.key).color)
       .text(d => d.value);
 
     chart.$labels
       .append('text')
-      .attr('dy', '32')
+      .attr('dy', '18')
       .attr('text-anchor', 'middle')
       .attr('font-size', 16)
       .attr('fill', d => vote(d.data.key).color)
-      .text(d => `${d.data.key != 'abstained' ? 'voted' : ''} ${d.data.key}`);
+      .text(d => vote(d.data.key).name.replace('voted ', ''));
   }
 }
