@@ -14,24 +14,61 @@ import members from '../data/members.json';
 import seats from '../data/seats.json';
 import votes from '../data/votes.json';
 
-const merged = merge();
+const mergedData = mergeData();
+const state = { isMobile: undefined }
+const charts = [];
 
 function init() {
-  new PieChart(
-    merged,
+  handleUpdate();
+
+  let timeout;
+  window.onresize = () => {
+    clearTimeout(timeout);
+    timeout = setTimeout(() => {
+      handleUpdate();
+    }, 200);
+  };
+}
+
+function handleUpdate() {
+  const lastState = Object.assign({}, state);
+  state.isMobile = document.body.clientWidth < 680;
+  const hasChanged = lastState.isMobile !== state.isMobile;
+
+  charts.forEach(chart => {
+    chart.resize();
+  });
+
+  if (hasChanged) {
+    charts.forEach(chart => {
+      chart.destroy();
+    });
+    charts.length = 0;
+
+    drawCharts();
+  }
+}
+
+function drawCharts() {
+  const ParliamentChart = state.isMobile ? PieChart : HemiCycle;
+  const BreakdownChart = state.isMobile ? BarChart : DotChart;
+
+  const parliamentChart = new ParliamentChart(
+    mergedData,
     {
-      container: '.hemicycle',
-      tooltip: '.hemicycle-tooltip',
+      container: '.parliament',
+      tooltip: '.parliament-tooltip',
       width: 960,
       height: 500
     }
   );
+  charts.push(parliamentChart);
 
-  new BarChart(
+  const groupChart = new BreakdownChart(
     nest()
       .key(d => d.member.group_code)
       .key(d => d.vote)
-      .entries(merged.filter(d => d.member && d.vote))
+      .entries(mergedData.filter(d => d.member && d.vote))
       .sort(sortByLength),
     key => [group(key).name, group(key).type],
     {
@@ -42,13 +79,14 @@ function init() {
       midX: 480
     }
   );
+  charts.push(groupChart);
 
-  new BarChart(
+  const ageChart = new BreakdownChart(
     nest()
       .key(d => d.age.bin[0])
       .sortKeys(ascending)
       .key(d => d.vote)
-      .entries(merged.filter(d => d.member && d.vote)),
+      .entries(mergedData.filter(d => d.member && d.vote)),
     key => [age(key).name],
     {
       container: '.age-chart',
@@ -58,9 +96,10 @@ function init() {
       midX: 480
     }
   );
+  charts.push(ageChart);
 }
 
-function merge() {
+function mergeData() {
   const [min, max] = extent(members, d => calculateAge(d.birthday));
   const scale = scaleLinear().domain([min, max + 1]);
   const bins = histogram()
