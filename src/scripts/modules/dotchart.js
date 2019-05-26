@@ -13,21 +13,16 @@ const defaults = {
 };
 
 export default class DotChart {
-
   constructor(data, mapping, config) {
     this.data = data;
     this.mapping = mapping;
-    this.config = Object.assign(defaults, config);
+    this.config = Object.assign({}, defaults, config);
     this.chart = {};
     this.draw(this);
-
-    window.addEventListener('resize', () => {
-      this.resize(this);
-    });
   }
 
   draw(instance) {
-    const { data, mapping, chart, config, createBars } = this;
+    const { data, mapping, chart, config, createBars } = instance;
 
     chart.$container = select(config.container);
     chart.$tooltip = select(config.tooltip);
@@ -125,12 +120,16 @@ export default class DotChart {
     }
   }
 
-  resize(instance) {
-    const { chart } = instance;
+  resize() {
+    const { chart } = this;
 
     chart.bounds = chart.$container.node().getBoundingClientRect();
     chart.xScale.range([0, chart.bounds.width]);
     chart.yScale.range([0, chart.bounds.height]);
+  }
+
+  destroy() {
+    this.chart.$container.html('')
   }
 
   chunkArray(arr, chunkCount) {

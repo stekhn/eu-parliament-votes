@@ -4,7 +4,6 @@ import { group } from '../mapping';
 import flags from '../../data/flags.json';
 
 export default (function() {
-
  function show(self, d, chart) {
     if (d.member && d.vote) {
       const element = d3.select(self);

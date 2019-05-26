@@ -10,14 +10,9 @@ const defaults = {
 export default class PieChart {
   constructor(data, config) {
     this.data = data;
-    this.config = Object.assign(defaults, config);
+    this.config = Object.assign({}, defaults, config);
     this.chart = {};
     this.draw(this);
-
-    window.addEventListener('resize', () => {
-      this.chart.$container.html('');
-      this.draw(this);
-    });
   }
 
   draw() {
@@ -102,5 +97,14 @@ export default class PieChart {
       .attr('font-size', 16)
       .attr('fill', d => vote(d.data.key).color)
       .text(d => vote(d.data.key).name.replace('voted ', ''));
+  }
+
+  resize() {
+    this.chart.$container.html('');
+    this.draw(this);
+  }
+
+  destroy() {
+    this.chart.$container.html('')
   }
 }

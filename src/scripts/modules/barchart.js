@@ -14,14 +14,9 @@ export default class BarChart {
   constructor(data, mapping, config) {
     this.data = data;
     this.mapping = mapping;
-    this.config = Object.assign(defaults, config);
+    this.config = Object.assign({}, defaults, config);
     this.chart = {};
-    this.draw(this);
-
-    window.addEventListener('resize', () => {
-      this.chart.$container.html('');
-      this.draw(this);
-    });
+    this.draw();
   }
 
   draw() {
@@ -100,5 +95,14 @@ export default class BarChart {
     chart.$axis = chart.$svg
       .append('g')
       .call(chart.groupAxis);
+  }
+
+  resize() {
+    this.chart.$container.html('');
+    this.draw();
+  }
+
+  destroy() {
+    this.chart.$container.html('')
   }
 }

@@ -12,16 +12,11 @@ const defaults = {
 };
 
 export default class Hemicycle {
-
   constructor(data, config) {
     this.data = data;
-    this.config = Object.assign(defaults, config);
+    this.config = Object.assign({}, defaults, config);
     this.chart = {};
     this.draw();
-
-    window.addEventListener('resize', () => {
-      this.resize(this);
-    });
   }
 
   draw() {
@@ -127,12 +122,15 @@ export default class Hemicycle {
       .text(vote('abstained').name);
   }
 
-  resize(instance) {
-    const { chart } = instance;
+  resize() {
+    const { chart } = this;
 
     chart.bounds = chart.$container.node().getBoundingClientRect();
     chart.xScale.range([0, chart.bounds.width]);
     chart.yScale.range([0, chart.bounds.height]);
   }
 
+  destroy() {
+    this.chart.$container.html('')
+  }
 }
