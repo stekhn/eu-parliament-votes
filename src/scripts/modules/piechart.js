@@ -41,7 +41,7 @@ export default class PieChart {
 
     const voteArc = arc()
       .outerRadius(radius)
-      .innerRadius(radius / 1.1);
+      .innerRadius(radius / 1.2);
 
     const labelArc = arc()
       .outerRadius(radius / 1.1)

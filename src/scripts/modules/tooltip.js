@@ -17,17 +17,21 @@ export default (function() {
       element.attr('stroke', 'black');
       element.attr('stroke-width', 2);
 
-      chart.$tooltip.html(() => {
-        return `
-          <img src="http://www.europarl.europa.eu/mepphoto/${d.member.id_mep}.jpg">
-          <div>${flags.filter(f => f.code.toLowerCase() == d.member.country_code)[0].emoji}</div>
-          <p>
-            <strong>${d.member.name} ${d.member.surname}</strong>, ${d.age.age}
-            <br>
-            Group: ${group(d.member.group_code).name}
-          </p>
-        `;
-      });
+      // Empty tooltip
+      chart.$tooltip.html('');
+
+      chart.$tooltip.append('img')
+        .attr('src', `https://www.europarl.europa.eu/mepphoto/${d.member.id_mep}.jpg`)
+        .on('load', function () {
+          d3.select(this).classed('loaded', true)
+        });
+
+      chart.$tooltip.append('div')
+        .text(flags.filter(f => f.code.toLowerCase() == d.member.country_code)[0].emoji)
+
+      chart.$tooltip.append('p')
+        .html(`<strong>${d.member.name} ${d.member.surname}</strong>, ${d.age.age},
+          Group:&nbsp;${group(d.member.group_code).name}`)
 
       chart.$tooltip
         .style('display', 'block')

@@ -64,7 +64,7 @@ a:hover {
   display: none;
   position: absolute;
   width: 300px;
-  height: 80px;
+  max-height: 80px;
   background: white;
   overflow: hidden;
   border-radius: 4px;
@@ -74,6 +74,10 @@ a:hover {
   p {
     line-height: 1.2;
     margin: .5em 1em;
+    overflow: hidden;
+    display: -webkit-box;
+    -webkit-line-clamp: 3;
+    -webkit-box-orient: vertical;
   }
 
   div {
@@ -84,7 +88,14 @@ a:hover {
 
   img {
     height: 80px;
+    width: 63px;
     float: left;
     margin-right: 1em;
+    opacity: 0;
+    transition: opacity 100ms ease;
+
+    &.loaded {
+      opacity: 1;
+    }
   }
 }
