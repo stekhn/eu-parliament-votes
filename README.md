@@ -42,7 +42,13 @@ Bundle and optimize code and assets for production:
 npm run build
 ```
 
+## Improvements
+
+- Add search my MEP feature
+- Add visualization of results by country
+
 ## Related projects
+
 - Julia Reda: [How your MEPs voted on internet freedoms](https://juliareda.eu/2019/04/copyright-final-vote/)
 - Stefan Wehrmeyer: [Visualising EU Parliament Vote PDFs](https://observablehq.com/@stefanw/parsing-eu-parliament-vote-pdfs)
 - Geoffrey Brossard: [d3-parliament](https://github.com/geoffreybr/d3-parliament)
