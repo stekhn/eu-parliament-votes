@@ -14,7 +14,7 @@
     "start": "webpack-dev-server --open --mode development"
   },
   "dependencies": {
-    "d3": "^5.16.0"
+    "d3": "^7.6.1"
   },
   "devDependencies": {
     "@babel/core": "7.9.6",
